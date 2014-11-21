@@ -56,16 +56,16 @@ char cr_read_byte(cr_file* f){
   // your code goes here
   // remember that this needs to return a char (a byte, put another way..)
   char btoRet;
-  if (f->usedbuffer >= f->bufferlength)
-    return EOF; // this is just so the compile works...
-    else{
+  if (f->usedbuffer >= f->bufferlength){ // if the buffer is all used, return EOF
+    refill(f);
     
-       btoRet = f->usedbuffer + 1;
-      f->usedbuffer +=1;
+  }
+    else{
+   
+       btoRet = f->buffer[f->usedbuffer];
+        f->usedbuffer +=1;
+       return btoRet;
+      
     }
 
-
-return btoRet;
-
-  
 }
