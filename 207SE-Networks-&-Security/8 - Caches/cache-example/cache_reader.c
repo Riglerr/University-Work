@@ -55,9 +55,17 @@ cr_file* cr_open(char * filename, int buffersize){
 char cr_read_byte(cr_file* f){
   // your code goes here
   // remember that this needs to return a char (a byte, put another way..)
+  char btoRet;
+  if (f->usedbuffer >= f->bufferlength)
+    return EOF; // this is just so the compile works...
+    else{
+    
+       btoRet = f->usedbuffer + 1;
+      f->usedbuffer +=1;
+    }
 
 
-  a
+return btoRet;
 
-  return EOF; // this is just so the compile works...
+  
 }
