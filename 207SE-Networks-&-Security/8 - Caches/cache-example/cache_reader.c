@@ -17,6 +17,7 @@ int refill(cr_file* buff){
     if(len<buff->bufferlength)
       for(int i=len;i<buff->bufferlength;i++)
 	buff->buffer[i]=EOF;  //Accessing like an array!
+	buff->byte_tot +=len;
     return len;
   }
 
@@ -43,7 +44,7 @@ cr_file* cr_open(char * filename, int buffersize){
   a->bufferlength=buffersize;
   a->usedbuffer=buffersize; //Start off with no characters, so refill will work as expected
   a->buffer=(char*)malloc(sizeof(char)*buffersize);
-
+  a->byte_tot =0;
   refill(a);
   return a;
 }
@@ -56,13 +57,13 @@ char cr_read_byte(cr_file* f){
   // your code goes here
   // remember that this needs to return a char (a byte, put another way..)
   char btoRet;
-  if (f->usedbuffer >= f->bufferlength){ // if the buffer is all used, return EOF
+  if (f->usedbuffer >= f->bufferlength){ // if the buffer is all used, refill()
     refill(f);
     
   }
-    else{
+    else{ // If buffer hasn't been fully used, return the chracter and increase the usedBuffer position by 1.
    
-       btoRet = f->buffer[f->usedbuffer];
+       btoRet = f->buffer[f->usedbuffer]; 
         f->usedbuffer +=1;
        return btoRet;
       
