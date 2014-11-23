@@ -176,7 +176,7 @@
 \homeworkSection{1. Logfile containing evidence of activities}
 \problemAnswer{
 
-\Cscript{Assignment_1/Ass2}{Log file}
+%\Cscript{Assignment_1/ass3}{Log file}
 }
 
 
@@ -319,7 +319,7 @@ To prove the code is being buffered. I included \emph{printf(" \textbackslash n"
 
 \homeworkSection{3. Provide some statistics}
 To count the number of bytes read, I created a variable called \emph{byte\textunderscore tot} in the \emph{cr\textunderscore file}  structure (line12) in the cache\textunderscore reader.h file. This variable is used in the \emph{Refill()} method (line 15). Every time the \emph{Refill()} method is called, it adds the value of \emph{len} (which contains the number of bytes currently being read) to itself.\\
-The amount of times
+The amount of times the buffer was refilled, was calculated by dividing the number of bytes read from the text by the size of the buffer.
 
 
 

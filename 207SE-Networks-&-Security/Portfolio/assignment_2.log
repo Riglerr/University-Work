@@ -1,23 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  23 NOV 2014 21:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.23)  23 NOV 2014 21:43
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **assignment_2.tex
-
-(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\ass
-ignment_2.tex
+(./assignment_2.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Babel <3.9h> and hyphenation patterns for 4 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -32,7 +23,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip43
 \f@ncyO@elh=\skip44
 \f@ncyO@erh=\skip45
@@ -43,56 +34,56 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\extramarks.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/extramarks.sty
 \@temptokenb=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count88
 \lst@gtempboxa=\box26
 \lst@token=\toks16
@@ -106,30 +97,31 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \lst@lineno=\count93
 \lst@maxwidth=\dimen108
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 \c@lstnumber=\count94
 \lst@skipnumbers=\count95
 \lst@framebox=\box27
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
 Package: listings 2013/08/26 1.5b (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\courier.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 )
 \c@homeworkProblemCounter=\count96
 
-(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\ass
-ignment_2.aux)
+(./assignment_2.aux)
+\openout1 = `assignment_2.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
 LaTeX Font Info:    ... okay on input line 155.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
@@ -149,7 +141,8 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 155.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count97
 \scratchdimen=\dimen109
@@ -162,7 +155,54 @@ Package lastpage Info: Please have a look at the pageslts package at
 \MPnumerator=\count101
 \makeMPintoPDFobject=\count102
 \everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 \c@lstlisting=\count103
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 157.
@@ -170,1150 +210,218 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 157.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 157.
- [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\ass
-ignment_2.toc
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./assignment_2.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
 )
 \tf@toc=\write3
- [2]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 180.
+\openout3 = `assignment_2.toc'.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+[3] [4
+
+] [5
+
+] <Assignment_4/1Cat.png, id=23, 379.4175pt x 418.56375pt>
+File: Assignment_4/1Cat.png Graphic file (type png)
+
+<use Assignment_4/1Cat.png>
+Package pdftex.def Info: Assignment_4/1Cat.png used on input line 218.
+(pdftex.def)             Requested size: 345.2684pt x 380.89998pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
+<Assignment_4/2Table.png, id=25, 351.56343pt x 374.14781pt>
+File: Assignment_4/2Table.png Graphic file (type png)
+
+<use Assignment_4/2Table.png>
+Package pdftex.def Info: Assignment_4/2Table.png used on input line 225.
+(pdftex.def)             Requested size: 345.2684pt x 367.44447pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+[6
+
+ <./Assignment_4/1Cat.png>]
+<Assignment_4/3CPU.png, id=30, 334.24875pt x 161.10187pt>
+File: Assignment_4/3CPU.png Graphic file (type png)
+
+<use Assignment_4/3CPU.png>
+Package pdftex.def Info: Assignment_4/3CPU.png used on input line 232.
+(pdftex.def)             Requested size: 345.2684pt x 166.42595pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+<Assignment_4/4Paramaters.png, id=31, 457.71pt x 103.88812pt>
+File: Assignment_4/4Paramaters.png Graphic file (type png)
+
+<use Assignment_4/4Paramaters.png>
+Package pdftex.def Info: Assignment_4/4Paramaters.png used on input line 239.
+(pdftex.def)             Requested size: 345.2684pt x 78.36926pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+[7 <./Assignment_4/2Table.png> <./Assignment_4/3CPU.png>]
+<Assignment_4/5Disk.png, id=38, 444.15938pt x 184.43906pt>
+File: Assignment_4/5Disk.png Graphic file (type png)
+
+<use Assignment_4/5Disk.png>
+Package pdftex.def Info: Assignment_4/5Disk.png used on input line 246.
+(pdftex.def)             Requested size: 345.2684pt x 143.37218pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+[8 <./Assignment_4/4Paramaters.png> <./Assignment_4/5Disk.png>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 251.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\Ass
-ignment_1/Ass2.txt
-! Text line contains an invalid character.
-l.2 
-     ]0;rob@rob-To-be-filled-by-O-E-M: ~rob@rob-To-be-filled-by-O-E-M:~$ ch...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
+(./Assignment_4/BashScript.txt) [9
 
-! Text line contains an invalid character.
-l.2 ]0;rob@rob-To-be-filled-by-O-E-M: ~
-                                         rob@rob-To-be-filled-by-O-E-M:~$ ch...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
+] (./Assignment_5/item1.txt
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 3.
 
-! Text line contains an invalid character.
-l.3 
-     ]0;rob@rob-To-be-filled-by-O-E-M: ~rob@rob-To-be-filled-by-O-E-M:~$ wg...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+))
+<Assignment_5/2Compiled.png, id=50, 545.78906pt x 99.37125pt>
+File: Assignment_5/2Compiled.png Graphic file (type png)
 
+<use Assignment_5/2Compiled.png>
+Package pdftex.def Info: Assignment_5/2Compiled.png used on input line 271.
+(pdftex.def)             Requested size: 345.2684pt x 62.86198pt.
 
-Overfull \hbox (7.44666pt too wide) in paragraph at lines 2--3
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][] 
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
  []
 
-! Text line contains an invalid character.
-l.3 ]0;rob@rob-To-be-filled-by-O-E-M: ~
-                                         rob@rob-To-be-filled-by-O-E-M:~$ wg...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
+[10
 
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 3.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+] [11 <./Assignment_5/2Compiled.png (PNG copy)>] (./Assignment_5/item3.txt
+[12
+
+]) <Assignment_5/3Evidence.png, id=61, 561.59813pt x 94.10156pt>
+File: Assignment_5/3Evidence.png Graphic file (type png)
+
+<use Assignment_5/3Evidence.png>
+Package pdftex.def Info: Assignment_5/3Evidence.png used on input line 279.
+(pdftex.def)             Requested size: 345.2684pt x 57.85272pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 289.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (158.6482pt too wide) in paragraph at lines 3--4
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 289.
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+[13 <./Assignment_5/3Evidence.png (PNG copy)>] (./Assignment_5/item5.txt
+Overfull \hbox (14.24971pt too wide) in paragraph at lines 41--42
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
- 
+[][][][][][][][][] 
  []
 
+[14
 
-Overfull \hbox (12.84671pt too wide) in paragraph at lines 6--7
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+]) <Assignment_5/5Comp1.png, id=70, 545.03625pt x 65.49469pt>
+File: Assignment_5/5Comp1.png Graphic file (type png)
+
+<use Assignment_5/5Comp1.png>
+Package pdftex.def Info: Assignment_5/5Comp1.png used on input line 299.
+(pdftex.def)             Requested size: 345.2684pt x 41.48871pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
  []
 
-Missing character: There is no â in font pcrr7t!
-Missing character: There is no € in font pcrr7t!
-Missing character: There is no ˜ in font pcrr7t!
-Missing character: There is no â in font pcrr7t!
-Missing character: There is no € in font pcrr7t!
-Missing character: There is no ™ in font pcrr7t!
-Missing character: There is no â in font pcrr7t!
-Missing character: There is no € in font pcrr7t!
-Missing character: There is no ˜ in font pcrr7t!
-Missing character: There is no â in font pcrr7t!
-Missing character: There is no € in font pcrr7t!
-Missing character: There is no ™ in font pcrr7t!
-! Text line contains an invalid character.
-l.17 
-      ]0;rob@rob-To-be-filled-by-O-E-M: ~rob@rob-To-be-filled-by-O-E-M:~$ c...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
+<Assignment_5/5Comp2.png, id=71, 614.295pt x 67.75313pt>
+File: Assignment_5/5Comp2.png Graphic file (type png)
 
-! Text line contains an invalid character.
-l.17 ]0;rob@rob-To-be-filled-by-O-E-M: ~
-                                          rob@rob-To-be-filled-by-O-E-M:~$ c...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
+<use Assignment_5/5Comp2.png>
+Package pdftex.def Info: Assignment_5/5Comp2.png used on input line 305.
+(pdftex.def)             Requested size: 345.2684pt x 38.08104pt.
 
-! Text line contains an invalid character.
-l.17 ... ~rob@rob-To-be-filled-by-O-E-M:~$ chmod
-                                                  [K[K[K[K[Kls
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
-! Text line contains an invalid character.
-l.17 ...~rob@rob-To-be-filled-by-O-E-M:~$ chmod
-                                                  [K[K[K[K[Kls
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
+ []
 
-! Text line contains an invalid character.
-l.17 ...ob@rob-To-be-filled-by-O-E-M:~$ chmod[K
-                                                  [K[K[K[Kls
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
+[15 <./Assignment_5/5Comp1.png (PNG copy)> <./Assignment_5/5Comp2.png (PNG copy
+)>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 318.
+ (./Assignment_6/cache_example.txt) [16
 
-! Text line contains an invalid character.
-l.17 ...b@rob-To-be-filled-by-O-E-M:~$ chmod[K
-                                                  [K[K[K[Kls
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
+] (./Assignment_6/cache_readerh.txt)
+[17
 
-! Text line contains an invalid character.
-l.17 ...ob-To-be-filled-by-O-E-M:~$ chmod[K[K
-                                                  [K[K[Kls
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
+] (./Assignment_6/cache_reader.txt [18
 
-! Text line contains an invalid character.
-l.17 ...b-To-be-filled-by-O-E-M:~$ chmod[K[K
-                                                  [K[K[Kls
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.17 ...o-be-filled-by-O-E-M:~$ chmod[K[K[K
-                                                  [K[Kls
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.17 ...-be-filled-by-O-E-M:~$ chmod[K[K[K
-                                                  [K[Kls
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.17 ...-filled-by-O-E-M:~$ chmod[K[K[K[K
-                                                  [Kls
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.17 ...filled-by-O-E-M:~$ chmod[K[K[K[K
-                                                  [Kls
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.17 ...led-by-O-E-M:~$ chmod[K[K[K[K[K
-                                                  ls
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.18 
-      [0m[01;34m207se Networks & Security[0m  [01;34mDownloads[0m       ...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-
-Overfull \hbox (23.64682pt too wide) in paragraph at lines 17--18
+]
+Overfull \hbox (3.4496pt too wide) in paragraph at lines 58--59
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][] 
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-! Text line contains an invalid character.
-l.18 [0m
-          [01;34m207se Networks & Security[0m  [01;34mDownloads[0m       ...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.18 [0m[01;34m207se Networks & Security
-                                           [0m  [01;34mDownloads[0m       ...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.18 [0m[01;34m207se Networks & Security[0m  
-                                                 [01;34mDownloads[0m       ...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.18 ...etworks & Security[0m  [01;34mDownloads
-                                                  [0m         [01;34mPictur...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.18 ...urity[0m  [01;34mDownloads[0m         
-                                                  [01;34mPictures[0m     ty...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.18 ...34mDownloads[0m         [01;34mPictures
-                                                  [0m     typescipt
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.19 
-      [01;34m210CT Programming[0m          [01;34meverpad[0m           [...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-[][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-! Text line contains an invalid character.
-l.19 [01;34m210CT Programming
-                               [0m          [01;34meverpad[0m           [...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.19 [01;34m210CT Programming[0m          
-                                             [01;34meverpad[0m           [...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.19 ... Programming[0m          [01;34meverpad
-                                                  [0m           [01;34mPubl...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.19 ...m          [01;34meverpad[0m           
-                                                  [01;34mPublic[0m       ty...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.19 ...1;34meverpad[0m           [01;34mPublic
-                                                  [0m       typescript
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.20 
-      [01;34m260 SOftware ENG[0m           examples.desktop  [01;34mrailsb...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-[][][][][][][][][][][][][][][][][]
- []
-
-! Text line contains an invalid character.
-l.20 [01;34m260 SOftware ENG
-                              [0m           examples.desktop  [01;34mrailsb...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.20 ...ware ENG[0m           examples.desktop  
-                                                  [01;34mrailsbridge[0m  [...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.20 ...    examples.desktop  [01;34mrailsbridge
-                                                  [0m  [01;34mVideos[0m
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.20 ...amples.desktop  [01;34mrailsbridge[0m  
-                                                  [01;34mVideos[0m
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.20 ...  [01;34mrailsbridge[0m  [01;34mVideos
-                                                  [0m
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-[][][][][][][][][][][][][][][][][][][][][][][][][][][]
- []
-
-! Text line contains an invalid character.
-l.21 Ass2.txt                   
-                                 [01;34mIdeaProjects[0m      [01;34mTempla...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.21 ...xt                   [01;34mIdeaProjects
-                                                  [0m      [01;34mTemplates...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.21 ...           [01;34mIdeaProjects[0m      
-                                                  [01;34mTemplates[0m    [...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.21 ...4mIdeaProjects[0m      [01;34mTemplates
-                                                  [0m    [01;34mworkspace[0m
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.21 ...ojects[0m      [01;34mTemplates[0m    
-                                                  [01;34mworkspace[0m
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.21 ...[01;34mTemplates[0m    [01;34mworkspace
-                                                  [0m
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-[][][][][][][][][][][][][][][][][][][][][]
- []
-
-! Text line contains an invalid character.
-l.22 Broadband payments.ods     
-                                 [01;34mkde[0m               test1.txt
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.22 Broadband payments.ods     [01;34mkde
-                                            [0m               test1.txt
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.23 
-      [01;34mDesktop[0m                    [01;34mMusic[0m             [...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.23 [01;34mDesktop
-                     [0m                    [01;34mMusic[0m             [...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.23 [01;34mDesktop[0m                    
-                                             [01;34mMusic[0m             [...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.23 ...ktop[0m                    [01;34mMusic
-                                                  [0m             [01;32mtr...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.23 ...           [01;34mMusic[0m             
-                                                  [01;32mtree.sh[0m
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.23 ...;34mMusic[0m             [01;32mtree.sh
-                                                  [0m
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.24 
-      [01;34mDocuments[0m                  nano.save         tree.sh.1
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-[][][][][][][][][][][][][][][]
- []
-
-! Text line contains an invalid character.
-l.24 [01;34mDocuments
-                       [0m                  nano.save         tree.sh.1
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.25 
-      ]0;rob@rob-To-be-filled-by-O-E-M: ~rob@rob-To-be-filled-by-O-E-M:~$ c...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.25 ]0;rob@rob-To-be-filled-by-O-E-M: ~
-                                          rob@rob-To-be-filled-by-O-E-M:~$ c...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.25 ...: ~rob@rob-To-be-filled-by-O-E-M:~$ cmod
-                                                  [K[K[Khmod -x tree.sh.1
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.25 ... ~rob@rob-To-be-filled-by-O-E-M:~$ cmod
-                                                  [K[K[Khmod -x tree.sh.1
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.25 ...rob@rob-To-be-filled-by-O-E-M:~$ cmod[K
-                                                  [K[Khmod -x tree.sh.1
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.25 ...ob@rob-To-be-filled-by-O-E-M:~$ cmod[K
-                                                  [K[Khmod -x tree.sh.1
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.25 ...rob-To-be-filled-by-O-E-M:~$ cmod[K[K
-                                                  [Khmod -x tree.sh.1
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.25 ...ob-To-be-filled-by-O-E-M:~$ cmod[K[K
-                                                  [Khmod -x tree.sh.1
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.26 
-      ]0;rob@rob-To-be-filled-by-O-E-M: ~rob@rob-To-be-filled-by-O-E-M:~$ m...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-
-Overfull \hbox (77.64737pt too wide) in paragraph at lines 25--26
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][] 
- []
-
-! Text line contains an invalid character.
-l.26 ]0;rob@rob-To-be-filled-by-O-E-M: ~
-                                          rob@rob-To-be-filled-by-O-E-M:~$ m...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.27 
-      ]0;rob@rob-To-be-filled-by-O-E-M: ~rob@rob-To-be-filled-by-O-E-M:~$ c...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.27 ]0;rob@rob-To-be-filled-by-O-E-M: ~
-                                          rob@rob-To-be-filled-by-O-E-M:~$ c...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.27 ...: ~rob@rob-To-be-filled-by-O-E-M:~$ cd 2
-                                                  07se
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.28 
-      ]0;rob@rob-To-be-filled-by-O-E-M: ~/207serob@rob-To-be-filled-by-O-E-...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.28 ]0;rob@rob-To-be-filled-by-O-E-M: ~/207se
-                                                rob@rob-To-be-filled-by-O-E-...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.29 
-      ]0;rob@rob-To-be-filled-by-O-E-M: ~/207serob@rob-To-be-filled-by-O-E-...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-
-Overfull \hbox (77.64737pt too wide) in paragraph at lines 28--29
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][] 
- []
-
-! Text line contains an invalid character.
-l.29 ]0;rob@rob-To-be-filled-by-O-E-M: ~/207se
-                                                rob@rob-To-be-filled-by-O-E-...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.30 
-      ]0;rob@rob-To-be-filled-by-O-E-M: ~/207se/portfoliorob@rob-To-be-fill...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-
-Overfull \hbox (66.84726pt too wide) in paragraph at lines 29--30
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][] 
- []
-
-! Text line contains an invalid character.
-l.30 ...-To-be-filled-by-O-E-M: ~/207se/portfolio
-                                                  rob@rob-To-be-filled-by-O-...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 
-      ]0;rob@rob-To-be-filled-by-O-E-M: ~/207se/portfoliorob@rob-To-be-fill...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-
-Overfull \hbox (196.44858pt too wide) in paragraph at lines 30--31
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][] 
- []
-
-! Text line contains an invalid character.
-l.31 ...-To-be-filled-by-O-E-M: ~/207se/portfolio
-                                                  rob@rob-To-be-filled-by-O-...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...y-O-E-M:~/207se/portfolio$ mv Downloads/2
-                                                  07SE/Down...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...-E-M:~/207se/portfolio$ mv Downloads/207
-                                                  SE/Downloa...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...M:~/207se/portfolio$ mv Downloads/207SE
-                                                  /Downloads/...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...:~/207se/portfolio$ mv Downloads/207SE
-                                                  /Downloads/2...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...~/207se/portfolio$ mv Downloads/207SE
-                                                  /Downloads/20...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../207se/portfolio$ mv Downloads/207SE
-                                                  /Downloads/207...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...207se/portfolio$ mv Downloads/207SE
-                                                  /Downloads/207S...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...07se/portfolio$ mv Downloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...7se/portfolio$ mv Downloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...se/portfolio$ mv Downloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...e/portfolio$ mv Downloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../portfolio$ mv Downloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...portfolio$ mv Downloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...ortfolio$ mv Downloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...rtfolio$ mv Downloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...tfolio$ mv Downloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...folio$ mv Downloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...olio$ mv Downloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...s/207SE/Downloads/207SE
-                                                  hDownloads/2...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../207SE/Downloads/207SE
-                                                  hDownloads/20...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...207SE/Downloads/207SE
-                                                  hDownloads/207...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...07SE/Downloads/207SE
-                                                  hDownloads/207S...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...07SE/Downloads/207SE
-                                                  hDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...7SE/Downloads/207SE
-                                                  hDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...SE/Downloads/207SE
-                                                  hDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...SE/Downloads/207SE
-                                                  hDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...E/Downloads/207SE
-                                                  hDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../Downloads/207SE
-                                                  hDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../Downloads/207SE
-                                                  hDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../Downloads/207SE
-                                                  hDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../Downloads/207SE
-                                                  hDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../Downloads/207SE
-                                                  hDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../Downloads/207SE
-                                                  hDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...oads/207SEhDownloads/207SE
-                                                  oDownloads/2...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...ads/207SEhDownloads/207SE
-                                                  oDownloads/20...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...ds/207SEhDownloads/207SE
-                                                  oDownloads/207...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...s/207SEhDownloads/207SE
-                                                  oDownloads/207S...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../207SEhDownloads/207SE
-                                                  oDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...207SEhDownloads/207SE
-                                                  oDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...07SEhDownloads/207SE
-                                                  oDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...7SEhDownloads/207SE
-                                                  oDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...SEhDownloads/207SE
-                                                  oDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...EhDownloads/207SE
-                                                  oDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...hDownloads/207SE
-                                                  oDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...hDownloads/207SE
-                                                  oDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...hDownloads/207SE
-                                                  oDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...hDownloads/207SE
-                                                  oDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...hDownloads/207SE
-                                                  oDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...oads/207SEoDownloads/207SE
-                                                  mDownloads/2...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...ads/207SEoDownloads/207SE
-                                                  mDownloads/20...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...ds/207SEoDownloads/207SE
-                                                  mDownloads/207...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...s/207SEoDownloads/207SE
-                                                  mDownloads/207S...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../207SEoDownloads/207SE
-                                                  mDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...207SEoDownloads/207SE
-                                                  mDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...07SEoDownloads/207SE
-                                                  mDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...7SEoDownloads/207SE
-                                                  mDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...SEoDownloads/207SE
-                                                  mDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...EoDownloads/207SE
-                                                  mDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...oDownloads/207SE
-                                                  mDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...oDownloads/207SE
-                                                  mDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...oDownloads/207SE
-                                                  mDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...oDownloads/207SE
-                                                  mDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...oDownloads/207SE
-                                                  mDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...oads/207SEmDownloads/207SE
-                                                  eDownloads/2...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...ads/207SEmDownloads/207SE
-                                                  eDownloads/20...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...ds/207SEmDownloads/207SE
-                                                  eDownloads/207...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...s/207SEmDownloads/207SE
-                                                  eDownloads/207S...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../207SEmDownloads/207SE
-                                                  eDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...207SEmDownloads/207SE
-                                                  eDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...07SEmDownloads/207SE
-                                                  eDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...7SEmDownloads/207SE
-                                                  eDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...SEmDownloads/207SE
-                                                  eDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...EmDownloads/207SE
-                                                  eDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...mDownloads/207SE
-                                                  eDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...mDownloads/207SE
-                                                  eDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...mDownloads/207SE
-                                                  eDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...mDownloads/207SE
-                                                  eDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...mDownloads/207SE
-                                                  eDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...oads/207SEeDownloads/207SE
-                                                  /Downloads/2...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...ads/207SEeDownloads/207SE
-                                                  /Downloads/20...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...ds/207SEeDownloads/207SE
-                                                  /Downloads/207...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...s/207SEeDownloads/207SE
-                                                  /Downloads/207S...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../207SEeDownloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...207SEeDownloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...07SEeDownloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...7SEeDownloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...SEeDownloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...EeDownloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...eDownloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...eDownloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...eDownloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...eDownloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...eDownloads/207SE
-                                                  /Downloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...oads/207SE/Downloads/207SE
-                                                  rDownloads/2...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...ads/207SE/Downloads/207SE
-                                                  rDownloads/20...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...ds/207SE/Downloads/207SE
-                                                  rDownloads/207...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...s/207SE/Downloads/207SE
-                                                  rDownloads/207S...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 .../207SE/Downloads/207SE
-                                                  rDownloads/207SE...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-! Text line contains an invalid character.
-l.31 ...207SE/Downloads/207SE
-                                                  rDownloads/207SE...
-(That makes 100 errors; please try again.) 
+) [19] 
+AED: lastpage setting LastPage
+[20
+
+] (./assignment_2.aux) ) 
 Here is how much of TeX's memory you used:
- 3206 strings out of 493921
- 45182 string characters out of 3147287
- 171012 words of memory out of 3000000
- 6484 multiletter control sequences out of 15000+200000
- 9439 words of font info for 33 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 29i,11n,43p,540b,1411s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 3689 strings out of 494985
+ 53374 string characters out of 6180355
+ 161365 words of memory out of 5000000
+ 6821 multiletter control sequences out of 15000+600000
+ 10754 words of font info for 37 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 38i,12n,43p,446b,1685s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
+enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/u
+crr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on assignment_2.pdf (20 pages, 459140 bytes).
+PDF statistics:
+ 129 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!
