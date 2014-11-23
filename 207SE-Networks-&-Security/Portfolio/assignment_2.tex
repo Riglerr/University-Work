@@ -13,7 +13,7 @@
 \usepackage{graphicx} % Required to insert images
 \usepackage{listings} % Required for insertion of code
 \usepackage{courier} % Required for the courier font
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
 
 % Margins
 \topmargin=-0.45in
@@ -176,7 +176,7 @@
 \homeworkSection{1. Logfile containing evidence of activities}
 \problemAnswer{
 
-%\Cscript{Assignment_1/Ass2}{Log file}
+\Cscript{Assignment_1/Ass2}{Log file}
 }
 
 
@@ -312,20 +312,27 @@ There is a direct linear correlation between the buffer size and the amount of t
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}[Item 6 - Cache tutorial]{}
 \homeworkSection{1. Complete the cr\textunderscore read\textunderscore byte}
-See Code below
+Please see the provided code in cache\textunderscore reader.c 
+
 \homeworkSection{2.Prove the file is being buffered}
-see code below
+To prove the code is being buffered. I included \emph{printf(" \textbackslash n");} on line 58 in the cache\textunderscore reader.c file . The program now starts a new line every time it reaches the end of the buffer ( in this example 20). 
+
 \homeworkSection{3. Provide some statistics}
-To count the number of bytes read, I created a variable called \emph{byte\textunderscore tot} in the \emph{cr\textunderscore file} structure in the cache\textunderscore reader.h file. This variable is used in the \emph{Refill()} method, it adds the value of the \emph{len} variable to itself.
-See code below.
-\Cscript{Assignment_5/item1}{Commented Buffer Code}
-\Cscript{Assignment_6/cache_example}{Adapted code}
+To count the number of bytes read, I created a variable called \emph{byte\textunderscore tot} in the \emph{cr\textunderscore file}  structure (line12) in the cache\textunderscore reader.h file. This variable is used in the \emph{Refill()} method (line 15). Every time the \emph{Refill()} method is called, it adds the value of \emph{len} (which contains the number of bytes currently being read) to itself.\\
+The amount of times
+
+
+
+
+\Cscript{Assignment_6/cache_example}{cache\textunderscore example.c}
 \clearpage
+
 \Cscript{Assignment_6/cache_readerh}{cache\textunderscore reader.h}
 \clearpage
+
 \Cscript{Assignment_6/cache_reader}{cache\textunderscore reader.c}
 
-
+%
 
 \end{homeworkProblem}
 \clearpage
