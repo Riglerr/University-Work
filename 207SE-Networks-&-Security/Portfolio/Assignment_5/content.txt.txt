@@ -1,0 +1,41 @@
+Buffers
+
+1.	Commented Code
+
+
+2.	Compiled code
+ 
+
+argo.txt contains the exact same text that was in review.txt .
+ 
+
+3.	Adapted code to show how many characters were read in total and how many times the buffer was filled. (Amended code underlined)
+
+
+3a. Evidence
+
+ 
+
+ 
+
+
+
+4.	Alter the buffer size to 1000. How does this influence the number of times the buffer is filled.
+
+?	 
+ 
+5.	Adapt the code so that it is possible to compare if two files are the same.
+5a. Sample Code
+
+
+
+
+
+5b. Comparison of review.txt and argo.txt
+
+	 
+
+
+5c. Comparison of argo.txt and review_observer.txt
+
+ 

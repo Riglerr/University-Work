@@ -1,0 +1,405 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  23 NOV 2014 19:53
+entering extended mode
+**assignment_2.tex
+
+(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\ass
+ignment_2.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\extramarks.sty"
+\@temptokenb=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count88
+\lst@gtempboxa=\box26
+\lst@token=\toks16
+\lst@length=\count89
+\lst@currlwidth=\dimen105
+\lst@column=\count90
+\lst@pos=\count91
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count92
+\lst@lineno=\count93
+\lst@maxwidth=\dimen108
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
+\lst@framebox=\box27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\courier.sty"
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count96
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+)
+\c@homeworkProblemCounter=\count97
+
+(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\ass
+ignment_2.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 155.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count98
+\scratchdimen=\dimen109
+\scratchbox=\box28
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen110
+\MPnumerator=\count102
+\makeMPintoPDFobject=\count103
+\everyMPtoPDFconversion=\toks18
+)
+\c@lstlisting=\count104
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 157.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 157.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 157.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\ass
+ignment_2.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write3
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+[3] [4
+
+] [5
+
+] <Assignment_4/1Cat.png, id=22, 379.4175pt x 418.56375pt>
+File: Assignment_4/1Cat.png Graphic file (type png)
+
+<use Assignment_4/1Cat.png>
+Package pdftex.def Info: Assignment_4/1Cat.png used on input line 218.
+(pdftex.def)             Requested size: 345.2684pt x 380.89998pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
+<Assignment_4/2Table.png, id=24, 351.56343pt x 374.14781pt>
+File: Assignment_4/2Table.png Graphic file (type png)
+
+<use Assignment_4/2Table.png>
+Package pdftex.def Info: Assignment_4/2Table.png used on input line 225.
+(pdftex.def)             Requested size: 345.2684pt x 367.44447pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+[6
+
+ <C:/Users/Rob/Documents/University-Work/207SE-Networks-&-Security/Portfolio/As
+signment_4/1Cat.png>]
+<Assignment_4/3CPU.png, id=29, 334.24875pt x 161.10187pt>
+File: Assignment_4/3CPU.png Graphic file (type png)
+
+<use Assignment_4/3CPU.png>
+Package pdftex.def Info: Assignment_4/3CPU.png used on input line 232.
+(pdftex.def)             Requested size: 345.2684pt x 166.42595pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+<Assignment_4/4Paramaters.png, id=30, 457.71pt x 103.88812pt>
+File: Assignment_4/4Paramaters.png Graphic file (type png)
+
+<use Assignment_4/4Paramaters.png>
+Package pdftex.def Info: Assignment_4/4Paramaters.png used on input line 239.
+(pdftex.def)             Requested size: 345.2684pt x 78.36926pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+[7 <C:/Users/Rob/Documents/University-Work/207SE-Networks-&-Security/Portfolio/
+Assignment_4/2Table.png> <C:/Users/Rob/Documents/University-Work/207SE-Networks
+-&-Security/Portfolio/Assignment_4/3CPU.png>]
+<Assignment_4/5Disk.png, id=37, 444.15938pt x 184.43906pt>
+File: Assignment_4/5Disk.png Graphic file (type png)
+
+<use Assignment_4/5Disk.png>
+Package pdftex.def Info: Assignment_4/5Disk.png used on input line 246.
+(pdftex.def)             Requested size: 345.2684pt x 143.37218pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+[8 <C:/Users/Rob/Documents/University-Work/207SE-Networks-&-Security/Portfolio/
+Assignment_4/4Paramaters.png> <C:/Users/Rob/Documents/University-Work/207SE-Net
+works-&-Security/Portfolio/Assignment_4/5Disk.png>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 251.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\Ass
+ignment_4/BashScript.txt) [9
+
+]
+(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\Ass
+ignment_5/item1.txt
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 3.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+))
+<Assignment_5/2Compiled.png, id=49, 545.78906pt x 99.37125pt>
+File: Assignment_5/2Compiled.png Graphic file (type png)
+
+<use Assignment_5/2Compiled.png>
+Package pdftex.def Info: Assignment_5/2Compiled.png used on input line 271.
+(pdftex.def)             Requested size: 345.2684pt x 62.86198pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+[10
+
+] [11 <C:/Users/Rob/Documents/University-Work/207SE-Networks-&-Security/Portfol
+io/Assignment_5/2Compiled.png (PNG copy)>]
+(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\Ass
+ignment_5/item3.txt [12
+
+])
+<Assignment_5/3Evidence.png, id=60, 561.59813pt x 94.10156pt>
+File: Assignment_5/3Evidence.png Graphic file (type png)
+
+<use Assignment_5/3Evidence.png>
+Package pdftex.def Info: Assignment_5/3Evidence.png used on input line 279.
+(pdftex.def)             Requested size: 345.2684pt x 57.85272pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 289.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 289.
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+[13 <C:/Users/Rob/Documents/University-Work/207SE-Networks-&-Security/Portfolio
+/Assignment_5/3Evidence.png (PNG copy)>]
+(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\Ass
+ignment_5/item5.txt
+Overfull \hbox (14.24971pt too wide) in paragraph at lines 41--42
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][] 
+ []
+
+[14
+
+]) <Assignment_5/5Comp1.png, id=69, 545.03625pt x 65.49469pt>
+File: Assignment_5/5Comp1.png Graphic file (type png)
+
+<use Assignment_5/5Comp1.png>
+Package pdftex.def Info: Assignment_5/5Comp1.png used on input line 299.
+(pdftex.def)             Requested size: 345.2684pt x 41.48871pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+<Assignment_5/5Comp2.png, id=70, 614.295pt x 67.75313pt>
+File: Assignment_5/5Comp2.png Graphic file (type png)
+
+<use Assignment_5/5Comp2.png>
+Package pdftex.def Info: Assignment_5/5Comp2.png used on input line 305.
+(pdftex.def)             Requested size: 345.2684pt x 38.08104pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+[15 <C:/Users/Rob/Documents/University-Work/207SE-Networks-&-Security/Portfolio
+/Assignment_5/5Comp1.png (PNG copy)> <C:/Users/Rob/Documents/University-Work/20
+7SE-Networks-&-Security/Portfolio/Assignment_5/5Comp2.png (PNG copy)>]
+(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\Ass
+ignment_5/item1.txt [16
+
+])
+(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\Ass
+ignment_6/cache_example.txt) [17]
+(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\Ass
+ignment_6/cache_readerh.txt) [18
+
+]
+(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\Ass
+ignment_6/cache_reader.txt) [19
+
+] 
+AED: lastpage setting LastPage
+[20
+
+]
+(C:\Users\Rob\Documents\University-Work\207SE-Networks-&-Security\Portfolio\ass
+ignment_2.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3449 strings out of 493921
+ 50194 string characters out of 3147287
+ 253578 words of memory out of 3000000
+ 6680 multiletter control sequences out of 15000+200000
+ 10754 words of font info for 37 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 31i,12n,43p,330b,1679s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/courier/ucrro8a.pfb>
+Output written on assignment_2.pdf (20 pages, 472084 bytes).
+PDF statistics:
+ 127 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+
