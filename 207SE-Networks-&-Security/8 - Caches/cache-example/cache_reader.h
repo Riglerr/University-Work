@@ -9,7 +9,7 @@ typedef struct{
   int usedbuffer;    //Current point in the buffer
   char* buffer;      //A pointer to a piece of memory
                      //  same length as "bufferlength"
-  int byte_tot;
+  int byte_tot;     //Integer to store the total amount of bytes that were read from the file.
 } cr_file;
 
 

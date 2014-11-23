@@ -18,8 +18,8 @@ int main(){
     
 
   //Then close the file
-  printf("\nByte Count: %d\n",f->byte_tot);
-  printf("\nRefill Count: %d\n",f->byte_tot/f->bufferlength);
+  printf("\nByte Count: %d",f->byte_tot); // Displaying the total number of bytes read.
+  printf("\nRefill Count: %d\n",f->byte_tot/f->bufferlength); //Displaying the total number of times the buffer was filled. (No_of_bytes / buffersize).
   cr_close(f);
 
   //And finish
