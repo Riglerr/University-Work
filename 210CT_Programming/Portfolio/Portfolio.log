@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  24 NOV 2014 16:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  24 NOV 2014 17:10
 entering extended mode
 **Portfolio.tex
 
@@ -174,35 +174,64 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.t
-oc)
+oc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
 \tf@toc=\write3
- [2] [3] [4
+ [2]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 177.
 
-] [5
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
+Pre-Homework/src/NameRepeat.txt
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)) [3]
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
+Pre-Homework/src/StarSquare.txt) [4
+
+]
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
+Pre-Homework/src/RtoCaps.txt) [5
+
+] [6
+
+] [7
 
 ] 
 AED: lastpage setting LastPage
-[6
+[8
 
 ]
 (C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.a
 ux) ) 
 Here is how much of TeX's memory you used:
- 2868 strings out of 493921
- 41109 string characters out of 3147287
- 123012 words of memory out of 3000000
- 6158 multiletter control sequences out of 15000+200000
- 8848 words of font info for 31 fonts, out of 3000000 for 9000
+ 3096 strings out of 493921
+ 44478 string characters out of 3147287
+ 142002 words of memory out of 3000000
+ 6363 multiletter control sequences out of 15000+200000
+ 10408 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 26i,11n,43p,290b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Portfolio.pdf (6 pages, 82680 bytes).
+ 26i,11n,43p,290b,1332s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on Portfolio.pdf (8 pages, 134665 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

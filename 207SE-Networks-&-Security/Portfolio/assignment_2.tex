@@ -28,7 +28,7 @@
 % Set up the header and footer
 \pagestyle{fancy}
 \lhead{\hmwkAuthorName\ : \hmwkStudentID} % Top left header
-\chead{\hmwkClass\ : \hmwkClassShort} % Top center head
+\chead{ \hmwkClassShort} % Top center head
 \rhead{\firstxmark} % Top right header
 \lfoot{\lastxmark} % Bottom left footer
 \cfoot{} % Bottom center footer
@@ -87,12 +87,12 @@
 % Header and footer for when a page split occurs within a problem environment
 \newcommand{\enterProblemHeader}[1]{
 \nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak
-\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+\nobreak\extramarks{#1 }{#1 continued on next page\ldots}\nobreak
 }
 
 % Header and footer for when a page split occurs between problem environments
 \newcommand{\exitProblemHeader}[1]{
-\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak
 \nobreak\extramarks{#1}{}\nobreak
 }
 
@@ -217,7 +217,7 @@
 \end{center}
 }
 
-\homeworkSection{2.  Show a table of the interuppts on the system}
+\homeworkSection{2.  Show a table of the interrupts on the system}
 \problemAnswer{
 \begin{center}
 \includegraphics[width=0.75\columnwidth]{Assignment_4/2Table.png}
@@ -311,10 +311,10 @@ There is a direct linear correlation between the buffer size and the amount of t
 %	PROBLEM 6
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}[Item 6 - Cache tutorial]{}
-\homeworkSection{1. Complete the cr\textunderscore read\textunderscore byte}
+\homeworkSection{1. Complete the cr\textunderscore read\textunderscore byte function}
 Please see the provided code in cache\textunderscore reader.c 
 
-\homeworkSection{2.Prove the file is being buffered}
+\homeworkSection{2. Prove the file is being buffered}
 To prove the code is being buffered. I included \emph{printf(" \textbackslash n");} on line 58 in the cache\textunderscore reader.c file . The program now starts a new line every time it reaches the end of the buffer ( in this example 20). 
 
 \homeworkSection{3. Provide some statistics}
