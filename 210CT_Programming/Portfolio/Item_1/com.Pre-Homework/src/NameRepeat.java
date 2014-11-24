@@ -12,7 +12,9 @@ public class NameRepeat {
     public void PrintName(String _name){
 
         for (int i = 0; i<10;i++){  /* Loop 10 times*/
-            System.out.println((i+1) + " " + _name); /*, print the number && _name parameter each time.*/
+            System.out.println((i+1) + " " + _name); 
+
+		/*, print the number && _name parameter each time.*/
 
         }
 
