@@ -84,15 +84,14 @@
 %	Skip this unless you know what you're doing
 %----------------------------------------------------------------------------------------
 
-% Header and footer for when a page split occurs within a problem environment
 \newcommand{\enterProblemHeader}[1]{
 \nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak
-\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+\nobreak\extramarks{#1 }{#1 continued on next page\ldots}\nobreak
 }
 
 % Header and footer for when a page split occurs between problem environments
 \newcommand{\exitProblemHeader}[1]{
-\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak
 \nobreak\extramarks{#1}{}\nobreak
 }
 
@@ -100,7 +99,7 @@
 \newcounter{homeworkProblemCounter} % Creates a counter to keep track of the number of problems
 
 \newcommand{\homeworkProblemName}{}
-\newenvironment{homeworkProblem}[1][Problem \arabic{homeworkProblemCounter}] { % Makes a new environment called homeworkProblem which takes 1 argument (custom name) but the default is "Problem #"
+\newenvironment{homeworkProblem}[1][Problem \arabic{homeworkProblemCounter}]{ % Makes a new environment called homeworkProblem which takes 1 argument (custom name) but the default is "Problem #"
 \stepcounter{homeworkProblemCounter} % Increase counter for number of problems
 \renewcommand{\homeworkProblemName}{#1} % Assign \homeworkProblemName the name of the problem
 \section{\homeworkProblemName} % Make a section in the document with the custom problem count
@@ -169,7 +168,6 @@
 %----------------------------------------------------------------------------------------
 %	PROBLEM 1
 %----------------------------------------------------------------------------------------
-
 % To have just one problem per page, simply put a \clearpage after each problem
 
 \begin{homeworkProblem}[Item 1: Week 3 - Linear Search and Duplicate Finder]{}
@@ -207,6 +205,7 @@
 }
 
 \end{homeworkProblem}
+
 
 %----------------------------------------------------------------------------------------
 %	PROBLEM 2

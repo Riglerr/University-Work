@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  24 NOV 2014 19:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  24 NOV 2014 20:03
 entering extended mode
 **Portfolio.tex
 
@@ -128,28 +128,27 @@ File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 )
 \c@homeworkProblemCounter=\count96
 
-(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.a
-ux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
+No file Portfolio.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 155.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(lastpage)             ! on input line 154.
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count97
 \scratchdimen=\dimen109
@@ -165,28 +164,142 @@ Package lastpage Info: Please have a look at the pageslts package at
 )
 \c@lstlisting=\count103
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 157.
+(Font)              <12> on input line 156.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 157.
+(Font)              <8> on input line 156.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 157.
+(Font)              <6> on input line 156.
+ [1
 
-! I can't write on file `Portfolio.pdf'.
-Please type another file name for output
-! Emergency stop.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.165 \newpage
-              
-*** (job aborted, file error in nonstop mode)
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+No file Portfolio.toc.
+\tf@toc=\write3
 
- 
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 166.
+
+[2]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 177.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
+Pre-Homework/src/NameRepeat.txt
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 185.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 185.
+
+<Item_1/NameRepEvi.png, id=13, 1053.9375pt x 237.88875pt>
+File: Item_1/NameRepEvi.png Graphic file (type png)
+
+<use Item_1/NameRepEvi.png>
+Package pdftex.def Info: Item_1/NameRepEvi.png used on input line 185.
+(pdftex.def)             Requested size: 460.35677pt x 130.49437pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 186.
+
+[3 <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1/N
+ameRepEvi.png (PNG copy)>]
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
+Pre-Homework/src/StarSquare.txt)
+<Item_1/StarSqEvi.png, id=21, 766.865pt x 223.83624pt>
+File: Item_1/StarSqEvi.png Graphic file (type png)
+
+<use Item_1/StarSqEvi.png>
+Package pdftex.def Info: Item_1/StarSqEvi.png used on input line 195.
+(pdftex.def)             Requested size: 460.36829pt x 130.49112pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 196.
+
+[4
+
+ <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1/Sta
+rSqEvi.png (PNG copy)>]
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
+Pre-Homework/src/RtoCaps.txt)
+<Item_1/RtcEvi.png, id=25, 716.6775pt x 219.82124pt>
+File: Item_1/RtcEvi.png Graphic file (type png)
+ <use Item_1/RtcEvi.png>
+Package pdftex.def Info: Item_1/RtcEvi.png used on input line 205.
+(pdftex.def)             Requested size: 460.36707pt x 130.4917pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 214.
+
+[5
+
+ <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1/Rtc
+Evi.png (PNG copy)>]
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 219.
+
+[6]
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 230.
+
+[7
+
+]
+
+Package lastpage Warning: Rerun to get the references right on input line 247.
+
+
+AED: lastpage setting LastPage
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 247.
+
+[8
+
+]
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.a
+ux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2854 strings out of 493921
- 40682 string characters out of 3147287
- 123002 words of memory out of 3000000
- 6152 multiletter control sequences out of 15000+200000
- 7935 words of font info for 28 fonts, out of 3000000 for 9000
+ 3110 strings out of 493921
+ 44510 string characters out of 3147287
+ 147002 words of memory out of 3000000
+ 6376 multiletter control sequences out of 15000+200000
+ 10408 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 26i,6n,43p,290b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 31i,11n,43p,290b,1332s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on Portfolio.pdf (8 pages, 204453 bytes).
+PDF statistics:
+ 69 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+
