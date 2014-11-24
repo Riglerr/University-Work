@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  24 NOV 2014 21:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  24 NOV 2014 21:52
 entering extended mode
 **Portfolio.tex
 
@@ -17,8 +17,8 @@ an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -202,23 +202,30 @@ Package lastpage Info: Please have a look at the pageslts package at
 )
 \c@lstlisting=\count112
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 158.
+(Font)              <14.4> on input line 158.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 158.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 158.
+(Font)              <7> on input line 158.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.t
 oc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
+(Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
 )
 \tf@toc=\write3
- [2]
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 179.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
@@ -230,8 +237,13 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-))
-<Item_1/NameRepEvi.png, id=13, 1053.9375pt x 237.88875pt>
+)
+Overfull \hbox (91.794pt too wide) in paragraph at lines 9--10
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) <Item_1/NameRepEvi.png, id=12, 1053.9375pt x 237.88875pt>
 File: Item_1/NameRepEvi.png Graphic file (type png)
 
 <use Item_1/NameRepEvi.png>
@@ -245,8 +257,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--188
 [3 <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1/N
 ameRepEvi.png (PNG copy)>]
 (C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
-Pre-Homework/src/StarSquare.txt)
-<Item_1/StarSqEvi.png, id=21, 766.865pt x 223.83624pt>
+Pre-Homework/src/StarSquare.txt
+Overfull \hbox (39.23358pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (58.94374pt too wide) in paragraph at lines 10--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (72.08385pt too wide) in paragraph at lines 23--24
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) <Item_1/StarSqEvi.png, id=20, 766.865pt x 223.83624pt>
 File: Item_1/StarSqEvi.png Graphic file (type png)
 
 <use Item_1/StarSqEvi.png>
@@ -262,8 +291,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--198
  <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1/Sta
 rSqEvi.png (PNG copy)>]
 (C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
-Pre-Homework/src/RtoCaps.txt)
-<Item_1/RtcEvi.png, id=25, 716.6775pt x 219.82124pt>
+Pre-Homework/src/RtoCaps.txt
+Overfull \hbox (32.66353pt too wide) in paragraph at lines 10--11
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (32.66353pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) <Item_1/RtcEvi.png, id=24, 716.6775pt x 219.82124pt>
 File: Item_1/RtcEvi.png Graphic file (type png)
  <use Item_1/RtcEvi.png>
 Package pdftex.def Info: Item_1/RtcEvi.png used on input line 207.
@@ -275,38 +314,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
 [5
 
- <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1/Rtc
-Evi.png (PNG copy)>] [6] [7
+] [6 <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1
+/RtcEvi.png (PNG copy)>] [7
+
+] [8] [9
+
+] [10
 
 ] 
 AED: lastpage setting LastPage
-[8
+[11
 
 ]
 (C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.a
 ux) ) 
 Here is how much of TeX's memory you used:
- 3730 strings out of 493921
- 53611 string characters out of 3147287
- 156836 words of memory out of 3000000
- 6973 multiletter control sequences out of 15000+200000
- 10709 words of font info for 37 fonts, out of 3000000 for 9000
+ 3747 strings out of 493921
+ 53912 string characters out of 3147287
+ 157869 words of memory out of 3000000
+ 6992 multiletter control sequences out of 15000+200000
+ 11623 words of font info for 40 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,11n,43p,290b,1332s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on Portfolio.pdf (8 pages, 234710 bytes).
+fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on Portfolio.pdf (11 pages, 235072 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

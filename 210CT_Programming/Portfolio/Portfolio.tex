@@ -4,7 +4,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass{article}
+\documentclass[12pt]{article}
 
 \usepackage{fancyhdr} % Required for custom headers
 \usepackage{lastpage} % Required to determine the last page for the footer
@@ -71,7 +71,7 @@
         numbers=left, % Line numbers on left
         firstnumber=1, % Line numbers start with line 1
         numberstyle=\tiny\color{Blue}, % Line numbers are blue and small
-        stepnumber=5 % Line numbers go in steps of 5
+        stepnumber=1 % Line numbers go in steps of 5
 }
 
 % Creates a new command to include a script, the first parameter is the filename of the script (without .txt), the second parameter is the caption
@@ -242,15 +242,83 @@
 \end{algorithmic}
 \end{algorithm}
 
-
+\clearpage
 %----------------------------------------------------------------------------------------
 %	PROBLEM 2
 %----------------------------------------------------------------------------------------
 
-\begin{homeworkProblem}[Item 2: Week 4 - Big-O of Linear Search and Duplicate Finder  Additional work]
+\begin{homeworkProblem}[Item 2: Week 4 -  Time complexities and Big-O notation]
+\homeworkSection{1. Describe the runtime bounds of the linear search algorithm}
+\begin{algorithm}
+\begin{algorithmic}
+\caption{LinearSearch}
+\Procedure{BOOL LINEARSEARCH}{$item$, $list$[\hspace{1mm}]}\\
+ \indent \For {each element $i$ in $list$}\hspace{10mm}(n) 
+ \indent \If{ $list[i] = list$} t \hspace{12.75mm}(n) 
 
+ \indent \indent \indent \Return true \hspace{17.4mm} (n) 
+\EndIf
+\EndFor
 
+ \indent \Return false\hspace{32.5mm} (1) 
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
 
+\large {The time complexity of the algorithm is O(n)}
+
+\homeworkSection{2. Describe the runtime bounds of the duplicate finder algorithm}
+
+\begin{algorithm}
+\caption{Examining for duplicates}
+\begin{algorithmic}
+\Procedure{BOOL EXFORDUPES}{$list$[\hspace{1mm}]}
+\For { each element $i$ in $list$[\hspace{1mm}]} \hspace{20mm}(n)
+\For { each element $j$ in $list$[\hspace{1mm}]}\hspace{15mm}(n*n)
+\If{ $list[i] = list[j]$}\hspace{23.5mm}(n*n)
+
+\indent \indent \indent \Return true \hspace{36.5mm}(n*n)
+\EndIf
+\EndFor
+\EndFor
+
+\Return false \hspace{53mm}(1)
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+\large{The time complexity of the algorithm is O(n\textsuperscript{2})}
+
+\homeworkSection{Additional work: Critical values of relative runtimes}
+Write a function that determines the critical value at which the relative runtime of two linear algorithms swap.
+
+\begin{algorithm}
+\caption{Relative runtime comparison algorithm}
+\begin{algorithmic}
+\Procedure{CRITVAL}{$m1, k1, m2, k2$}
+\State $switch \leftarrow false$
+\State $n \leftarrow 0$
+\If{$(((m1*n) + k1) > ((m2*n)+k2))$}
+\While{$!switch$}
+\If {$(((m1*n) + k1) < ((m2*n)+k2))$}
+\State $switch \leftarrow true$
+\Else
+\State $n++$
+\EndIf
+\EndWhile
+\Else
+\While{$!switch$}
+\If{$(((m1*n) + k1) > ((m2*n)+k2))$}
+\State $switch \leftarrow true$
+\Else
+\State $n++$
+\EndIf
+\EndWhile
+\EndIf
+
+\Return n
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
 \end{homeworkProblem}
 \clearpage
 %----------------------------------------------------------------------------------------
@@ -270,6 +338,7 @@
 \begin{homeworkProblem}[Item 4: Week 7 - Heapworksheet or RPN Calculator]{}
 
 \end{homeworkProblem}
+\clearpage
 %----------------------------------------------------------------------------------------
 %	PROBLEM 5
 %----------------------------------------------------------------------------------------
