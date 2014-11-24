@@ -1,8 +1,12 @@
-\contentsline {section}{Item 1: Week 3 - Linear Search and Duplicate Finder}{3}
+\contentsline {section}{\let \\\GenericError { }{LaTeX Error: There's no line here to end}{See the LaTeX manual or LaTeX Companion for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}\par \let \reserved@d =*\def \par }{3}
 \contentsline {subsection}{Pre-Homework 1: Write a Program that displays your name 10 times}{3}
 \contentsline {subsection}{Pre-Homework 2: Write a function that draws a square of stars given as a parameter}{4}
 \contentsline {subsection}{Pre-Homework 3: Write a program to open a file and display it's contents in capitals}{5}
-\contentsline {section}{Item 2: Week 4 - Big-O of Linear Search and Duplicate Finder Additional work}{6}
-\contentsline {section}{Item 3: Week 6 - Harmonic Series or Pivot Selection}{7}
-\contentsline {section}{Item 4: Week 7 - Heapworksheet or RPN Calculator}{8}
-\contentsline {section}{Item 5: Week 8 - Linked List Delete function or Linked List Sortings}{8}
+\contentsline {section}{\ignorespaces }{6}
+\contentsline {section}{}{6}
+\contentsline {section}{\ignorespaces }{7}
+\contentsline {section}{}{7}
+\contentsline {section}{\ignorespaces }{8}
+\contentsline {section}{}{8}
+\contentsline {section}{\ignorespaces }{8}
+\contentsline {section}{}{8}
