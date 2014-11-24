@@ -8,21 +8,22 @@ import java.util.Scanner;
 public class RtoCaps {
 
     public static void main(String[] args)throws FileNotFoundException {
-        File inFile = new File("C:\\Users\\Rob\\Documents\\2nd Year\\210CT\\" +
-                "Week 3 linear search\\com.Pre-Homework\\input.txt");
-        RtoCaps obj = new RtoCaps();
-        obj.rInput(inFile);
+        File inFile = new File("input.txt");
+                /*Create a file object */
+        RtoCaps obj = new RtoCaps(); /*Create class object*/
+        obj.rInput(inFile); /*Use Class object to call rInput() method*/
     }
 
     public void rInput(File inFile) throws FileNotFoundException{
 
 
-        Scanner in = new Scanner(inFile);
+        Scanner in = new Scanner(inFile); /*Create a new scanner to read from the file*/
 
-        while(in.hasNextLine())
+        while(in.hasNextLine()) /*Loop WHile there is still lines left in the document*/
         {
-            String line = in.nextLine();
-            System.out.println(line.toUpperCase());
+            String line = in.nextLine(); /* Place the next line in a strin varibale*/
+        
+            System.out.println(line.toUpperCase()); /* Print the line in uppercase*/
         }
 
     }

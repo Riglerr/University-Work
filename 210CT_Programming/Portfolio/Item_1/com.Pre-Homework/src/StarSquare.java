@@ -3,23 +3,24 @@
  */
 public class StarSquare {
 
-    public String ast = "*";
+    public char ast = '*';  //Create variable to hold asterisk character.
     public static void main(String[] args){
 
-        StarSquare sSquare = new StarSquare();
-        sSquare.writeSquare(10);
+        StarSquare sSquare = new StarSquare(); /*Create Object*/
+        sSquare.writeSquare(10); /*Use object to call writeSquare() method*/
 
     }
 
 
     public void writeSquare(int size){
 
-        for(int i =0; i<size;i++){
-            for(int j = 0;j<size;j++){
-                System.out.print(ast);
-
+        for(int i =0; i<size;i++){ /*OuterLoop 'size' times*/
+            for(int j = 0;j<size;j++){ /*InnerLoop 'size' times*/
+            
+                System.out.print(ast); /*Print line of asterisks*/
+ 
             }
-            System.out.println();
+            System.out.println(); /* Start new line when inner loop finishes*/
         }
     }
 }

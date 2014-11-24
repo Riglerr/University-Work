@@ -5,14 +5,14 @@ public class NameRepeat {
 
     public static void main(String[] args){
 
-        NameRepeat name = new NameRepeat();
-        name.DoTheThing("Rob");
+        NameRepeat myObject = new NameRepeat();  /*Create Object*/
+        myObject.PrintName("Rob");      /*Use object to call PrintName() method*/
     }
 
-    public void DoTheThing(String _name){
+    public void PrintName(String _name){
 
-        for (int i = 0; i<10;i++){
-            System.out.println((i+1) + " " + _name);
+        for (int i = 0; i<10;i++){  /* Loop 10 times*/
+            System.out.println((i+1) + " " + _name); /*, print the number && _name parameter each time.*/
 
         }
 
