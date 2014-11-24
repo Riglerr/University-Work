@@ -2,6 +2,8 @@
 \contentsline {subsection}{Pre-Homework 1: Write a Program that displays your name 10 times}{3}
 \contentsline {subsection}{Pre-Homework 2: Write a function that draws a square of stars given as a parameter}{4}
 \contentsline {subsection}{Pre-Homework 3: Write a program to open a file and display it's contents in capitals}{5}
+\contentsline {subsection}{ 1. Pseudocode for linear search}{6}
+\contentsline {subsection}{ 2. Pseudocode for finding duplicates in a list}{6}
 \contentsline {section}{Item 2: Week 4 - Big-O of Linear Search and Duplicate Finder Additional work}{6}
 \contentsline {section}{Item 3: Week 6 - Harmonic Series or Pivot Selection}{7}
 \contentsline {section}{Item 4: Week 7 - Heapworksheet or RPN Calculator}{8}

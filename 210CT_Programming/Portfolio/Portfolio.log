@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  24 NOV 2014 20:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  24 NOV 2014 21:05
 entering extended mode
 **Portfolio.tex
 
@@ -120,65 +120,106 @@ Package: listings 2013/08/26 1.5b (Carsten Heinz)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\courier.sty"
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count96
+\float@exts=\toks17
+\float@box=\box28
+\@float@everytoks=\toks18
+\@floatcapt=\box29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks19
+\c@algorithm=\count97
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count98
+\c@ALG@rem=\count99
+\c@ALG@nested=\count100
+\ALG@tlm=\skip52
+\ALG@thistlm=\skip53
+\c@ALG@Lnr=\count101
+\c@ALG@blocknr=\count102
+\c@ALG@storecount=\count103
+\c@ALG@tmpcounter=\count104
+\ALG@tmplength=\skip54
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 )
-\c@homeworkProblemCounter=\count96
+\c@homeworkProblemCounter=\count105
 
-No file Portfolio.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.a
+ux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 154.
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(lastpage)             ! on input line 156.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count97
+\scratchcounter=\count106
 \scratchdimen=\dimen109
-\scratchbox=\box28
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count100
+\scratchbox=\box30
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count109
 \MPscratchDim=\dimen110
-\MPnumerator=\count101
-\makeMPintoPDFobject=\count102
-\everyMPtoPDFconversion=\toks18
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks21
 )
-\c@lstlisting=\count103
+\c@lstlisting=\count112
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 156.
+(Font)              <12> on input line 158.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 156.
+(Font)              <8> on input line 158.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 156.
+(Font)              <6> on input line 158.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-No file Portfolio.toc.
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.t
+oc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
 \tf@toc=\write3
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 166.
-
-[2]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 177.
+ [2]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 179.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -190,24 +231,16 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 185.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 185.
-
 <Item_1/NameRepEvi.png, id=13, 1053.9375pt x 237.88875pt>
 File: Item_1/NameRepEvi.png Graphic file (type png)
 
 <use Item_1/NameRepEvi.png>
-Package pdftex.def Info: Item_1/NameRepEvi.png used on input line 185.
+Package pdftex.def Info: Item_1/NameRepEvi.png used on input line 187.
 (pdftex.def)             Requested size: 460.35677pt x 130.49437pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 186.
 
 [3 <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1/N
 ameRepEvi.png (PNG copy)>]
@@ -217,15 +250,12 @@ Pre-Homework/src/StarSquare.txt)
 File: Item_1/StarSqEvi.png Graphic file (type png)
 
 <use Item_1/StarSqEvi.png>
-Package pdftex.def Info: Item_1/StarSqEvi.png used on input line 195.
+Package pdftex.def Info: Item_1/StarSqEvi.png used on input line 197.
 (pdftex.def)             Requested size: 460.36829pt x 130.49112pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
-
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 196.
 
 [4
 
@@ -236,70 +266,47 @@ Pre-Homework/src/RtoCaps.txt)
 <Item_1/RtcEvi.png, id=25, 716.6775pt x 219.82124pt>
 File: Item_1/RtcEvi.png Graphic file (type png)
  <use Item_1/RtcEvi.png>
-Package pdftex.def Info: Item_1/RtcEvi.png used on input line 205.
+Package pdftex.def Info: Item_1/RtcEvi.png used on input line 207.
 (pdftex.def)             Requested size: 460.36707pt x 130.4917pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 214.
 
 [5
 
  <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1/Rtc
-Evi.png (PNG copy)>]
+Evi.png (PNG copy)>] [6] [7
 
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 219.
-
-[6]
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 230.
-
-[7
-
-]
-
-Package lastpage Warning: Rerun to get the references right on input line 247.
-
-
+] 
 AED: lastpage setting LastPage
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 247.
-
 [8
 
 ]
 (C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.a
-ux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ux) ) 
 Here is how much of TeX's memory you used:
- 3110 strings out of 493921
- 44510 string characters out of 3147287
- 147002 words of memory out of 3000000
- 6376 multiletter control sequences out of 15000+200000
- 10408 words of font info for 36 fonts, out of 3000000 for 9000
+ 3730 strings out of 493921
+ 53611 string characters out of 3147287
+ 156836 words of memory out of 3000000
+ 6973 multiletter control sequences out of 15000+200000
+ 10709 words of font info for 37 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 31i,11n,43p,290b,1332s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on Portfolio.pdf (8 pages, 204453 bytes).
+ 27i,11n,43p,290b,1332s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on Portfolio.pdf (8 pages, 234710 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

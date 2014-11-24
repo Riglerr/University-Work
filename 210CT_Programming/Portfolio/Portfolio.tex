@@ -13,7 +13,9 @@
 \usepackage{graphicx} % Required to insert images
 \usepackage{listings} % Required for insertion of code
 \usepackage{courier} % Required for the courier font
+\usepackage{algorithm}
 
+\usepackage{algpseudocode} 
 
 % Margins
 \topmargin=-0.45in
@@ -204,7 +206,41 @@
 \end{center}
 }
 
+\homeworkSection{ 1. Pseudocode for linear search}
+
+\begin{algorithm}
+\begin{algorithmic}
+\caption{LinearSearch}
+\Procedure{BOOL LINEARSEARCH}{$item$, $list$[\hspace{1mm}]}
+\For {each element $i$ in $list$}
+\If{ $list[i] = list$}
+
+\indent \indent	\Return true
+\EndIf
+\EndFor
+
+\Return false
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
 \end{homeworkProblem}
+
+\homeworkSection{ 2. Pseudocode for finding duplicates in a list}
+\begin{algorithm}
+\caption{Examining for duplicates}
+\begin{algorithmic}
+\Procedure{BOOL EXFORDUPES}{$list$[\hspace{1mm}]}
+\For { each element $i$ in $list$[\hspace{1mm}]}
+\For { each element $j$ in $list$[\hspace{1mm}]}
+\If{ $list[i] = list[j]$}
+
+\indent \indent \indent \Return true
+\EndIf
+\EndFor
+\EndFor
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
 
 
 %----------------------------------------------------------------------------------------
