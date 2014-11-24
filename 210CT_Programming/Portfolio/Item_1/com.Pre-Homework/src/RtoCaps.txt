@@ -16,14 +16,17 @@ public class RtoCaps {
 
     public void rInput(File inFile) throws FileNotFoundException{
 
-
-        Scanner in = new Scanner(inFile); /*Create a new scanner to read from the file*/
-
-        while(in.hasNextLine()) /*Loop WHile there is still lines left in the document*/
+ 	/*Create a new scanner to read from the file*/
+        Scanner in = new Scanner(inFile);
+	
+	/*Loop WHile there is still lines left in the document*/
+        while(in.hasNextLine()) 
         {
-            String line = in.nextLine(); /* Place the next line in a strin varibale*/
+		/* Place the next line in a strin varibale*/
+            String line = in.nextLine(); 
         
-            System.out.println(line.toUpperCase()); /* Print the line in uppercase*/
+		 /* Print the line in uppercase*/
+            System.out.println(line.toUpperCase());
         }
 
     }
