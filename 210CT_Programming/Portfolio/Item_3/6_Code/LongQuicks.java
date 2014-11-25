@@ -1,14 +1,16 @@
-package com.Sorting;
+
 import java.util.*;
 /**
  * Created by rob on 04/11/14.
  */
-public class Kiks {
+public class LongQuicks {
 
+public static int _count = 0;
 
     public static void main(String[] args){
-
-        int count = 0;
+    
+    //public static int count =0;
+        
         Random random = new Random();
         int[] A = new int[512];
         for (int i = 0 ; i<512;i++){
@@ -18,7 +20,7 @@ public class Kiks {
        QuickSort(A,0, A.length-1,0);
 
         System.out.println(Arrays.toString(A));
-        System.out.println(count);
+        System.out.println(_count);
 
     }
 
@@ -41,16 +43,18 @@ public class Kiks {
         while (left <= right){
             while (A[left]< pivot){
                 left++;
+                
             }
             while (A[right] > pivot){
                 right--;
+                
             }
 
             if (left <= right){
                 int tmp = A[left];
                 A[left] = A[right];
                 A[right] = tmp;
-                count++;
+                _count++;
                 left++;
                 right--;
             }

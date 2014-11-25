@@ -3,11 +3,14 @@
  */
 public class StarSquare {
 
-    public char ast = '*';  //Create variable to hold asterisk character.
+	//Create variable to hold asterisk character.
+    public char ast = '*';  
     public static void main(String[] args){
 
         StarSquare sSquare = new StarSquare(); /*Create Object*/
-        sSquare.writeSquare(10); /*Use object to call writeSquare() method*/
+
+	/*Use object to call writeSquare() method*/
+        sSquare.writeSquare(10); 
 
     }
 
@@ -20,7 +23,9 @@ public class StarSquare {
                 System.out.print(ast); /*Print line of asterisks*/
  
             }
-            System.out.println(); /* Start new line when inner loop finishes*/
+
+		/* Start new line when inner loop finishes*/
+            System.out.println(); 
         }
     }
 }

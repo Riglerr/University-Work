@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.23)  24 NOV 2014 20:07
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  25 NOV 2014 16:40
+>>>>>>> 0505ec21fabcfd7785556e8a73fd27ba71025b46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +12,13 @@ LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 4 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+<<<<<<< HEAD
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+>>>>>>> 0505ec21fabcfd7785556e8a73fd27ba71025b46
 )
 \c@part=\count79
 \c@section=\count80
@@ -111,12 +120,54 @@ Package: listings 2013/08/26 1.5b (Carsten Heinz)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
+<<<<<<< HEAD
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count96
+\float@exts=\toks17
+\float@box=\box28
+\@float@everytoks=\toks18
+\@floatcapt=\box29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks19
+\c@algorithm=\count97
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count98
+\c@ALG@rem=\count99
+\c@ALG@nested=\count100
+\ALG@tlm=\skip52
+\ALG@thistlm=\skip53
+\c@ALG@Lnr=\count101
+\c@ALG@blocknr=\count102
+\c@ALG@storecount=\count103
+\c@ALG@tmpcounter=\count104
+\ALG@tmplength=\skip54
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+>>>>>>> 0505ec21fabcfd7785556e8a73fd27ba71025b46
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 )
+<<<<<<< HEAD
 \c@homeworkProblemCounter=\count96
  (./Portfolio.aux)
 \openout1 = `Portfolio.aux'.
@@ -133,23 +184,47 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
 LaTeX Font Info:    ... okay on input line 154.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
 LaTeX Font Info:    ... okay on input line 154.
+=======
+\c@homeworkProblemCounter=\count105
+
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.a
+ux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+>>>>>>> 0505ec21fabcfd7785556e8a73fd27ba71025b46
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+<<<<<<< HEAD
 (lastpage)             ! on input line 154.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+=======
+(lastpage)             ! on input line 156.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+>>>>>>> 0505ec21fabcfd7785556e8a73fd27ba71025b46
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count97
+\scratchcounter=\count106
 \scratchdimen=\dimen109
-\scratchbox=\box28
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count100
+\scratchbox=\box30
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count109
 \MPscratchDim=\dimen110
+<<<<<<< HEAD
 \MPnumerator=\count101
 \makeMPintoPDFobject=\count102
 \everyMPtoPDFconversion=\toks18
@@ -204,9 +279,17 @@ e
 \c@lstlisting=\count103
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 156.
+=======
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks21
+)
+\c@lstlisting=\count112
+>>>>>>> 0505ec21fabcfd7785556e8a73fd27ba71025b46
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 156.
+(Font)              <14.4> on input line 158.
 LaTeX Font Info:    External font `cmex10' loaded for size
+<<<<<<< HEAD
 (Font)              <6> on input line 156.
 
 [1
@@ -216,13 +299,35 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
+=======
+(Font)              <7> on input line 158.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.t
+oc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+>>>>>>> 0505ec21fabcfd7785556e8a73fd27ba71025b46
 )
 \tf@toc=\write3
 \openout3 = `Portfolio.toc'.
 
+<<<<<<< HEAD
+=======
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+>>>>>>> 0505ec21fabcfd7785556e8a73fd27ba71025b46
 
 [2]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 177.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 179.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -233,44 +338,67 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ))
+<<<<<<< HEAD
 <Item_1/NameRepEvi.png, id=14, 1053.9375pt x 237.88875pt>
+=======
+<Item_1/NameRepEvi.png, id=12, 1053.9375pt x 237.88875pt>
+>>>>>>> 0505ec21fabcfd7785556e8a73fd27ba71025b46
 File: Item_1/NameRepEvi.png Graphic file (type png)
 
 <use Item_1/NameRepEvi.png>
-Package pdftex.def Info: Item_1/NameRepEvi.png used on input line 185.
+Package pdftex.def Info: Item_1/NameRepEvi.png used on input line 187.
 (pdftex.def)             Requested size: 460.35677pt x 130.49437pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
+<<<<<<< HEAD
 [3 <./Item_1/NameRepEvi.png (PNG copy)>]
 (./Item_1/com.Pre-Homework/src/StarSquare.txt)
 <Item_1/StarSqEvi.png, id=22, 766.865pt x 223.83624pt>
+=======
+[3] [4 <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item
+_1/NameRepEvi.png (PNG copy)>]
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
+Pre-Homework/src/StarSquare.txt)
+<Item_1/StarSqEvi.png, id=23, 766.865pt x 223.83624pt>
+>>>>>>> 0505ec21fabcfd7785556e8a73fd27ba71025b46
 File: Item_1/StarSqEvi.png Graphic file (type png)
 
 <use Item_1/StarSqEvi.png>
-Package pdftex.def Info: Item_1/StarSqEvi.png used on input line 195.
+Package pdftex.def Info: Item_1/StarSqEvi.png used on input line 197.
 (pdftex.def)             Requested size: 460.36829pt x 130.49112pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
+<<<<<<< HEAD
 [4
 
  <./Item_1/StarSqEvi.png (PNG copy)>]
 (./Item_1/com.Pre-Homework/src/RtoCaps.txt)
 <Item_1/RtcEvi.png, id=26, 716.6775pt x 219.82124pt>
+=======
+[5
+
+] [6 <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1
+/StarSqEvi.png (PNG copy)>]
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
+Pre-Homework/src/RtoCaps.txt)
+<Item_1/RtcEvi.png, id=30, 716.6775pt x 219.82124pt>
+>>>>>>> 0505ec21fabcfd7785556e8a73fd27ba71025b46
 File: Item_1/RtcEvi.png Graphic file (type png)
  <use Item_1/RtcEvi.png>
-Package pdftex.def Info: Item_1/RtcEvi.png used on input line 205.
+Package pdftex.def Info: Item_1/RtcEvi.png used on input line 207.
 (pdftex.def)             Requested size: 460.36707pt x 130.4917pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
+<<<<<<< HEAD
 [5
 
  <./Item_1/RtcEvi.png (PNG copy)>] [6] [7
@@ -302,6 +430,53 @@ Output written on Portfolio.pdf (8 pages, 204659 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
+=======
+[7
+
+] [8 <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1
+/RtcEvi.png (PNG copy)>] [9
+
+]
+
+LaTeX Warning: Float too large for page by 5.57332pt on input line 322.
+
+[10
+
+] [11] [12
+
+] [13] [14
+
+] 
+AED: lastpage setting LastPage
+[15
+
+]
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.a
+ux) ) 
+Here is how much of TeX's memory you used:
+ 3754 strings out of 493921
+ 54011 string characters out of 3147287
+ 157869 words of memory out of 3000000
+ 6998 multiletter control sequences out of 15000+200000
+ 12240 words of font info for 42 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,11n,43p,290b,1332s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/urw/courier/ucrro8a.pfb>
+Output written on Portfolio.pdf (15 pages, 252387 bytes).
+PDF statistics:
+ 103 PDF objects out of 1000 (max. 8388607)
+>>>>>>> 0505ec21fabcfd7785556e8a73fd27ba71025b46
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
