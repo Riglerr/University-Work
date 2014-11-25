@@ -367,8 +367,24 @@ Write a function that determines the critical value at which the relative runtim
 
 \homeworkSection{1. Harmonic Series (Pseudocode)}
 \large{Use pseudocode to specify a recursive algorithm to compute the nth value of the harmonic series, for some integer n.}
+
+\begin{algorithm}
+\caption{Computing nth value of harmonic series}
+\begin{algorithmic}
+\Procedure{HARM}{float $t$, float $n$}
+\While{ $n>0$}
+\State $t \gets t + (1/n)$
+\State $n--$
+\State $HARM$($t,n$)
+\EndWhile\\
+\Return t
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+\clearpage
 \homeworkSection{2. Harmonic Series (JAVA Implementation)}
 \large{The Harmonic Series computation algorithm implemented in Java}
+\Cscript{Item_3/6_Code/harms}{Somethinbg}
 
 \end{homeworkProblem}
 \clearpage
