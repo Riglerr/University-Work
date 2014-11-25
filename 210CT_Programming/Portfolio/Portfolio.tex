@@ -209,16 +209,14 @@
 \homeworkSection{ 1. Pseudocode for linear search}
 
 \begin{algorithm}
-\begin{algorithmic}
+\begin{algorithmic}[1]
 \caption{LinearSearch}
 \Procedure{BOOL LINEARSEARCH}{$item$, $list$[\hspace{1mm}]}
 \For {each element $i$ in $list$}
-\If{ $list[i] = list$}
-
-\indent \indent	\Return true
+\If{ $list[i] = item$}\\
+\indent \indent \indent	\Return true
 \EndIf
-\EndFor
-
+\EndFor\\
 \Return false
 \EndProcedure
 \end{algorithmic}
@@ -228,13 +226,12 @@
 \homeworkSection{ 2. Pseudocode for finding duplicates in a list}
 \begin{algorithm}
 \caption{Examining for duplicates}
-\begin{algorithmic}
+\begin{algorithmic}[1]
 \Procedure{BOOL EXFORDUPES}{$list$[\hspace{1mm}]}
 \For { each element $i$ in $list$[\hspace{1mm}]}
 \For { each element $j$ in $list$[\hspace{1mm}]}
-\If{ $list[i] = list[j]$}
-
-\indent \indent \indent \Return true
+\If{ $list[i] = list[j]$}\\
+\indent \indent \indent \indent \Return true
 \EndIf
 \EndFor
 \EndFor
@@ -250,17 +247,15 @@
 \begin{homeworkProblem}[Item 2: Week 4 -  Time complexities and Big-O notation]
 \homeworkSection{1. Describe the runtime bounds of the linear search algorithm}
 \begin{algorithm}
-\begin{algorithmic}
+\begin{algorithmic}[1]
 \caption{LinearSearch}
 \Procedure{BOOL LINEARSEARCH}{$item$, $list$[\hspace{1mm}]}\\
  \indent \For {each element $i$ in $list$}\hspace{10mm}(n) 
- \indent \If{ $list[i] = list$} t \hspace{12.75mm}(n) 
-
- \indent \indent \indent \Return true \hspace{17.4mm} (n) 
+ \indent \If{ $list[i] = list$} t \hspace{13mm}(n) \\
+ \indent \indent \indent \Return true \hspace{27mm} (n) 
 \EndIf
-\EndFor
-
- \indent \Return false\hspace{32.5mm} (1) 
+\EndFor\\
+ \indent \Return false\hspace{44mm} (1) 
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}
@@ -271,51 +266,57 @@
 
 \begin{algorithm}
 \caption{Examining for duplicates}
-\begin{algorithmic}
+\begin{algorithmic}[1]
 \Procedure{BOOL EXFORDUPES}{$list$[\hspace{1mm}]}
 \For { each element $i$ in $list$[\hspace{1mm}]} \hspace{20mm}(n)
 \For { each element $j$ in $list$[\hspace{1mm}]}\hspace{15mm}(n*n)
-\If{ $list[i] = list[j]$}\hspace{23.5mm}(n*n)
-
-\indent \indent \indent \Return true \hspace{36.5mm}(n*n)
+\If{ $list[i] = list[j]$}\hspace{23.5mm}(n*n)\\
+\indent \indent \indent \Return true \hspace{45mm}(n*n)
 \EndIf
 \EndFor
-\EndFor
-
-\Return false \hspace{53mm}(1)
+\EndFor\\
+\Return false \hspace{60mm}(1)
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}
 \large{The time complexity of the algorithm is O(n\textsuperscript{2})}
+\clearpage
 
 \homeworkSection{Additional work: Critical values of relative runtimes}
 Write a function that determines the critical value at which the relative runtime of two linear algorithms swap.
 
 \begin{algorithm}
 \caption{Relative runtime comparison algorithm}
-\begin{algorithmic}
+\begin{algorithmic}[1]
 \Procedure{CRITVAL}{$m1, k1, m2, k2$}
 \State $switch \leftarrow false$
-\State $n \leftarrow 0$
-\If{$(((m1*n) + k1) > ((m2*n)+k2))$}
-\While{$!switch$}
-\If {$(((m1*n) + k1) < ((m2*n)+k2))$}
+\State $n \leftarrow 0$\\
+\State$//$ Which Expression has a greater value for n=0
+\If{$(((m1*n) + k1) > ((m2*n)+k2))$} \\
+\State $//$While Expression 1 ($m1,k1$) is greater than Expression 2($m2,k2$), do:
+\While{$!switch$} \\
+\State $//$ If Expression 1 become less than Expression 2 for that value of n
+\If {$(((m1*n) + k1) < ((m2*n)+k2))$}\\
+\State $//$switch becomes true, which exits the loop and both if statements
+\State $switch \leftarrow true$ 
+\Else
+\State $n++$
+\EndIf
+\EndWhile \\
+\Else\\
+\State $//$While Expression 2 ($m1,k1$) is greater than Expression 1($m2,k2$), do:
+\While{$!switch$}\\
+\State $//$ If Expression 2 become less than Expression 1 for that value of n
+\If{$(((m1*n) + k1) > ((m2*n)+k2))$}\\
+\State $//$switch becomes true, which exits the loop and both if statements
 \State $switch \leftarrow true$
 \Else
 \State $n++$
 \EndIf
-\EndWhile
-\Else
-\While{$!switch$}
-\If{$(((m1*n) + k1) > ((m2*n)+k2))$}
-\State $switch \leftarrow true$
-\Else
-\State $n++$
+\EndWhile\\
 \EndIf
-\EndWhile
-\EndIf
-
-\Return n
+\State $//$ Return the value of n at which either while loop was fulfilled.\\
+\Return n\\
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}
@@ -325,10 +326,49 @@ Write a function that determines the critical value at which the relative runtim
 %	PROBLEM 3
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}[Item 3: Week 6 - Harmonic Series or Pivot Selection]{}
+\homeworkSection{Pre-Homework 1.: 3-Bit binary number}
+\large{Write a function that takes 3 boolean parameters, $a, b$ and $c$ and returns an integer value they represent if they are the three bits of a three-bit number, with $a$ being the most significant and $c$ being the least.}
+\begin{algorithm}
+\caption{ 3-Bit Binary Number}
+\begin{algorithmic}[1]
+\Procedure{PRE1}{bool $a$, bool $b$, bool $c$}
+\State $ total \leftarrow 0$
+\If{$a$}
+\State $total \gets total + 1$
+\EndIf
+\If{$b$}
+\State $total \gets total + 2$
+\EndIf
+\If{$c$}
+\State $total \gets total + 4$
+\EndIf\\
+\Return $total$
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
 
+\homeworkSection{Pre-Homework 2.: Boolean sequence binary number}
+\large{Write a function that takes a sequence of   values of any given length and returns the integer value they represent.}
 
+\begin{algorithm}
+\caption{Return integer value from list a of boolean value}
+\begin{algorithmic}[1]
+\Procedure{PRE2}{bool $list$[\hspace{1mm}]}
+\State $total \gets 0$
+\State $len \gets $ LengthOf.$list[\hspace{1mm}]$
+\For{ $i \gets len$ \bfseries{to} $0$}
+\If{$list[i] = true$}
+\State $total \gets total + 2\textsuperscript{i}$
+\EndIf
+\EndFor
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
 
-
+\homeworkSection{1. Harmonic Series (Pseudocode)}
+\large{Use pseudocode to specify a recursive algorithm to compute the nth value of the harmonic series, for some integer n.}
+\homeworkSection{2. Harmonic Series (JAVA Implementation)}
+\large{The Harmonic Series computation algorithm implemented in Java}
 
 \end{homeworkProblem}
 \clearpage

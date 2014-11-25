@@ -7,11 +7,14 @@ import java.util.Scanner;
 
 public class RtoCaps {
 
-    public static void main(String[] args)throws FileNotFoundException {
+ public static void main(String[] args)throws FileNotFoundException 
+{
         File inFile = new File("input.txt");
                 /*Create a file object */
         RtoCaps obj = new RtoCaps(); /*Create class object*/
-        obj.rInput(inFile); /*Use Class object to call rInput() method*/
+
+	/*Use Class object to call rInput() method*/
+        obj.rInput(inFile); 
     }
 
     public void rInput(File inFile) throws FileNotFoundException{
