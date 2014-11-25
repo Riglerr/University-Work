@@ -1,0 +1,372 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  25 NOV 2014 17:21
+entering extended mode
+**Portfolio.tex
+
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Portfolio.t
+ex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\extramarks.sty"
+\@temptokenb=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count88
+\lst@gtempboxa=\box26
+\lst@token=\toks16
+\lst@length=\count89
+\lst@currlwidth=\dimen105
+\lst@column=\count90
+\lst@pos=\count91
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count92
+\lst@lineno=\count93
+\lst@maxwidth=\dimen108
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
+\lst@framebox=\box27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\courier.sty"
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count96
+\float@exts=\toks17
+\float@box=\box28
+\@float@everytoks=\toks18
+\@floatcapt=\box29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks19
+\c@algorithm=\count97
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count98
+\c@ALG@rem=\count99
+\c@ALG@nested=\count100
+\ALG@tlm=\skip52
+\ALG@thistlm=\skip53
+\c@ALG@Lnr=\count101
+\c@ALG@blocknr=\count102
+\c@ALG@storecount=\count103
+\c@ALG@tmpcounter=\count104
+\ALG@tmplength=\skip54
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+)
+\c@homeworkProblemCounter=\count105
+
+No file Portfolio.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 156.
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count106
+\scratchdimen=\dimen109
+\scratchbox=\box30
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count109
+\MPscratchDim=\dimen110
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks21
+)
+\c@lstlisting=\count112
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 158.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 158.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+No file Portfolio.toc.
+\tf@toc=\write3
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 168.
+
+[2]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 179.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
+Pre-Homework/src/NameRepeat.txt
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 187.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 187.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 187.
+
+<Item_1/NameRepEvi.png, id=12, 1053.9375pt x 237.88875pt>
+File: Item_1/NameRepEvi.png Graphic file (type png)
+
+<use Item_1/NameRepEvi.png>
+Package pdftex.def Info: Item_1/NameRepEvi.png used on input line 187.
+(pdftex.def)             Requested size: 460.35677pt x 130.49437pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 188.
+
+[3]
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 188.
+
+[4 <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1/N
+ameRepEvi.png (PNG copy)>]
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
+Pre-Homework/src/StarSquare.txt)
+<Item_1/StarSqEvi.png, id=23, 766.865pt x 223.83624pt>
+File: Item_1/StarSqEvi.png Graphic file (type png)
+
+<use Item_1/StarSqEvi.png>
+Package pdftex.def Info: Item_1/StarSqEvi.png used on input line 197.
+(pdftex.def)             Requested size: 460.36829pt x 130.49112pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 198.
+
+[5
+
+]
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 198.
+
+[6 <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1/S
+tarSqEvi.png (PNG copy)>]
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_1/com.
+Pre-Homework/src/RtoCaps.txt)
+<Item_1/RtcEvi.png, id=30, 716.6775pt x 219.82124pt>
+File: Item_1/RtcEvi.png Graphic file (type png)
+ <use Item_1/RtcEvi.png>
+Package pdftex.def Info: Item_1/RtcEvi.png used on input line 207.
+(pdftex.def)             Requested size: 460.36707pt x 130.4917pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 208.
+
+[7
+
+]
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 242.
+
+[8 <C:/Users/Rob/Documents/University-Work/210CT_Programming/Portfolio/Item_1/R
+tcEvi.png (PNG copy)>]
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 283.
+
+[9
+
+]
+
+LaTeX Warning: Float too large for page by 5.57332pt on input line 322.
+
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 324.
+
+[10
+
+]
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 324.
+
+[11]
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 370.
+
+[12
+
+]
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 384.
+
+[13]
+(C:\Users\Rob\Documents\University-Work\210CT_Programming\Portfolio\Item_3/6_Co
+de/harms.txt
+Overfull \hbox (6.38332pt too wide) in paragraph at lines 11--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[] 
+ []
+
+))
+Runaway argument?
+{ \par \includegraphics [width=1\columnwidth ]{•} \par \end {homewo\ETC.
+! File ended while scanning use of \problemAnswer.
+<inserted text> 
+                \par 
+<*> Portfolio.tex
+                 
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> Portfolio.tex
+                 
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 3759 strings out of 493921
+ 53782 string characters out of 3147287
+ 157869 words of memory out of 3000000
+ 7004 multiletter control sequences out of 15000+200000
+ 12240 words of font info for 42 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 28i,11n,43p,290b,1332s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
