@@ -45,13 +45,6 @@ cr_file* cr_open(char * filename, int buffersize){
   return a;
 }
 
-
-
-
-
-
-
-
 //------------------------------------------------------------------
 char cr_read_byte(cr_file* f){
 

@@ -14,6 +14,8 @@ typedef struct{
 } cr_file;
 
 
+
+
 //Open a file with a given size of buffer to cache with
 cr_file* cr_open(char* filename, int buffersize);
 
