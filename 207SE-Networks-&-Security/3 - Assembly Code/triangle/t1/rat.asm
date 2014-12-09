@@ -8,14 +8,32 @@ nl_len  equ $-nl ; length of new line varable
 
 
 section .bss
+num resb 2 ;reserve 2 bytes for the input variable
 
 section .text
 global _start
 _start:
 
-;mov eax,0
+;Ask user for size of triangle
+mov eax,4
 mov ebx,1
-mov ecx,10 ; 10 iterations for outer
+mov ecx,Promt
+mov edx,pLen
+int 80h
+
+;store the variable
+mov eax,3
+mov ebx,0
+mov ecx,num
+mov edx,2
+int 80h
+
+mov ecx, [num] ;derefference input and store in ecx
+sub ecx,'0' ;convert from ascii to decimal
+xor ch,ch ; clear upper half of ecx
+
+mov ebx,1
+
 
 
 lo: ;outer loop, amount of lines in triangle
