@@ -30,3 +30,10 @@ outerloop: number of lines in trangle
 innerloop2: print 'space' (width-lineNo)/2 times, also be (width-numOfAsterisks)/2
 
 print (w - lineNo /2) spaces
+
+
+push outerloop to stack = 7
+push innerloop to stack = ?
+ebx =2
+eax x ebx ; 2n
+eax -1 ; 2n-1

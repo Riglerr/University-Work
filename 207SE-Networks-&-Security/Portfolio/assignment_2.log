@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.23)  8 DEC 2014 15:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.23)  12 DEC 2014 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -228,77 +228,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-[3] [4
+[3]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 194.
 
-] [5
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+(./Assignment_2/t1/rat.txt [4
 
-] <Assignment_4/1Cat.png, id=23, 379.4175pt x 418.56375pt>
+])
+<Assignment_2/t1/Evi1.png, id=23, 681.54625pt x 192.72pt>
+File: Assignment_2/t1/Evi1.png Graphic file (type png)
+
+<use Assignment_2/t1/Evi1.png>
+Package pdftex.def Info: Assignment_2/t1/Evi1.png used on input line 202.
+(pdftex.def)             Requested size: 414.31927pt x 117.15614pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+[5 <./Assignment_2/t1/Evi1.png (PNG copy)>] (./Assignment_2/t2/iso.txt [6
+
+]
+[7]) <Assignment_2/t2/Evi1.png, id=34, 669.50125pt x 211.79124pt>
+File: Assignment_2/t2/Evi1.png Graphic file (type png)
+
+<use Assignment_2/t2/Evi1.png>
+Package pdftex.def Info: Assignment_2/t2/Evi1.png used on input line 215.
+(pdftex.def)             Requested size: 414.31927pt x 131.07007pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+[8 <./Assignment_2/t2/Evi1.png (PNG copy)>] [9
+
+]
+<Assignment_4/1Cat.png, id=41, 379.4175pt x 418.56375pt>
 File: Assignment_4/1Cat.png Graphic file (type png)
 
 <use Assignment_4/1Cat.png>
-Package pdftex.def Info: Assignment_4/1Cat.png used on input line 218.
+Package pdftex.def Info: Assignment_4/1Cat.png used on input line 243.
 (pdftex.def)             Requested size: 345.2684pt x 380.89998pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-<Assignment_4/2Table.png, id=25, 351.56343pt x 374.14781pt>
+<Assignment_4/2Table.png, id=43, 351.56343pt x 374.14781pt>
 File: Assignment_4/2Table.png Graphic file (type png)
 
 <use Assignment_4/2Table.png>
-Package pdftex.def Info: Assignment_4/2Table.png used on input line 225.
+Package pdftex.def Info: Assignment_4/2Table.png used on input line 250.
 (pdftex.def)             Requested size: 345.2684pt x 367.44447pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
-[6
+[10
 
  <./Assignment_4/1Cat.png>]
-<Assignment_4/3CPU.png, id=30, 334.24875pt x 161.10187pt>
+<Assignment_4/3CPU.png, id=48, 334.24875pt x 161.10187pt>
 File: Assignment_4/3CPU.png Graphic file (type png)
 
 <use Assignment_4/3CPU.png>
-Package pdftex.def Info: Assignment_4/3CPU.png used on input line 232.
+Package pdftex.def Info: Assignment_4/3CPU.png used on input line 257.
 (pdftex.def)             Requested size: 345.2684pt x 166.42595pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
-<Assignment_4/4Paramaters.png, id=31, 457.71pt x 103.88812pt>
+<Assignment_4/4Paramaters.png, id=49, 457.71pt x 103.88812pt>
 File: Assignment_4/4Paramaters.png Graphic file (type png)
 
 <use Assignment_4/4Paramaters.png>
-Package pdftex.def Info: Assignment_4/4Paramaters.png used on input line 239.
+Package pdftex.def Info: Assignment_4/4Paramaters.png used on input line 264.
 (pdftex.def)             Requested size: 345.2684pt x 78.36926pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
-[7 <./Assignment_4/2Table.png> <./Assignment_4/3CPU.png>]
-<Assignment_4/5Disk.png, id=38, 444.15938pt x 184.43906pt>
+[11 <./Assignment_4/2Table.png> <./Assignment_4/3CPU.png>]
+<Assignment_4/5Disk.png, id=55, 444.15938pt x 184.43906pt>
 File: Assignment_4/5Disk.png Graphic file (type png)
 
 <use Assignment_4/5Disk.png>
-Package pdftex.def Info: Assignment_4/5Disk.png used on input line 246.
+Package pdftex.def Info: Assignment_4/5Disk.png used on input line 271.
 (pdftex.def)             Requested size: 345.2684pt x 143.37218pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-[8 <./Assignment_4/4Paramaters.png> <./Assignment_4/5Disk.png>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 251.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-(./Assignment_4/BashScript.txt) [9
+[12 <./Assignment_4/4Paramaters.png> <./Assignment_4/5Disk.png>]
+(./Assignment_4/BashScript.txt) [13
 
 ] (./Assignment_5/item1.txt
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 3.
@@ -306,86 +333,86 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 3.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ))
-<Assignment_5/2Compiled.png, id=50, 545.78906pt x 99.37125pt>
+<Assignment_5/2Compiled.png, id=65, 545.78906pt x 99.37125pt>
 File: Assignment_5/2Compiled.png Graphic file (type png)
 
 <use Assignment_5/2Compiled.png>
-Package pdftex.def Info: Assignment_5/2Compiled.png used on input line 271.
+Package pdftex.def Info: Assignment_5/2Compiled.png used on input line 296.
 (pdftex.def)             Requested size: 345.2684pt x 62.86198pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-[10
+[14
 
-] [11 <./Assignment_5/2Compiled.png (PNG copy)>] (./Assignment_5/item3.txt
-[12
+] [15 <./Assignment_5/2Compiled.png (PNG copy)>] (./Assignment_5/item3.txt
+[16
 
-]) <Assignment_5/3Evidence.png, id=61, 561.59813pt x 94.10156pt>
+]) <Assignment_5/3Evidence.png, id=76, 561.59813pt x 94.10156pt>
 File: Assignment_5/3Evidence.png Graphic file (type png)
 
 <use Assignment_5/3Evidence.png>
-Package pdftex.def Info: Assignment_5/3Evidence.png used on input line 279.
+Package pdftex.def Info: Assignment_5/3Evidence.png used on input line 304.
 (pdftex.def)             Requested size: 345.2684pt x 57.85272pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 289.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 314.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 289.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 314.
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
-[13 <./Assignment_5/3Evidence.png (PNG copy)>] (./Assignment_5/item5.txt
+[17 <./Assignment_5/3Evidence.png (PNG copy)>] (./Assignment_5/item5.txt
 Overfull \hbox (14.24971pt too wide) in paragraph at lines 41--42
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][] 
  []
 
-[14
+[18
 
-]) <Assignment_5/5Comp1.png, id=70, 545.03625pt x 65.49469pt>
+]) <Assignment_5/5Comp1.png, id=84, 545.03625pt x 65.49469pt>
 File: Assignment_5/5Comp1.png Graphic file (type png)
 
 <use Assignment_5/5Comp1.png>
-Package pdftex.def Info: Assignment_5/5Comp1.png used on input line 299.
+Package pdftex.def Info: Assignment_5/5Comp1.png used on input line 324.
 (pdftex.def)             Requested size: 345.2684pt x 41.48871pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
-<Assignment_5/5Comp2.png, id=71, 614.295pt x 67.75313pt>
+<Assignment_5/5Comp2.png, id=85, 614.295pt x 67.75313pt>
 File: Assignment_5/5Comp2.png Graphic file (type png)
 
 <use Assignment_5/5Comp2.png>
-Package pdftex.def Info: Assignment_5/5Comp2.png used on input line 305.
+Package pdftex.def Info: Assignment_5/5Comp2.png used on input line 330.
 (pdftex.def)             Requested size: 345.2684pt x 38.08104pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
-[15 <./Assignment_5/5Comp1.png (PNG copy)> <./Assignment_5/5Comp2.png (PNG copy
+[19 <./Assignment_5/5Comp1.png (PNG copy)> <./Assignment_5/5Comp2.png (PNG copy
 )>]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 318.
- (./Assignment_6/cache_example.txt) [16
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 343.
+ (./Assignment_6/cache_example.txt) [20
 
 ] (./Assignment_6/cache_readerh.txt)
-[17
+[21
 
-] (./Assignment_6/cache_reader.txt [18
+] (./Assignment_6/cache_reader.txt [22
 
 ]
 Overfull \hbox (3.4496pt too wide) in paragraph at lines 60--61
@@ -394,19 +421,19 @@ Overfull \hbox (3.4496pt too wide) in paragraph at lines 60--61
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [19] 
+) [23] 
 AED: lastpage setting LastPage
-[20
+[24
 
 ] (./assignment_2.aux) ) 
 Here is how much of TeX's memory you used:
- 3689 strings out of 494985
- 53374 string characters out of 6180355
- 161359 words of memory out of 5000000
- 6821 multiletter control sequences out of 15000+600000
+ 3980 strings out of 494985
+ 56378 string characters out of 6180355
+ 162359 words of memory out of 5000000
+ 7103 multiletter control sequences out of 15000+600000
  10754 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,12n,43p,446b,1685s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,43p,446b,1764s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
 enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
@@ -418,10 +445,10 @@ ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/u
 crr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on assignment_2.pdf (20 pages, 458664 bytes).
+Output written on assignment_2.pdf (24 pages, 513576 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 143 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
