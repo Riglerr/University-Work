@@ -31,9 +31,9 @@ mov ecx,num
 mov edx,2
 int 80h
 
-mov ecx, [num] ;derefference input and store in ecx
+mov ecx, [num] ;de-reference input and store in ecx
 sub ecx,'0' ;convert from ascii to decimal
-xor ch,ch ; clear upper half of ecx
+xor ch,ch ; clear ecx
 
 mov ebx,1
 mov eax,ecx
