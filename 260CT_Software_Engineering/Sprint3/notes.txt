@@ -1,0 +1,25 @@
+architecture
+
+1. For real world, client-server ,saas (cloud based)
+2. for this project, recommend a stand-alone platform as there is no website &
+    simplicity
+
+Database
+Depends on language
+Java: oracle & ogreSql
+c#,c++: Access & MySQL
+
+UI
+
+Recommend Java or c#, both have very easy implementations of databases & SQL
+
+c# can utilize visual studio gui builder & data source integration
+
+Java has Swing which is harder than using a GUI tool like VS, but if we're using
+    an oracle based system then this is the way to go.
+
+C++ will make life very difficult in terms of database integration, unless using
+  an older version of VS, which might prove more problematic for modularity and
+  compatibility of split workload.
+
+python: don't even think about it.
