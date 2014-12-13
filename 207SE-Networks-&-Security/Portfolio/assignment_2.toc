@@ -4,6 +4,8 @@
 \contentsline {subsection}{1. Right-Angled triangle}{4}
 \contentsline {subsection}{2. Isosceles Triangle}{6}
 \contentsline {section}{Item 3 - Bootloader}{9}
+\contentsline {subsection}{1. Make a Bootloader that displays my name}{9}
+\contentsline {subsection}{2. Make a Bootloader that displays a triangle of dots}{9}
 \contentsline {section}{Item 4 - Inside Proc}{10}
 \contentsline {subsection}{1. List the CPU Information using the Cat Command}{10}
 \contentsline {subsection}{2. Show a table of the interrupts on the system}{11}
