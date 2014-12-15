@@ -57,7 +57,7 @@ char cr_read_byte(cr_file* f){
 
   char btoRet; // byte to hold the character to return.
   if (f->usedbuffer >= f->bufferlength){ // if the buffer is all used, refill()
-    printf(" \n "); // starts a new line very time the buffer needs to be refilled.
+    //printf(" \n "); // starts a new line very time the buffer needs to be refilled.
     refill(f);
     
   }

@@ -1,5 +1,10 @@
 #include "cache_reader.h"
 
+
+//http://www.phim.unibe.ch/comp_doc/c_manual/C/SYNTAX/struct.html
+//http://vergil.chemistry.gatech.edu/resources/programming/c-tutorial/structs.html
+
+
 int refill(cr_file* buff){
   //Refills a buffer
   //Only works when completely used buffer
@@ -19,8 +24,8 @@ int refill(cr_file* buff){
 }
 
 void cr_close(cr_file* f){
-  free(f->buffer);
-  fclose(f->file);
+  free(f->buffer); //clear buffer
+  fclose(f->file); //close the file
 }
 
 
@@ -37,13 +42,16 @@ cr_file* cr_open(char * filename, int buffersize){
   cr_file* a=(cr_file*)malloc(sizeof(cr_file));
   a->file=f;
   a->bufferlength=buffersize;
-  a->usedbuffer=buffersize; //Start off with no characters,
-			// so refill will work as expected
+//Start off with no characters, so refill will work as expected
+  a->usedbuffer=buffersize; 
   a->buffer=(char*)malloc(sizeof(char)*buffersize);
   a->byte_tot =0;
   refill(a);
   return a;
 }
+
+
+
 
 //------------------------------------------------------------------
 char cr_read_byte(cr_file* f){
@@ -54,11 +62,12 @@ char cr_read_byte(cr_file* f){
     refill(f);
     
   }
-    else{ // If buffer hasn't been fully used, return the chracter and increase
-	// the usedBuffer position by 1.
-   
-       btoRet = f->buffer[f->usedbuffer]; //Place next character in the 
-					//btoRet variable.
+
+    else{ 
+   // If buffer hasn't been fully used, return the character and increase the usedBuffer position by 1.
+
+//Place next character in the btoRet variable.
+       btoRet = f->buffer[f->usedbuffer]; 
         f->usedbuffer +=1; //Move the buffer position up by 1.
        return btoRet; //return the varibale.
       

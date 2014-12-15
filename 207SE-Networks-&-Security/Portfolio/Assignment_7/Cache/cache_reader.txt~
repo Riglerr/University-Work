@@ -65,6 +65,7 @@ int refill(cr_file* buff){
 // If buffer hasn't been fully used, return the chracater
 // and increase the usedBuffer position by 1.
         else{ 
+
 	//Place next character in the btoRet variable.
         btoRet = f->buffer[f->usedbuffer]; 
 
