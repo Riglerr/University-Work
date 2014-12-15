@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
   close(out_fd); 							//Close output file
   
   
-    printf("Number of characters read total: %d\n",rd_count -1 );	
+    printf("Number of characters read total: %d\n",rd_count );	
     //Prints how many Characters were read.
 printf("Number of times the buffer was filled: %d\n",buf_count);	
 	//Prints how many times the buffer was filled

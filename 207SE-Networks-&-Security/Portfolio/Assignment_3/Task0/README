@@ -1,0 +1,10 @@
+Pragma Linux floppy disk image
+Sat Apr  2 14:55:50 CEST 2005
+Volker Ruppert <info@vruppert.de>
+
+The disk image is from ftp.bochs.com:/guestOS/1.44_pragma386.
+All I did was package it into a TAR file with a .bochsrc.
+
+This boots fine in Bochs.
+Log in as root, password root.
+When done, type reboot.

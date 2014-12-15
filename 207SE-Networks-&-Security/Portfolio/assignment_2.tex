@@ -190,12 +190,21 @@
 
 \begin{homeworkProblem}[Item 2 - Assembly Code]
 \begin{homeworkSection}{1. Right-Angled triangle}
-Using x86 Assembly code, draw a Right-angled triangle
+The aim of this task was to produce a right-angled triangle of height specified by the user.\\
+The process outline for this task is quite simple:
+\begin{enumerate}
+\item Get the user input and assign that value to the ecx register
+\item Start the outer loop, then push the outerLoop value to the stack and move the innerLoop value into ecx.
+\item Start the InnerLoop and print the '*' character the number of times specified in ecx.
+\item After the InnerLoop is finished, start a new line and pop the OuterLoop value off of the stack.
+\item Increment the InnerLoop value by 1 (So that one more triangle is draw next iteration) and repeat the Outerloop with the value in the ecx register (which is automatically decremented by one each time the Outerloop is called).
+\end{enumerate}
+ 
 \Cscript{Assignment_2/t1/rat}{Right angled triangle}
 \problemAnswer{
 
 \begin{center}
-Evidence of Right angled triangle
+\large{Evidence of Right angled triangle}\vspace{5mm}
 \includegraphics[width=0.9\columnwidth]{Assignment_2/t1/Evi1.png} 
 \end{center}
 
@@ -203,12 +212,23 @@ Evidence of Right angled triangle
 \clearpage
 \end{homeworkSection}
 \begin{homeworkSection}{2. Isosceles Triangle}
-Using x86 Assembly code, draw an Isosceles triangle
-\Cscript{Assignment_2/t2/iso}{Isosceles Triangle}
+The process to draw this triangle is similar to the previous task, but an additional loop is needed to print the required number of spaces before drawing the asterisks.
+\begin{enumerate}
+\item Get the user input for the height of the triangle and place it in the ecx register.
+\item Work out the width of the triangle using the formula $2h-1$ where \emph{h} is the height specified by the user, and place this value in a variable called height.
+\item Start the outerLoop and push its value to the stack.
+\item Calculate the number of spaces that need to be drawn using the formula $(width-noOfAsterisks)/2$. The noOfAsterisks is the current value of the innerLoop (which is always an odd number). And place that value in ecx to be used as the control value for the third loop.
+\item When dividing the value of $(width-noOfAsterisks)$ by 2, if the value is zero(on the last line), then do not print any spaces.
+\item Draw spaces ecx times.
+\item Pop innerLoop value of off stack and start innerLoop.
+\item Start a new line, add 2 to the value of the innerLoop (The number of stars in each line increases by two each time.
+\item Pop the value of the outerLoop off of the stack and start the next iteration.
+\end{enumerate}
+\Cscript{Assignment_2/t2/iso}{Isosceles Triangle Code}
 \problemAnswer{
 
 \begin{center}
-Evidence of triangle
+\large{Evidence of triangle}\vspace{5mm}
 \includegraphics[width=0.9\columnwidth]{Assignment_2/t2/Evi1.png} 
 \end{center}
 
@@ -223,6 +243,17 @@ Evidence of triangle
 %	PROBLEM 3
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}[Item 3 - Bootloader]{}
+This tasks was to create a bootloader using Assembly and boot into this bootloader using bochs.
+The process involved:
+\begin{enumerate}
+\item Writing and compiling the code.
+\item Writing the code to the first 512 bytes of a bootable image.
+\item use bochs to run the bootloader.
+\end{enumerate} 
+\begin{homeworkSection}{1. Boot pragma-linux using bochs}
+I created a Bash script to compile, create and simulate the bootloader.
+\Cscript{Assignment_3/Task0/script}{Bash Script }
+\end{homeworkSection}
 \begin{homeworkSection}{1. Make a Bootloader that displays my name}
 \Cscript{Assignment_3/Task1/pragmalinux-img/name}{Bootloader Assembly code}
 \problemAnswer{
@@ -253,7 +284,9 @@ Evidence of triangle
 
 \homeworkSection{1. List the CPU Information using the Cat Command}
 \problemAnswer{
+
 \begin{center}
+\large{Command used \emph{: cat /proc/cpuinfo}}\vspace{3mm}
 \includegraphics[width=0.75\columnwidth]{Assignment_4/1Cat.png} 
 \end{center}
 }
@@ -261,6 +294,7 @@ Evidence of triangle
 \homeworkSection{2.  Show a table of the interrupts on the system}
 \problemAnswer{
 \begin{center}
+\large{Command used \emph{: cat /proc/interrupts}}\vspace{3mm}
 \includegraphics[width=0.75\columnwidth]{Assignment_4/2Table.png}
 \end{center}
 }
@@ -268,6 +302,7 @@ Evidence of triangle
 \homeworkSection{3.  Show number of CPUs, the producer of the CPUs and the CPU Model.}
 \problemAnswer{
 \begin{center}
+\large{Command used \emph{: grep model /proc/cpuinfo}}\vspace{3mm}
 \includegraphics[width=0.75\columnwidth]{Assignment_4/3CPU.png}
 \end{center}
 }
@@ -275,13 +310,16 @@ Evidence of triangle
 \homeworkSection{4.  How the parameters that are passed to the kernel when starting up linux.}
 \problemAnswer{
 \begin{center}
+\large{Command used \emph{: cap /proc/cmdline}}\vspace{3mm}
 \includegraphics[width=0.75\columnwidth]{Assignment_4/4Paramaters.png}
 \end{center}
 }
 
 \homeworkSection{5.  Show the name of the output devices and the number of megabytes read per second during the second sampled interval.}
 \problemAnswer{
+
 \begin{center}
+\large{Command used : $awk\hspace{3mm} '\{ print\hspace{1mm} \$ 3, \$ 4 \}'\hspace{3mm} / proc/diskstats\hspace{3mm} |\hspace{3mm} grep\hspace{3mm} sda $ }\vspace{3mm}
 \includegraphics[width=0.75\columnwidth]{Assignment_4/5Disk.png}
 \end{center}
 }
@@ -297,6 +335,7 @@ Evidence of triangle
 %	PROBLEM 5
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}[Item 5 - Buffer tutorial]{}
+This task involved using buffers, specifically using buffers in term of reading an writing data from a file.
 \homeworkSection{1. Commented version of the provided code}
 \Cscript{Assignment_5/item1}{Commented Buffer Code}
 \homeworkSection{2. Evidence of compiled code}
@@ -304,11 +343,12 @@ Evidence of triangle
 \problemAnswer{ 
 \begin{center}
 \includegraphics[width=0.75\columnwidth]{Assignment_5/2Compiled.png}\\
- Argo.txt contains the exact same text that was in review.txt
+ 
 \end{center}
+\large{Argo.txt contains the exact same text that was in review.txt}
 }
 \clearpage
-\homeworkSection{3. Code adaptation to show how many cahracters were read in total and how many times the buffer was filled}
+\homeworkSection{3. Code adaptation to show how many characters were read in total and how many times the buffer was filled}
 \Cscript{Assignment_5/item3}{Adpated Code}
 
 Firstly I created two variables to hold the Buffer count (\emph{buf\textunderscore count}) and the character count(\emph{rd\textunderscore count})\\ (\emph{line 14}).\\Then to accumulate the total numbers of characters read  I added the value of rd\textunderscore size to the rd\textunderscore count variable (\emph{line 32})
@@ -317,7 +357,7 @@ Firstly I created two variables to hold the Buffer count (\emph{buf\textundersco
 \homeworkSection{3a Evidence}
 \problemAnswer{
 \begin{center}
-\includegraphics[width=0.75\columnwidth]{Assignment_5/3Evidence.png}
+\includegraphics[width=0.9\columnwidth , height=100px]{Assignment_5/3Evidence.png}
 \end{center}}
 \homeworkSection{4. Altering the buffer size}
 \problemAnswer{
@@ -336,13 +376,13 @@ There is a direct linear correlation between the buffer size and the amount of t
 \homeworkSection{5a. Evidence of comparison between review.txt and argo.txt}
 \problemAnswer{
 \begin{center}
-\includegraphics[width=0.75\columnwidth]{Assignment_5/5Comp1.png}
+\includegraphics[width=0.9\columnwidth , height=70px]{Assignment_5/5Comp1.png}
 \end{center}
 }
 \homeworkSection{5b. Evidence of comaprison between argo.txt and reviewobserver.txt}
 \problemAnswer{
 \begin{center}
-\includegraphics[width=0.75\columnwidth]{Assignment_5/5Comp2.png}
+\includegraphics[width=0.9\columnwidth, height=70px]{Assignment_5/5Comp2.png}
 \end{center}
 }
 
@@ -427,7 +467,13 @@ The amount of times the buffer was refilled, was calculated by dividing the numb
 
 
 \end{homeworkProblem}
-
-
+\begin{homeworkProblem}[Item 8 - Kernel part II]{}
+This task involves changing the code in cache\textunderscore reader.h and cache\textunderscore reader.c to use the kernel system calls open(), read(), and close() instead of the c alternatives fopen(), fread(), and fclose().
+\begin{homeworkSection}{Changing the code}
+The changes I made are:
+\begin{enumerate}
+\item
+\end{enumerate}
+\end{homeworkProblem}
 
 \end{document}

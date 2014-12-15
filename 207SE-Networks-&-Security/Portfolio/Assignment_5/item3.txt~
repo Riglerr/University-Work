@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 
 	rd_size = read(in_fd, buf, BUF_SIZE);//Continuously read from input file
     									//into buffer.
-    rd_count+= rd_size;
+    rd_count+= rd_size;  //Adds rd_size to the total read count
    	 if(rd_size > 0)
    	 buf_count +=1;//Counts the number of times the buffer 
      			//is filled (only if rd_size is > 0
