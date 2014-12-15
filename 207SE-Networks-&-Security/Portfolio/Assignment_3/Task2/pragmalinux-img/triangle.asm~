@@ -1,0 +1,60 @@
+[BITS 16]
+[ORG 0X7C00]
+top:
+
+
+ret
+  Star db '*'
+  Space db ' '
+  Width db 10
+  Line db ' ',13,10,0
+	
+	mov bx,1
+	mov cx,[Width]
+  
+lo: 
+
+	push cx
+	mov cx,[Width]
+	sub cx,bx
+	shr cx,1
+	jcxz l2
+	
+	
+
+	l3:
+		mov ah,0x0E
+		mov bh,0x00
+		mov bl,0x07
+		mov al,Space
+		int 0x10
+	loop l3
+
+l2:
+
+mov cx,bx
+
+l1:
+		mov ah,0x0E
+		mov bh,0x00
+		mov bl,0x07
+		mov al,Star
+		int 0x10
+	loop l1
+
+	mov ah,0x0E
+	mov bh,0x00
+	mov bl,0x07
+	mov al,Line
+	int 0x10
+
+	add bx,2
+	pop cx
+
+loop l2
+
+    jmp $
+
+
+times 510-($-$$) db 0
+dw 0xAA55

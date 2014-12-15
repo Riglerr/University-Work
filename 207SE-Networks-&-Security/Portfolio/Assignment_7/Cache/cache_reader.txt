@@ -1,5 +1,5 @@
 #include "cache_reader.h"
-#include <stdlib.h>
+
 
 //http://www.phim.unibe.ch/comp_doc/c_manual/C/SYNTAX/struct.html
 //http://vergil.chemistry.gatech.edu/resources/programming/c-tutorial/structs.html
@@ -12,7 +12,7 @@ int refill(cr_file* buff){
     return 0;
   else{
     buff->usedbuffer=0;
-    int len=read(0,buff->buffer, buff->bufferlength);
+    int len=fread(buff->buffer, sizeof(char), buff->bufferlength, buff->file);
     //If we didn't fill the buffer, fill up with EOF
     if(len<buff->bufferlength)
       for(int i=len;i<buff->bufferlength;i++)
@@ -25,7 +25,7 @@ int refill(cr_file* buff){
 
 void cr_close(cr_file* f){
   free(f->buffer);
-  close(f->file);
+  fclose(f->file);
 }
 
 
@@ -34,7 +34,7 @@ cr_file* cr_open(char * filename, int buffersize){
   //Info on malloc
   //http://www.space.unibe.ch/comp_doc/c_manual/C/FUNCTIONS/malloc.html
   FILE* f;
-  if ((f = open(filename, O_RDONLY)) == NULL){
+  if ((f = fopen(filename, "r")) == NULL){
     fprintf(stderr, "Cannot open %s\n", filename);
     return 0;
   }
