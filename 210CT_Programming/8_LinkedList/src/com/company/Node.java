@@ -9,12 +9,11 @@ public class Node {
     Node prev;
     Node next;
 
-    public Node(int val, Node prv, Node nxt){
+    public Node(int val){
 
             //Node Constructor
         value = val;
-        prev =prv;
-        next = nxt;
+
     }
 
 
