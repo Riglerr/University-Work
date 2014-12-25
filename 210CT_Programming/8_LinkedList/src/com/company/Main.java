@@ -10,18 +10,51 @@ public class Main {
         obj1.Insert(obj1.head, new Node(32));
         obj1.Insert(obj1.head.next, new Node(102));
 
-        //Test for inserting after tail node
+        //-------------------------------------------------------------
+        //----------------------Test Inserting Tail--------------------
+        //-------------------------------------------------------------
         obj1.display();
         System.out.println();
 
-        // Test for inserting node between two existing nodes
+        // -----------------------------------------------------
+        //-------------------------Test Insert Between-----------------
+        //-------------------------------------------------------
+        //Insert 12 between the head node and the head.next
         obj1.Insert(obj1.head, new Node(12));
         obj1.display();
         System.out.println();
 
-        //Test for prepending the list
+        //----------------------------------------------------------------
+        //--------------------------Test Prepend--------------------------
+        //---------------------------------------------------------------
+        //Insert 13 at start of pre-existing list
            obj1.Insert(null,new Node(13));
-        obj1.display();
+           obj1.display();
           System.out.println();
-        //NADAWORKADA
+
+        //-------------------------------------------------------------
+        //----------------------Test Delete Head----------------------------
+        //-------------------------------------------------------------
+        //Delete 42 from list an display
+        obj1.Delete(new Node(13));
+        obj1.display();
+        System.out.println();
+
+        //-------------------------------------------------------------
+        //----------------------Test Delete Norm----------------------------
+        //-------------------------------------------------------------
+        //Delete 42 from list an display
+        obj1.Delete(new Node(32));
+        obj1.display();
+        System.out.println();
+
+        //-------------------------------------------------------------
+        //----------------------Test Delete Tail----------------------------
+        //-------------------------------------------------------------
+        //Delete 42 from list an display
+        obj1.Delete(new Node(102));
+        obj1.display();
+        System.out.println();
+
+
     }}

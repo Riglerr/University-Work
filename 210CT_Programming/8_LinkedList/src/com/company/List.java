@@ -1,5 +1,6 @@
 package com.company;
 
+
 /**
  * Created by rob on 20/12/14.
  */
@@ -12,25 +13,15 @@ public class List {
     //-----------List Constructor to nit values to null-------------
     //---------------------------------------------------------------
     public List(){
-
         head = null;
         tail = null;
-
-
-    }
-    //---------------------------------------------------------------
-    //--------------Add an Element at the end of a list--------------
-    //---------------------------------------------------------------
-    public void Add(Node n){
-
     }
 
     //---------------------------------------------------------------
-    //--------------Insert an Element at a specific location--------------
+    //------------Insert an Element at an offset from head node------
     //---------------------------------------------------------------
 
     public void Insert(Node n, Node x){
-
         //If previous node exists
         if(n != null){
             //sWAP NODE POINTERS
@@ -42,28 +33,49 @@ public class List {
             if(x.next != null)
                 x.next.prev =x;
         }
-
+        //Prepend to existing list
+        if (head != null & n == null) {
+            n = head;
+            n.prev = x;
+            x.next = n;
+            x.prev = null;
+            head = x;
+        }
         // If new list (First item to be placed)
-        if(n == null & head == null)
+       else  if(n == null & head == null)
         {
             head = tail =x;  //make new node equal to both head and tail
             x.prev =x.next = null; // make head pointers null
-        }
+        } //If all else exp
         else if(tail == n)
             tail =x;
-
-        //Prepend to existing list
-       if (head != null & n == null) {
-          n = head;
-           n.prev = x;
-           x.next = n;
-           x.prev = null;
-           head = x;
-
-
-        }
     }
 
+    public void Delete(Node n){
+        //create temporary node
+        Node i = head;
+
+        while (i != null){ // Loop until null (tail.next)
+
+            if (i.value == n.value){
+
+                if(i == head){ //If node to remove is head node
+                    head = i.next;
+                    i.prev = null;
+                    break;
+                }
+                else if (i == tail){ //if node to remove is tail node
+                    tail = i.prev;
+                    i.prev.next = null;
+                }
+                else { // If node to remove is not Head/Tail
+                i.prev.next = i.next;
+                i.next.prev = i.prev;
+                break;}
+            }
+            i=i.next; // Increment
+        }
+    }
     public void display(){
         Node i = head;
 

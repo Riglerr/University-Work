@@ -9,22 +9,16 @@ List class
 Constructor()
   Initialize both node values to Null
 
-Insert(Node n, Node x ){
-  Insert a new element into the List
-  'n' is the previous node
-  'x' is the node to be inserted.
-
-  If previous node 'n' is !null
-    then x.next = n.next
-    n.Next = x
-    x.Prev = n
-      if x becomes the End node:
-
-
-
-}
-
 Node Class
 -Value:int
 -Next:Node //Inc Constructor
 -Prev:Node
+
+
+DELETING
+
+delete by index (nuber of jumps)
+delete by value (i.val)
+increment : i = i.next;
+
+i   HEAD    node     n1      n2
