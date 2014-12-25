@@ -35,7 +35,7 @@ public class Main {
         //-------------------------------------------------------------
         //----------------------Test Delete Head----------------------------
         //-------------------------------------------------------------
-        //Delete 42 from list an display
+        //Delete the head node '13' from the list
         obj1.Delete(new Node(13));
         obj1.display();
         System.out.println();
@@ -43,7 +43,7 @@ public class Main {
         //-------------------------------------------------------------
         //----------------------Test Delete Norm----------------------------
         //-------------------------------------------------------------
-        //Delete 42 from list an display
+        //Delete a middle node (32) from list an display
         obj1.Delete(new Node(32));
         obj1.display();
         System.out.println();
@@ -51,7 +51,7 @@ public class Main {
         //-------------------------------------------------------------
         //----------------------Test Delete Tail----------------------------
         //-------------------------------------------------------------
-        //Delete 42 from list an display
+        //Delete the tail node '42' from list an display
         obj1.Delete(new Node(102));
         obj1.display();
         System.out.println();

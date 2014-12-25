@@ -14,6 +14,15 @@ Node Class
 -Next:Node //Inc Constructor
 -Prev:Node
 
+Pre-pending pseudocode
+
+If Node n is null, but the list is already populated.
+Then make n = head;
+n.prev to x
+x.next to n
+x.prev = null;
+head = x
+
 
 DELETING
 

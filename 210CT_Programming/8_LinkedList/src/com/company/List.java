@@ -5,7 +5,7 @@ package com.company;
  * Created by rob on 20/12/14.
  */
 public class List {
-
+      //Nodes to hold the head and tail of the list respectively
     Node head;
     Node tail;
 
@@ -51,6 +51,9 @@ public class List {
             tail =x;
     }
 
+    //---------------------------------------------------------------
+    //---------------------DELETE A NODE FROM THE LIST---------------
+    //---------------------------------------------------------------
     public void Delete(Node n){
         //create temporary node
         Node i = head;
@@ -76,6 +79,10 @@ public class List {
             i=i.next; // Increment
         }
     }
+
+    //---------------------------------------------------------------
+    //--------------------DISPLAY ALL NODES IN LIST------------------
+    //---------------------------------------------------------------
     public void display(){
         Node i = head;
 
