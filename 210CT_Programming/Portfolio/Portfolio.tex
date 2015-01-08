@@ -174,46 +174,19 @@
 
 \begin{homeworkProblem}[Item 1: Week 3 - Linear Search and Duplicate Finder]{}
 
-
-\homeworkSection{Pre-Homework 1: Write a Program that displays your name 10 times}
-\Cscript{Item_1/com.Pre-Homework/src/NameRepeat}{ NameReapeat class JAVA code}
-\problemAnswer{
-
-
-\begin{center}\textbf{\underline{Evidence}}\\
-\hspace{10mm}
-\includegraphics[width=1.0\columnwidth, height=130px]{Item_1/NameRepEvi.png}
-\end{center}
-}
-\clearpage
-\homeworkSection{Pre-Homework 2: Write a function that draws a square of stars given as a parameter}
-\Cscript{Item_1/com.Pre-Homework/src/StarSquare}{ StarSquare class JAVA code}
-\problemAnswer{
-\begin{center}\textbf{\underline{Evidence}}
-
-\hspace{10mm}
-\includegraphics[width=1.0\columnwidth, height=130px]{Item_1/StarSqEvi.png}
-\end{center}
-}
-\clearpage
-\homeworkSection{Pre-Homework 3: Write a program to open a file and display it's contents in capitals}
-\Cscript{Item_1/com.Pre-Homework/src/RtoCaps}{ RtoCaps class JAVA code}
-\problemAnswer{
-\begin{center}\textbf{\underline{Evidence}}
-
-\hspace{10mm}
-\includegraphics[width=1.0\columnwidth, height=130px]{Item_1/RtcEvi.png}
-\end{center}
-}
-
 \homeworkSection{ 1. Pseudocode for linear search}
+
+This Simple Algorithm demonstrates how to perform a linear search. \\
+\textbf{Input:} This algorithm takes a populated array $A$ and a value to search for $v$, as parameters. \\
+\textbf{Output:} The Algorithm is a boolean type and returns either True or False respective of whether the $v$ was found in the list or not.
+
 
 \begin{algorithm}
 \begin{algorithmic}[1]
 \caption{LinearSearch}
-\Procedure{BOOL LINEARSEARCH}{$item$, $list$[\hspace{1mm}]}
-\For {each element $i$ in $list$}
-\If{ $list[i] = item$}\\
+\Procedure{BOOL LINEARSEARCH}{$v$, $A$[\hspace{1mm}]}
+\For {each element $i$ in $A$}
+\If{ $A[i] = v$}\\
 \indent \indent \indent	\Return true
 \EndIf
 \EndFor\\
@@ -221,16 +194,21 @@
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}
-\end{homeworkProblem}
+
+
 
 \homeworkSection{ 2. Pseudocode for finding duplicates in a list}
+
+This algorithm demonstrates how to examine if a list has duplicate entries using a linear search.\\
+\textbf{Input:} This algorithm takes a populated array $A$ as a parameter.\\
+\textbf{Output:} This Algorithm is a boolean type and returns true or false respective of whether a duplicate value is found or not.
 \begin{algorithm}
 \caption{Examining for duplicates}
 \begin{algorithmic}[1]
-\Procedure{BOOL EXFORDUPES}{$list$[\hspace{1mm}]}
-\For { each element $i$ in $list$[\hspace{1mm}]}
-\For { each element $j$ in $list$[\hspace{1mm}]}
-\If{ $list[i] = list[j]$}\\
+\Procedure{BOOL EXFORDUPES}{$A$[\hspace{1mm}]}
+\For { each element $i$ in $A$[\hspace{1mm}]}
+\For { each element $j$ in $A$[\hspace{1mm}]}
+\If{ $A[i] = A[j]$}\\
 \indent \indent \indent \indent \Return true
 \EndIf
 \EndFor
@@ -238,7 +216,7 @@
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}
-
+\end{homeworkProblem}
 \clearpage
 %----------------------------------------------------------------------------------------
 %	PROBLEM 2
@@ -260,7 +238,8 @@
 \end{algorithmic}
 \end{algorithm}
 
-\large {The time complexity of the algorithm is O(n)}
+Collecting the line-by-line runtime data from the algorithms gives: $n+n+n+1$ which is equivalent to: $3n + 1$.\\
+Therefore the time complexity of the algorithm is O(n).
 
 \homeworkSection{2. Describe the runtime bounds of the duplicate finder algorithm}
 
@@ -279,98 +258,49 @@
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}
-\large{The time complexity of the algorithm is O(n\textsuperscript{2})}
+Collecting the line-by-line runtime data from the algorithms gives: $n+(n*n)+(n*n)+(n*n) + 1$ which is equivalent to: $3n\textsuperscript{2} + n + 1$.\\
+Therefore the time complexity of the algorithm is O(n\textsuperscript{2})
+
 \clearpage
 
 \homeworkSection{Additional work: Critical values of relative runtimes}
-Write a function that determines the critical value at which the relative runtime of two linear algorithms swap.
+Write a function that determines the critical value at which the relative runtime of two linear algorithms swap.\\ 
+For this algorithm, I am assuming that $k1$ \textgreater $k2$ ( Expression 1 \textgreater Expression 2, when $ n=0$).\\
+The Algorithm is very simple; While the value of Expression 1 is greater than Expression 2, increase the value of $n$. \\When the Runtime of the algorithms swap, the while-loop exit condition is fulfilled and the current value of n is returned.
 
 \begin{algorithm}
 \caption{Relative runtime comparison algorithm}
 \begin{algorithmic}[1]
 \Procedure{CRITVAL}{$m1, k1, m2, k2$}
-\State $switch \leftarrow false$
-\State $n \leftarrow 0$\\
-\State$//$ Which Expression has a greater value for n=0
-\If{$(((m1*n) + k1) > ((m2*n)+k2))$} \\
-\State $//$While Expression 1 ($m1,k1$) is greater than Expression 2($m2,k2$), do:
-\While{$!switch$} \\
-\State $//$ If Expression 1 become less than Expression 2 for that value of n
-\If {$(((m1*n) + k1) < ((m2*n)+k2))$}\\
-\State $//$switch becomes true, which exits the loop and both if statements
-\State $switch \leftarrow true$ 
-\Else
+ 
+\While{$(m1 * n + k1)\textgreater (m2*n+k2)$} 
 \State $n++$
-\EndIf
 \EndWhile \\
-\Else\\
-\State $//$While Expression 2 ($m1,k1$) is greater than Expression 1($m2,k2$), do:
-\While{$!switch$}\\
-\State $//$ If Expression 2 become less than Expression 1 for that value of n
-\If{$(((m1*n) + k1) > ((m2*n)+k2))$}\\
-\State $//$switch becomes true, which exits the loop and both if statements
-\State $switch \leftarrow true$
-\Else
-\State $n++$
-\EndIf
-\EndWhile\\
-\EndIf
-\State $//$ Return the value of n at which either while loop was fulfilled.\\
 \Return n\\
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}
 \end{homeworkProblem}
 \clearpage
+
 %----------------------------------------------------------------------------------------
+
 %	PROBLEM 3
 %----------------------------------------------------------------------------------------
-\begin{homeworkProblem}[Item 3: Week 6 - Harmonic Series or Pivot Selection]{}
-\homeworkSection{Pre-Homework 1.: 3-Bit binary number}
-\large{Write a function that takes 3 boolean parameters, $a, b$ and $c$ and returns an integer value they represent if they are the three bits of a three-bit number, with $a$ being the most significant and $c$ being the least.}
-\begin{algorithm}
-\caption{ 3-Bit Binary Number}
-\begin{algorithmic}[1]
-\Procedure{PRE1}{bool $a$, bool $b$, bool $c$}
-\State $ total \leftarrow 0$
-\If{$a$}
-\State $total \gets total + 1$
-\EndIf
-\If{$b$}
-\State $total \gets total + 2$
-\EndIf
-\If{$c$}
-\State $total \gets total + 4$
-\EndIf\\
-\Return $total$
-\EndProcedure
-\end{algorithmic}
-\end{algorithm}
-
-\homeworkSection{Pre-Homework 2.: Boolean sequence binary number}
-\large{Write a function that takes a sequence of   values of any given length and returns the integer value they represent.}
-
-\begin{algorithm}
-\caption{Return integer value from list a of boolean value}
-\begin{algorithmic}[1]
-\Procedure{PRE2}{bool $list$[\hspace{1mm}]}
-\State $total \gets 0$
-\State $len \gets $ LengthOf.$list[\hspace{1mm}]$
-\For{ $i \gets len$ \bfseries{to} $0$}
-\If{$list[i] = true$}
-\State $total \gets total + 2\textsuperscript{i}$
-\EndIf
-\EndFor
-\EndProcedure
-\end{algorithmic}
-\end{algorithm}
+\begin{homeworkProblem}[Item 3: Week 6 - Harmonic Series]{}
 
 \homeworkSection{1. Harmonic Series (Pseudocode)}
-\large{Use pseudocode to specify a recursive algorithm to compute the nth value of the harmonic series, for some integer n.}
+Use pseudocode to specify a recursive algorithm to compute the nth value of the harmonic series, for some integer n.\\
 
+The Harmonic series is as follows: $ 1+1/2+1/3+1/4+1/5+..1/n$\\
+\textbf{Input:} This algorithm takes two parameters $t$ and $n$ which are the total sum of the algorithm and the number of repetitions, respectively.\\
+\textbf{Output:} This algorithm outputs the value $t$ which is the total sum of the harmonic series. \\
+
+This procedure uses a while-loop to control the number recursive iterations.\\
+While the number of iterations left is above 0, add the next value to $t$, decrease the number of iterations by 1 and recursively call the procedure with the new values of $t$ and $n$.\\When the number of iterations left is no longer above 0, the final value of $t$ is returned and the procedure ends.
 \begin{algorithm}
 \caption{Computing nth value of harmonic series}
-\begin{algorithmic}
+\begin{algorithmic}[1]
 \Procedure{HARM}{float $t$, float $n$}
 \While{ $n>0$}
 \State $t \gets t + (1/n)$
@@ -407,7 +337,16 @@ Evidence of the Harmonic Series computation java implementation.\\ The nth value
 %----------------------------------------------------------------------------------------
 %	PROBLEM 5
 %----------------------------------------------------------------------------------------
-\begin{homeworkProblem}[Item 5: Week 8 - Linked List Delete function or Linked List Sortings]{}
+\begin{homeworkProblem}[Item 5: Week 8 - Linked List Delete function]{}
+
+Below are the Linked List and Node classes that I have created as well as a Test class.\\
+This is a fully functional doubly Linked List capable of Inserting, Prepending, Deleting and Displaying items in the List. Please see the Evidence Screenshot below:
+\Cscript{Item_5/LLCode}{List Class Implementation: Java}
+\Cscript{Item_5/NCode}{Node Class Implementation: Java }
+\Cscript{Item_5/TCode}{Test class }
+
+\includegraphics[width=1\columnwidth]{Item_5/LL.png}
+
 
 
 \end{homeworkProblem}

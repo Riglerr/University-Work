@@ -21,7 +21,7 @@ public class MyStack {
     public MyStack(){
 
         _list = new int[10];
-        int front = -1;
+        int front = 0;
     }
 
 
@@ -37,8 +37,8 @@ public class MyStack {
 
         //Increment the front pointer, and store the value in the list.
         try {
-            front++;
-            _list[front] = val;
+
+            _list[front++] = val;
         }
         //If failure, return error message and 0 to caller
         catch (Exception e){
@@ -57,10 +57,11 @@ public class MyStack {
          * When the front item is remove, the front location decrements.
          * The Method returns 0 if it could not Pop the value.
          */
-
+int t;
         try {
-            front--;
-            return _list[front +1];
+            t = _list[--front];
+            _list[front] = 0;
+            return t;
         }
         catch (Exception e){
             System.out.println("Pop Method exception; " + e);

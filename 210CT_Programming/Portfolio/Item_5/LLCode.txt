@@ -1,25 +1,19 @@
 package com.company;
 
-
-/**
- * Created by rob on 20/12/14.
- */
 public class List {
       //Nodes to hold the head and tail of the list respectively
     Node head;
     Node tail;
-
-    //---------------------------------------------------------------
-    //-----------List Constructor to nit values to null-------------
-    //---------------------------------------------------------------
+    //------------------------------------------------------------
+    //-----------List Constructor to init values to null----------
+    //------------------------------------------------------------
     public List(){
         head = null;
         tail = null;
     }
-
-    //---------------------------------------------------------------
-    //------------Insert an Element at an offset from head node------
-    //---------------------------------------------------------------
+    //------------------------------------------------------------
+    //-------Insert an Element at an offset from head node--------
+    //------------------------------------------------------------
 
     public void Insert(Node n, Node x){
         //If previous node exists
@@ -41,19 +35,22 @@ public class List {
             x.prev = null;
             head = x;
         }
+
+
+
         // If new list (First item to be placed)
        else  if(n == null & head == null)
         {
-            head = tail =x;  //make new node equal to both head and tail
+	//make new node equal to both head and tail
+            head = tail =x;  
             x.prev =x.next = null; // make head pointers null
         } //If all else exp
         else if(tail == n)
             tail =x;
     }
-
-    //---------------------------------------------------------------
-    //---------------------DELETE A NODE FROM THE LIST---------------
-    //---------------------------------------------------------------
+    //---------------------------------------------------------
+    //---------------DELETE A NODE FROM THE LIST---------------
+    //---------------------------------------------------------
     public void Delete(Node n){
         //create temporary node
         Node i = head;
@@ -67,7 +64,9 @@ public class List {
                     i.prev = null;
                     break;
                 }
-                else if (i == tail){ //if node to remove is tail node
+
+		//if node to remove is tail node
+                else if (i == tail){ 
                     tail = i.prev;
                     i.prev.next = null;
                 }
@@ -80,9 +79,11 @@ public class List {
         }
     }
 
-    //---------------------------------------------------------------
-    //--------------------DISPLAY ALL NODES IN LIST------------------
-    //---------------------------------------------------------------
+
+
+    //------------------------------------------------------
+    //-----------DISPLAY ALL NODES IN LIST------------------
+    //------------------------------------------------------
     public void display(){
         Node i = head;
 
@@ -92,14 +93,8 @@ public class List {
         }
     }
 
-    //---------------------------------------------------------------
-    //-------------------SORT THE LIST USING BUBBLE SORT-----------------
-    //---------------------------------------------------------------
-
-    public void Sort(){
-
-    }
-
+   
 }
+
 
 

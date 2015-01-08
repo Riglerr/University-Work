@@ -37,16 +37,17 @@ public class InputString {
         return  str_Temp;
     }
 
-    public void setIn_String(String str_Val){
+    public boolean setIn_String(String str_Val){
 
         /**
          * Assigns the in_String value from the passed parameter.
          */
         if (str_Val.isEmpty()){
             System.out.println(" Method: setIn_String: String paramter is empty.");
+            return false;
         }
         else in_String = str_Val;
-
+return true;
 
 
     }
@@ -65,5 +66,40 @@ public class InputString {
         }
         return true;
 
+    }
+
+    public String Split_String(int p) {
+        String T;
+        int p2 ;
+
+        if( in_String.charAt(p) == ' ') p +=1;
+
+        for ( p2 = p + 1; p2 < in_String.length() + 1; p2++) {
+
+
+            if (in_String.charAt(p2) == ' ' || p2 == in_String.length()) {
+
+                T = in_String.substring(p, p2);
+                return T;
+
+              //  return in_String.split(" [ \t]+");
+            }
+
+        }
+        return null;
+    }
+
+    public  int c_To_Int(String Str_c){
+
+        int i_Temp;
+        try{
+            i_Temp = Integer.parseInt(Str_c);
+        }
+        catch (Exception e){
+            System.out.println("Convert String to Int exception: " + e );
+            return -1;
+
+        }
+        return i_Temp;
     }
 }
