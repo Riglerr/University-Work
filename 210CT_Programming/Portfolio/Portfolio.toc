@@ -9,4 +9,5 @@
 \contentsline {subsection}{1. Harmonic Series (Pseudocode)}{6}
 \contentsline {subsection}{2. Harmonic Series (JAVA Implementation)}{7}
 \contentsline {section}{Item 4: Week 7 - Heapworksheet or RPN Calculator}{9}
-\contentsline {section}{Item 5: Week 8 - Linked List Delete function}{10}
+\contentsline {section}{Item 5: Week 8 - Linked List}{10}
+\contentsline {subsection}{1. Linked List Implementation}{10}

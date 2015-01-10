@@ -9,15 +9,10 @@ public class MyStack {
      * and Pop() values and display the current contents of the stack
      */
 
-    //Array variable that holds the values placed in the stack.
     int[] _list ;
-
-    //Holds the position of the front of the stack.
     int front;
 
-    //Constructor that initialises the stack size to 10
-    //And the front of the list to -1.
-    // -1 Because Push increments front pointer so first push becomes location 0.
+
     public MyStack(){
 
         _list = new int[10];
@@ -57,7 +52,7 @@ public class MyStack {
          * When the front item is remove, the front location decrements.
          * The Method returns 0 if it could not Pop the value.
          */
-int t;
+        int t;
         try {
             t = _list[--front];
             _list[front] = 0;
@@ -75,7 +70,7 @@ int t;
         /**
          * Display Method prints the contents of the stack in order from front to back.
          */
-        for (int i = front; i >0; i--){
+        for (int i = front-1; i >=0; i--){
             System.out.println(_list[i]);
         }
         System.out.println();

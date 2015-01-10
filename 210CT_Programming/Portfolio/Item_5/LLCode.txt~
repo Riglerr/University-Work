@@ -1,5 +1,4 @@
 package com.company;
-
 public class List {
       //Nodes to hold the head and tail of the list respectively
     Node head;
@@ -12,9 +11,8 @@ public class List {
         tail = null;
     }
     //------------------------------------------------------------
-    //-------Insert an Element at an offset from head node--------
+    //----------------------Insert an Element --------------------
     //------------------------------------------------------------
-
     public void Insert(Node n, Node x){
         //If previous node exists
         if(n != null){
@@ -48,7 +46,6 @@ public class List {
         else if(tail == n)
             tail =x;
     }
-
     //---------------------------------------------------------
     //---------------DELETE A NODE FROM THE LIST---------------
     //---------------------------------------------------------
