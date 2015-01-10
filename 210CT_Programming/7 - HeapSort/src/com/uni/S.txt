@@ -11,7 +11,7 @@ public class InputString {
 
     String in_Prompt = " Enter an Input String: ";
     String in_String;
-    
+
 
 
     public InputString(){
