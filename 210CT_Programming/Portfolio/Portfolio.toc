@@ -10,5 +10,5 @@
 \contentsline {subsection}{2. Harmonic Series (JAVA Implementation)}{7}
 \contentsline {section}{Item 4: Week 7 - RPN Calculator}{9}
 \contentsline {subsection}{1. Reverse Polish Notation Calculator}{9}
-\contentsline {section}{Item 5: Week 8 - Linked List}{10}
-\contentsline {subsection}{1. Linked List Implementation}{10}
+\contentsline {section}{Item 5: Week 8 - Linked List}{18}
+\contentsline {subsection}{1. Linked List Implementation}{18}
