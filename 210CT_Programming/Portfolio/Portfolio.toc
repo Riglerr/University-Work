@@ -1,17 +1,14 @@
 \contentsline {section}{Item 1: Week 3 - Linear Search and Duplicate Finder}{3}
-\contentsline {subsection}{Pre-Homework 1: Write a Program that displays your name 10 times}{3}
-\contentsline {subsection}{Pre-Homework 2: Write a function that draws a square of stars given as a parameter}{5}
-\contentsline {subsection}{Pre-Homework 3: Write a program to open a file and display it's contents in capitals}{7}
-\contentsline {subsection}{ 1. Pseudocode for linear search}{8}
-\contentsline {subsection}{ 2. Pseudocode for finding duplicates in a list}{8}
-\contentsline {section}{Item 2: Week 4 - Time complexities and Big-O notation}{9}
-\contentsline {subsection}{1. Describe the runtime bounds of the linear search algorithm}{9}
-\contentsline {subsection}{2. Describe the runtime bounds of the duplicate finder algorithm}{9}
-\contentsline {subsection}{Additional work: Critical values of relative runtimes}{10}
-\contentsline {section}{Item 3: Week 6 - Harmonic Series or Pivot Selection}{12}
-\contentsline {subsection}{Pre-Homework 1.: 3-Bit binary number}{12}
-\contentsline {subsection}{Pre-Homework 2.: Boolean sequence binary number}{12}
-\contentsline {subsection}{1. Harmonic Series (Pseudocode)}{13}
-\contentsline {subsection}{2. Harmonic Series (JAVA Implementation)}{14}
-\contentsline {section}{Item 4: Week 7 - Heapworksheet or RPN Calculator}{16}
-\contentsline {section}{Item 5: Week 8 - Linked List Delete function or Linked List Sortings}{17}
+\contentsline {subsection}{ 1. Pseudocode for linear search}{3}
+\contentsline {subsection}{ 2. Pseudocode for finding duplicates in a list}{3}
+\contentsline {section}{Item 2: Week 4 - Time complexities and Big-O notation}{4}
+\contentsline {subsection}{1. Describe the runtime bounds of the linear search algorithm}{4}
+\contentsline {subsection}{2. Describe the runtime bounds of the duplicate finder algorithm}{4}
+\contentsline {subsection}{Additional work: Critical values of relative runtimes}{5}
+\contentsline {section}{Item 3: Week 6 - Harmonic Series}{6}
+\contentsline {subsection}{1. Harmonic Series (Pseudocode)}{6}
+\contentsline {subsection}{2. Harmonic Series (JAVA Implementation)}{7}
+\contentsline {section}{Item 4: Week 7 - RPN Calculator}{9}
+\contentsline {subsection}{1. Reverse Polish Notation Calculator}{9}
+\contentsline {section}{Item 5: Week 8 - Linked List}{10}
+\contentsline {subsection}{1. Linked List Implementation}{10}

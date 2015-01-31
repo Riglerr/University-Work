@@ -13,14 +13,17 @@ public class InputString {
     String in_String;
 
 
+
     public InputString(){
 
         in_String = new String() ;
+
     }
 
     public String getIn_String(){
         /**
-         * getIn_String Method, gets the USer input from the console and returns it to the caller.
+         * getIn_String Method, gets the USer input from the
+         * console and returns it to the caller.
          * Returns null if the Method fails.
          */
         String str_Temp = new String();
@@ -37,16 +40,17 @@ public class InputString {
         return  str_Temp;
     }
 
-    public void setIn_String(String str_Val){
+    public boolean setIn_String(String str_Val){
 
         /**
          * Assigns the in_String value from the passed parameter.
          */
         if (str_Val.isEmpty()){
-            System.out.println(" Method: setIn_String: String paramter is empty.");
+            System.out.println(" Method: setIn_String: String parameter is empty.");
+            return false;
         }
         else in_String = str_Val;
-
+return true;
 
 
     }
@@ -54,10 +58,12 @@ public class InputString {
     public boolean checkIn_String(){
         char chr_Temp;
 
+        //Checks Each position in the string contains valid characters
         for(int i = 0; i< in_String.length();i++){
 
              chr_Temp = in_String.charAt(i);
-            if(Character.isDigit(chr_Temp) || chr_Temp=='+' ||chr_Temp=='-' ||chr_Temp=='/' ||chr_Temp=='*' ||chr_Temp==' '){
+            if(Character.isDigit(chr_Temp) || chr_Temp=='+' ||chr_Temp=='-'
+                    ||chr_Temp=='/' ||chr_Temp=='*' ||chr_Temp==' '){
                 continue;
 
             }
@@ -66,4 +72,13 @@ public class InputString {
         return true;
 
     }
+
+    public String[] Split_String() {
+        //Uses the String.split() method to return the users' input string in the form of an array.
+        String Tokens[];
+        Tokens = in_String.trim().split(" ");
+      return Tokens;
+
+    }
+
 }
