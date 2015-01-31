@@ -1,13 +1,11 @@
 package com.uni;
 
-/**
- * Created by rob on 10/01/15.
- */
 public class RPN {
 
     public static void evalRPN() {
 
-        //Creating the various objects and variable needed for the evaluation/
+        //Creating the various objects and
+	// variable needed for the evaluation/
         InputString Is = new InputString();
         MyStack MS = new MyStack();
         String[] In_arr;
@@ -23,9 +21,9 @@ public class RPN {
                 //Splits the input string into an array.
                 In_arr = Is.Split_String();
 
-                //for Each element in the string array,
-                //Check if that element is an operator.
-                //if Operator: Pop values, do operation and push answer.
+           //for Each element in the string array,
+           //Check if that element is an operator.
+           //if Operator: Pop values, do operation and push answer.
 
                 for (String t : In_arr) {
                     if (Operators.contains(t)) {
@@ -40,6 +38,8 @@ public class RPN {
                             case '-':
                                 MS.Push(MathOps.sub(b, a));
                                 break;
+
+
                             case '*':
                                 MS.Push(MathOps.mul(a, b));
                                 break;
@@ -49,8 +49,8 @@ public class RPN {
 
 
                         }
-                        //Else the element must be pushed to stack.
-                        //String Must be converted to Integer before pushing to stack.
+     //Else the element must be pushed to stack.
+     //String Must be converted to Integer before pushing to stack.
                     } else MS.Push(Integer.parseInt(t));
                 }
 

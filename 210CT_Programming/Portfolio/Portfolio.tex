@@ -336,12 +336,31 @@ Evidence of the Harmonic Series computation java implementation.\\ The nth value
 
 To implement this calculator I created three distinct classes: 
 \begin{itemize}
-\item \textbf{InputString}: Which handles the string operations, such as: splitting the users string into an array.
+\item \textbf{InputString}: Which handles the string operations.
 \item \textbf{RPN}: This class evaluates the input string and returns an answer.
 \item \textbf{MyStack}: This is the stack class that is capable of Pushing, Poping and Displaying values on the stack.
 \item \textbf{MathOps}: This class handles the mathematical operations.
 \end{itemize}
 
+Below is the code that I wrote in Java:
+\Cscript{Item_4/S}{InputString Class}
+\clearpage
+\Cscript{Item_4/R}{RPN Class}
+\clearpage
+\Cscript{Item_4/MS}{MyStack Class}
+\clearpage
+\Cscript{Item_4/M}{MathOps Class}
+\clearpage
+Here are the evidence screenshot of the working calculator with these Input Strings:
+\begin{enumerate}
+\item $((8+8)/4) *2$ \hspace{2mm} in RPN: \hspace{2mm} 8 8 + 4 / 2 \hspace{2mm} which equals: 8
+\item $16/2 + 13 - 7$ \hspace{2mm} in RPN: \hspace{2mm} 16 2 / 13 + 7 - \hspace{2mm} which equals: 14
+\item $(((6 * 4)/(6*2))* 2)/4$ \hspace{2mm} in RPN: \hspace{2mm} 4 6 4 * 6 2 * / 2 * / \hspace{2mm} which equals: 1
+\end{enumerate} 
+
+\includegraphics[width=1\columnwidth]{Item_4/R1.png}
+\includegraphics[width=1\columnwidth]{Item_4/R2.png}
+\includegraphics[width=1\columnwidth]{Item_4/R3.png}
 
 \end{homeworkProblem}
 \clearpage
