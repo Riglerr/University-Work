@@ -13,7 +13,8 @@
 \usepackage{graphicx} % Required to insert images
 \usepackage{listings} % Required for insertion of code
 \usepackage{courier} % Required for the courier font
-
+\usepackage[table]{xcolor}
+\usepackage{multirow}
 
 % Margins
 \topmargin=-0.45in
@@ -78,6 +79,7 @@
 \item[]\lstinputlisting[caption=#2,label=#1]{#1.txt}
 \end{itemize}
 }
+\renewcommand{\arraystretch}{1.5}
 
 %----------------------------------------------------------------------------------------
 %	DOCUMENT STRUCTURE COMMANDS
@@ -174,7 +176,7 @@
 		For each activity I will give a detailed step by step explanation of how I came to this conclusion. 
 		
 		
-	\begin{homeworkSection}{Activity 1 First Normal Form}{
+	\begin{homeworkSection}{Activity 1: First Normal Form}{
 		
 		To put this data into First Normal Form (1NF), I need to:
 		\begin{enumerate}
@@ -192,24 +194,86 @@
 		 
 		 Removing the \emph{Equipment, Qty,} and \emph{Unit Price} fields and placing them in a new entity, leaves me with two entities as shown below.\\
 		 
-		\hspace{3.5cm} \emph{Items Purchased} entity\\
+		\hspace{3.5cm} \emph{ItemOrder} entity\\
 		 \includegraphics[scale = 0.8]{Task1/Item1NF.png}
 		 \vfill
 		 
 		 \hspace{8cm} \emph{Order} entity\\
 		 \includegraphics[width=18 cm, height = 3cm]{Task1/Order1NF.png}
 		 
-		\subsubsection{Step 3: Relationship}
+		\subsubsection{Step 3: Relationships and Keys}
 		
-		In the \emph{Items Purchased} entity, no one attribute can be used to identify a single record. For 
+		To complete the First Normal Form, a relationship needs to be created between the entities.
+		
+		 I created the relationship by repeating the \emph{Order ID} in the \emph{ItemOrder} entity as seen below.\\
+		The \emph{Order} entity remains the same, and I have made \emph{Order ID } the primary key as it can be used to uniquely identify each record.\\
+		In the \emph{ItemOrder} entity, no one attribute can be used to uniquely identify a single record. For this reason, I have created a concatenated key using the attributes \emph{Equipment} and \emph{Order ID} as a foreign key. The concatenated key can now be used to uniquely identify each record.
+		 \vspace{10px}
 		 
+		 \hspace{4cm} \emph{ItemOrder} entity\\
+		 \includegraphics[scale = 0.8]{Task1/Item11NF.png}
 			}
 		
 		
 	
 	\end{homeworkSection}
 	
+	\pagebreak
 	
+	\begin{homeworkSection}{Activity 2: Second Normal Form}
+		To put this data into the Second Normal Form(2NF) I need to ensure that the attributes are completely dependant on the primary key, i.e., that no attribute is only dependant on one part of the primary key.\\
+		This can be done in two steps:
+		\begin{enumerate}
+			\item Test each attribute for complete dependency on the primary key.
+			\item Remove any partially dependent attributes to a new entity and assign a primary key.
+		\end{enumerate}
+		
+		For this particular set of data, the \emph{Order} entity does not have a concatenated key and therefore is already in the second normal form.
+		
+		\subsubsection{Step 1: Testing each attribute.} \vspace{10px}
+		
+		\begin{center}
+			
+			
+			
+			\begin{tabular}{|l|c|l|}
+				\hline
+				\textbf{	Primary Key} & \textbf{Attribute} & \textbf{Functionally Dependant?}\\ \hline
+				Order ID, Equipment & Qty & Yes, dependant on both\\ \hline
+				Order ID, Equipment & Unit Price & No, dependant on Equipment only\\ \hline
+			\end{tabular}
+			
+		\end{center}
+		\subsubsection{Step 2: Entity, Relationship and Key }
+		
+		From my testing, I found that the attribute \emph{Unit Price} is not functionally dependant as it is only dependent on \textit{Equipment}, but not\textit{ Order ID}.\\ I moved \emph{Unit Price} into a new entity called \textit{Item} and then I created an relationship between the \emph{Item} and \emph{ItemOrder} entities by repeating the \emph{Equipment} attribute in the \emph{Item} entity. \emph{Equipment} bceomes the primary key.
+		
+		\vspace{10px}
+		
+		\emph{Item entity} \hspace{7cm} \emph{Item entity(with relationship)}
+		
+		\includegraphics[scale = 0.8]{Task1/ItemO1.png} \includegraphics[scale = 0.2]{Task1/arrow.jpg} \includegraphics[scale = 0.8]{Task1/Item02.png}
+		
+		
+		\subsubsection{All three entities in Second Normal Form}
+		
+		\begin{tabular}{l r |c c c c l r| c c c l r|}
+		
+		{\textbf{Order}} &$($ \underline{Order ID} & & & & & \textbf{Item} & $($ \underline{Equipment} & & & & \textbf{ItemOrder}& $($\underline{*Order ID}  \\
+			& Suppler ID & & & & & & Unit Price$)$ & & & & & \underline{*Equipment}\\
+			& Client Name & & & & & & & & & & & Qty $)$\\
+			& Client Address & & & & & \\
+			& Date & & & & & \\
+			& Total Price $)$ & & & & & \\
+			  
+		\end{tabular}
+		
+		
+	
+	\end{homeworkSection}
+	\begin{homeworkSection}{Activity 3: Third Normal Form}
+		
+	\end{homeworkSection}
 \end{homeworkProblem}
 
 \end{document}

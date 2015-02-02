@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  31 JAN 2015 19:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  1 FEB 2015 20:07
 entering extended mode
 **RRigler_220CT.tex
 
@@ -120,57 +120,94 @@ Package: listings 2013/08/26 1.5b (Carsten Heinz)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\courier.sty"
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen109
+\extrarowheight=\dimen110
+\NC@list=\toks17
+\extratabsurround=\skip52
+\backup@length=\skip53
+)
+\everycr=\toks18
+\minrowclearance=\skip54
+)
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count96
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen111
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 )
-\c@homeworkProblemCounter=\count96
+\c@homeworkProblemCounter=\count97
 
 (C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
 work1\RRigler_220CT.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 155.
+(lastpage)             ! on input line 157.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count97
-\scratchdimen=\dimen109
+\scratchcounter=\count98
+\scratchdimen=\dimen112
 \scratchbox=\box28
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count100
-\MPscratchDim=\dimen110
-\MPnumerator=\count101
-\makeMPintoPDFobject=\count102
-\everyMPtoPDFconversion=\toks18
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen113
+\MPnumerator=\count102
+\makeMPintoPDFobject=\count103
+\everyMPtoPDFconversion=\toks20
 )
-\c@lstlisting=\count103
+\c@lstlisting=\count104
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 157.
+(Font)              <12> on input line 159.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 157.
+(Font)              <8> on input line 159.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 157.
+(Font)              <6> on input line 159.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -183,49 +220,79 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 )
 \tf@toc=\write3
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
 <Task1/Item1NF.png, id=12, 376.40625pt x 367.3725pt>
 File: Task1/Item1NF.png Graphic file (type png)
  <use Task1/Item1NF.png>
-Package pdftex.def Info: Task1/Item1NF.png used on input line 196.
+Package pdftex.def Info: Task1/Item1NF.png used on input line 198.
 (pdftex.def)             Requested size: 301.1254pt x 293.89838pt.
 
 <Task1/Order1NF.png, id=14, 907.39pt x 104.39pt>
 File: Task1/Order1NF.png Graphic file (type png)
  <use Task1/Order1NF.png>
-Package pdftex.def Info: Task1/Order1NF.png used on input line 200.
+Package pdftex.def Info: Task1/Order1NF.png used on input line 202.
 (pdftex.def)             Requested size: 512.15018pt x 85.36299pt.
 
-Overfull \hbox (42.39519pt too wide) in paragraph at lines 199--201
+Overfull \hbox (42.39519pt too wide) in paragraph at lines 201--203
 [] 
  []
 
 [3 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/Cou
-rsework1/Task1/Item1NF.png>] 
-AED: lastpage setting LastPage
+rsework1/Task1/Item1NF.png>]
+<Task1/Item11NF.png, id=20, 475.7775pt x 372.39125pt>
+File: Task1/Item11NF.png Graphic file (type png)
+ <use Task1/Item11NF.png>
+Package pdftex.def Info: Task1/Item11NF.png used on input line 214.
+(pdftex.def)             Requested size: 380.6225pt x 297.91339pt.
+
 [4 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/Cou
-rsework1/Task1/Order1NF.png>]
+rsework1/Task1/Order1NF.png> <C:/Users/Rob/Documents/University-Work/220CT_Data
+_Information_Retrieval/Coursework1/Task1/Item11NF.png>]
+<Task1/ItemO1.png, id=26, 72.27pt x 163.61125pt>
+File: Task1/ItemO1.png Graphic file (type png)
+ <use Task1/ItemO1.png>
+Package pdftex.def Info: Task1/ItemO1.png used on input line 255.
+(pdftex.def)             Requested size: 57.81606pt x 130.88916pt.
+
+<Task1/arrow.jpg, id=27, 795.33134pt x 614.65636pt>
+File: Task1/arrow.jpg Graphic file (type jpg)
+ <use Task1/arrow.jpg>
+Package pdftex.def Info: Task1/arrow.jpg used on input line 255.
+(pdftex.def)             Requested size: 159.06345pt x 122.9291pt.
+
+<Task1/Item02.png, id=28, 249.93375pt x 167.62625pt>
+File: Task1/Item02.png Graphic file (type png)
+ <use Task1/Item02.png>
+Package pdftex.def Info: Task1/Item02.png used on input line 255.
+(pdftex.def)             Requested size: 199.94727pt x 134.10117pt.
+
+
+AED: lastpage setting LastPage
+[5 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/Cou
+rsework1/Task1/ItemO1.png> <C:/Users/Rob/Documents/University-Work/220CT_Data_I
+nformation_Retrieval/Coursework1/Task1/arrow.jpg> <C:/Users/Rob/Documents/Unive
+rsity-Work/220CT_Data_Information_Retrieval/Coursework1/Task1/Item02.png>]
 (C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
 work1\RRigler_220CT.aux) ) 
 Here is how much of TeX's memory you used:
- 2885 strings out of 493921
- 41586 string characters out of 3147287
- 125006 words of memory out of 3000000
- 6170 multiletter control sequences out of 15000+200000
+ 3442 strings out of 493921
+ 48259 string characters out of 3147287
+ 141758 words of memory out of 3000000
+ 6705 multiletter control sequences out of 15000+200000
  9194 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 26i,11n,43p,294b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,43p,477b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on RRigler_220CT.pdf (4 pages, 99946 bytes).
+Output written on RRigler_220CT.pdf (5 pages, 213631 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

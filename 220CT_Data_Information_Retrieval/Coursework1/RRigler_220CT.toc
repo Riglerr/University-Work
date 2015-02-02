@@ -1,5 +1,9 @@
 \contentsline {section}{Task 1 Database Design}{3}
-\contentsline {subsection}{Activity 1 First Normal Form}{3}
+\contentsline {subsection}{Activity 1: First Normal Form}{3}
 \contentsline {subsubsection}{Step 1: Identify Redundancy}{3}
 \contentsline {subsubsection}{Step 2: Create New Entity}{3}
-\contentsline {subsubsection}{Step 3: Relationship}{4}
+\contentsline {subsubsection}{Step 3: Relationships and Keys}{4}
+\contentsline {subsection}{Activity 2: Second Normal Form}{5}
+\contentsline {subsubsection}{Step 1: Testing each attribute.}{5}
+\contentsline {subsubsection}{Step 2: Entity, Relationship and Key }{5}
+\contentsline {subsubsection}{All three entities in Second Normal Form}{5}
