@@ -173,7 +173,7 @@
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}[Task 1 Database Design]
 	This task in Database Design consists of four activities. The first three involve normalising the given data to third normal form, and the fourth is to produce and Entity Relationship diagram of the normalised relations.\\
-		For each activity I will give a detailed step by step explanation of how I came to this conclusion. 
+		For each activity I will give a detailed step by step explanation of how I completed each activity. 
 		
 		
 	\begin{homeworkSection}{Activity 1: First Normal Form}{
@@ -194,12 +194,21 @@
 		 
 		 Removing the \emph{Equipment, Qty,} and \emph{Unit Price} fields and placing them in a new entity, leaves me with two entities as shown below.\\
 		 
+		 \begin{tabular}{l r| c c c c l r|} Order & $($ \underline{Order ID} & & & & & ItemOrder & $($ \underline{*Order ID}\\
+		 									& Supplier ID	& & & & & & \underline{Equipment} \\
+		 									& Client Name & & & & & & Qty $)$\\
+		 									& Client Address  & & & & & & Unit Price $)$\\
+		 									& Date\\
+		 									& Total Price$)$\\
+		 \end{tabular}
+		 
+		 
 		\hspace{3.5cm} \emph{ItemOrder} entity\\
-		 \includegraphics[scale = 0.8]{Task1/Item1NF.png}
+		 \includegraphics[scale = 0.3]{Task1/Item1NF.png}
 		 \vfill
 		 
-		 \hspace{8cm} \emph{Order} entity\\
-		 \includegraphics[width=18 cm, height = 3cm]{Task1/Order1NF.png}
+		 
+		 \includegraphics[scale =0.6]{Task1/Order1NF.png}
 		 
 		\subsubsection{Step 3: Relationships and Keys}
 		
@@ -255,7 +264,7 @@
 		\includegraphics[scale = 0.8]{Task1/ItemO1.png} \includegraphics[scale = 0.2]{Task1/arrow.jpg} \includegraphics[scale = 0.8]{Task1/Item02.png}
 		
 		
-		\subsubsection{All three entities in Second Normal Form}
+		\subsubsection{Entities in Second Normal Form}
 		
 		\begin{tabular}{l r |c c c c l r| c c c l r|}
 		
@@ -273,7 +282,60 @@
 	\end{homeworkSection}
 	\begin{homeworkSection}{Activity 3: Third Normal Form}
 		
+		To place the data into Third Normal Form 3NF I need to ensure that all attributes are only dependent on the Primary Key, and not Non-Key Attributes.
+		This can be achieved in two steps:
+		
+		\begin{enumerate}
+			\item Test each attribute for dependency on the primary key.
+			\item Remove all transitive dependencies to a new entity with the correct primary key and relationship.
+		\end{enumerate}
+		
+		For this particular set of data, both the \emph{Item} and \textit{ItemOrder} entities are already in the Third Normal Form.
+		
+		\subsubsection{Step 1: Testing for Transitive Dependency}
+		
+		\emph{Order} Entity
+		
+		\begin{tabular}{|l|l|l|}
+			\hline
+			\textbf{Primary Key} & \textbf{Attribute} & \textbf{Transitive Dependency?}  \\\hline
+			Order ID & Supplier ID & Yes: Supplier ID can be found if we know Client Name or Address \\\hline
+			Order ID & Client Name & Yes: Client Name can be found if we know Supplier ID or Address  \\\hline
+			Order ID & Client Address & Yes: Client Address can be found if we know Client Name or Supplier ID   \\\hline
+			Order ID & Date & No: Only dependent on Primary Key  \\\hline
+			Order ID & Total Cost& No: Only dependent on Primary Key \\\hline
+		\end{tabular}
+		\vspace{10px}
+		
+		Using this table I have identified that \textit{Supplier ID, Client Name,} and\textit{ Client Address} all have transitive dependencies, and need to be moved to a new entity.
+		
+		\subsubsection{Step 2: Entity, Relationship and Key}
+		
+		I created a new entity called \textit{Customer}, and moved the three attributes with transitive dependencies into it. I then made \textit{Supplier ID} the Primary Key and created a relationship between the \textit{Customer} and \textit{Order} entities by repeating the \textit{Supplier ID} attribute as a foreign key in the \textit{Order} entity.\\
+		\pagebreak
+			\subsubsection{Entities in Third Normal Form}
+			
+		\begin{tabular}{l r |c c c c l r| c c c l r|}
+			
+			{\textbf{Order}} &$($ \underline{Order ID} & & & & & \textbf{Item} & $($ \underline{Equipment} & & & & \textbf{ItemOrder}& $($\underline{*Order ID}  \\
+			& *Suppler ID & & & & & & Unit Price$)$ & & & & & \underline{*Equipment}\\
+			& Client Name & & & & & & & & & & & Qty $)$\\
+			& Client Address & & & & & \\
+			& Date & & & & & \\
+			& Total Price $)$ & & & & & \\
+			
+		\end{tabular}
+		
+				\vspace{60px}
+				
+		\begin{tabular}{l r|}
+			\textbf{Customer} & $($ \underline{Supplier ID} \\
+			& Client Name\\
+			& Client Address $)$\\
+		\end{tabular}		
+		
+		
 	\end{homeworkSection}
-\end{homeworkProblem}
+	\end{homeworkProblem}
 
 \end{document}

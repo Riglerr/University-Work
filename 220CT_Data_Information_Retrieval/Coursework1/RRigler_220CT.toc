@@ -6,4 +6,8 @@
 \contentsline {subsection}{Activity 2: Second Normal Form}{5}
 \contentsline {subsubsection}{Step 1: Testing each attribute.}{5}
 \contentsline {subsubsection}{Step 2: Entity, Relationship and Key }{5}
-\contentsline {subsubsection}{All three entities in Second Normal Form}{5}
+\contentsline {subsubsection}{Entities in Second Normal Form}{5}
+\contentsline {subsection}{Activity 3: Third Normal Form}{6}
+\contentsline {subsubsection}{Step 1: Testing for Transitive Dependency}{6}
+\contentsline {subsubsection}{Step 2: Entity, Relationship and Key}{6}
+\contentsline {subsubsection}{Entities in Third Normal Form}{7}
