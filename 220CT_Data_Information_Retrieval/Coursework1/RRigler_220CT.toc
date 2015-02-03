@@ -2,12 +2,15 @@
 \contentsline {subsection}{Activity 1: First Normal Form}{3}
 \contentsline {subsubsection}{Step 1: Identify Redundancy}{3}
 \contentsline {subsubsection}{Step 2: Create New Entity}{3}
-\contentsline {subsubsection}{Step 3: Relationships and Keys}{4}
+\contentsline {subsubsection}{Step 3: Relationships and Keys}{3}
+\contentsline {subsubsection}{1NF : Diagram}{3}
+\contentsline {subsubsection}{1NF : Data}{4}
 \contentsline {subsection}{Activity 2: Second Normal Form}{5}
 \contentsline {subsubsection}{Step 1: Testing each attribute.}{5}
 \contentsline {subsubsection}{Step 2: Entity, Relationship and Key }{5}
-\contentsline {subsubsection}{Entities in Second Normal Form}{5}
-\contentsline {subsection}{Activity 3: Third Normal Form}{6}
-\contentsline {subsubsection}{Step 1: Testing for Transitive Dependency}{6}
-\contentsline {subsubsection}{Step 2: Entity, Relationship and Key}{6}
-\contentsline {subsubsection}{Entities in Third Normal Form}{7}
+\contentsline {subsubsection}{Entities in Second Normal Form: Diagram}{5}
+\contentsline {subsubsection}{Entities in Second Normal Form: With data}{6}
+\contentsline {subsection}{Activity 3: Third Normal Form}{7}
+\contentsline {subsubsection}{Step 1: Testing for Transitive Dependency}{7}
+\contentsline {subsubsection}{Step 2: Entity, Relationship and Key}{7}
+\contentsline {subsubsection}{Entities in Third Normal Form: Diagram}{7}

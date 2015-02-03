@@ -194,31 +194,39 @@
 		 
 		 Removing the \emph{Equipment, Qty,} and \emph{Unit Price} fields and placing them in a new entity, leaves me with two entities as shown below.\\
 		 
-		 \begin{tabular}{l r| c c c c l r|} Order & $($ \underline{Order ID} & & & & & ItemOrder & $($ \underline{*Order ID}\\
-		 									& Supplier ID	& & & & & & \underline{Equipment} \\
-		 									& Client Name & & & & & & Qty $)$\\
-		 									& Client Address  & & & & & & Unit Price $)$\\
-		 									& Date\\
-		 									& Total Price$)$\\
-		 \end{tabular}
+		
+		 
+		
 		 
 		 
-		\hspace{3.5cm} \emph{ItemOrder} entity\\
-		 \includegraphics[scale = 0.3]{Task1/Item1NF.png}
-		 \vfill
-		 
-		 
-		 \includegraphics[scale =0.6]{Task1/Order1NF.png}
+		
 		 
 		\subsubsection{Step 3: Relationships and Keys}
 		
 		To complete the First Normal Form, a relationship needs to be created between the entities.
 		
-		 I created the relationship by repeating the \emph{Order ID} in the \emph{ItemOrder} entity as seen below.\\
-		The \emph{Order} entity remains the same, and I have made \emph{Order ID } the primary key as it can be used to uniquely identify each record.\\
-		In the \emph{ItemOrder} entity, no one attribute can be used to uniquely identify a single record. For this reason, I have created a concatenated key using the attributes \emph{Equipment} and \emph{Order ID} as a foreign key. The concatenated key can now be used to uniquely identify each record.
-		 \vspace{10px}
+		 I created the relationship by including the \textit{Order ID} attribute as a foreign key in the \textit{ItemOrder} entity.\\
+		\textit{Order ID} is used as a Primary Key for the \textit{Order} entity.
+		In the \emph{ItemOrder} entity, no one attribute can be used to uniquely identify a single record. For this reason, I have created a concatenated key using the attributes \emph{Equipment} and \emph{Order ID}. The concatenated key can now be used to uniquely identify each record.\\
+		
+		\subsubsection{1NF : Diagram}
+		 \begin{tabular}{l r| c c c c l r|} Order & $($ \underline{Order ID} & & & & & ItemOrder & $($ \underline{*Order ID}\\
+		 	& Supplier ID	& & & & & & \underline{Equipment} \\
+		 	& Client Name & & & & & & Qty $)$\\
+		 	& Client Address  & & & & & & Unit Price $)$\\
+		 	& Date\\
+		 	& Total Price$)$\\
+		 \end{tabular}
 		 
+		\pagebreak
+		
+		 \subsubsection{1NF :  Data}
+		 \hspace{7.5cm}\textit{Order} entity
+		 
+		  \includegraphics[ width=1\columnwidth, height=3cm]{Task1/Order1NF.png}
+		  
+		  \vspace{10px}
+		  
 		 \hspace{4cm} \emph{ItemOrder} entity\\
 		 \includegraphics[scale = 0.8]{Task1/Item11NF.png}
 			}
@@ -259,12 +267,9 @@
 		
 		\vspace{10px}
 		
-		\emph{Item entity} \hspace{7cm} \emph{Item entity(with relationship)}
-		
-		\includegraphics[scale = 0.8]{Task1/ItemO1.png} \includegraphics[scale = 0.2]{Task1/arrow.jpg} \includegraphics[scale = 0.8]{Task1/Item02.png}
 		
 		
-		\subsubsection{Entities in Second Normal Form}
+		\subsubsection{Entities in Second Normal Form: Diagram}
 		
 		\begin{tabular}{l r |c c c c l r| c c c l r|}
 		
@@ -276,9 +281,25 @@
 			& Total Price $)$ & & & & & \\
 			  
 		\end{tabular}
+		\pagebreak
+		\subsubsection{Entities in Second Normal Form: With data}
+	\centering \textit{Order} entity
 		
-		
+		\includegraphics[ width=1\columnwidth, height=3cm]{Task1/Order1NF.png}
+		\vspace{20px}
+		\begin{center}
+				\textit{Item} entity
+				
+				\includegraphics[scale = 1]{Task1/Item02.png}
 	
+		
+		\vspace{20px}
+		\textit{ItemOrder} entity
+		
+		\includegraphics[scale = 0.7]{Task1/Item12NF.png}
+		\end{center}
+		
+		\pagebreak
 	\end{homeworkSection}
 	\begin{homeworkSection}{Activity 3: Third Normal Form}
 		
@@ -312,21 +333,18 @@
 		\subsubsection{Step 2: Entity, Relationship and Key}
 		
 		I created a new entity called \textit{Customer}, and moved the three attributes with transitive dependencies into it. I then made \textit{Supplier ID} the Primary Key and created a relationship between the \textit{Customer} and \textit{Order} entities by repeating the \textit{Supplier ID} attribute as a foreign key in the \textit{Order} entity.\\
-		\pagebreak
-			\subsubsection{Entities in Third Normal Form}
+	
+			\subsubsection{Entities in Third Normal Form: Diagram}
 			
 		\begin{tabular}{l r |c c c c l r| c c c l r|}
 			
 			{\textbf{Order}} &$($ \underline{Order ID} & & & & & \textbf{Item} & $($ \underline{Equipment} & & & & \textbf{ItemOrder}& $($\underline{*Order ID}  \\
 			& *Suppler ID & & & & & & Unit Price$)$ & & & & & \underline{*Equipment}\\
-			& Client Name & & & & & & & & & & & Qty $)$\\
-			& Client Address & & & & & \\
-			& Date & & & & & \\
-			& Total Price $)$ & & & & & \\
+			& Total Price $)$ Date & & & & & & & & & & & Qty $)$\\
 			
 		\end{tabular}
 		
-				\vspace{60px}
+				\vspace{40px}
 				
 		\begin{tabular}{l r|}
 			\textbf{Customer} & $($ \underline{Supplier ID} \\
