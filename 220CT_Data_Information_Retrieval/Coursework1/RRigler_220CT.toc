@@ -14,3 +14,7 @@
 \contentsline {subsubsection}{Step 1: Testing for Transitive Dependency}{7}
 \contentsline {subsubsection}{Step 2: Entity, Relationship and Key}{7}
 \contentsline {subsubsection}{Entities in Third Normal Form: Diagram}{7}
+\contentsline {subsubsection}{Entities in Third Normal Form: With Data}{8}
+\contentsline {subsection}{Activity 4: ER Diagram}{9}
+\contentsline {section}{Task 2: Database Development}{9}
+\contentsline {subsection}{1: Creating The Database Tables }{9}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  2 FEB 2015 20:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  16 FEB 2015 17:28
 entering extended mode
 **RRigler_220CT.tex
 
@@ -247,53 +247,82 @@ _Information_Retrieval/Coursework1/Task1/Item11NF.png>] [5]
 File: Task1/Order1NF.png Graphic file (type png)
 
 <use Task1/Order1NF.png>
-Package pdftex.def Info: Task1/Order1NF.png used on input line 288.
+Package pdftex.def Info: Task1/Order1NF.png used on input line 289.
 (pdftex.def)             Requested size: 469.75482pt x 85.36299pt.
  <Task1/Item02.png, id=27, 249.93375pt x 167.62625pt>
 File: Task1/Item02.png Graphic file (type png)
 
 <use Task1/Item02.png>
-Package pdftex.def Info: Task1/Item02.png used on input line 293.
+Package pdftex.def Info: Task1/Item02.png used on input line 294.
 (pdftex.def)             Requested size: 249.93314pt x 167.62582pt.
  <Task1/Item12NF.png, id=28, 472.76625pt x 367.3725pt>
 File: Task1/Item12NF.png Graphic file (type png)
 
 <use Task1/Item12NF.png>
-Package pdftex.def Info: Task1/Item12NF.png used on input line 299.
+Package pdftex.def Info: Task1/Item12NF.png used on input line 300.
 (pdftex.def)             Requested size: 330.93411pt x 257.15898pt.
  [6 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/Co
 ursework1/Task1/Item02.png> <C:/Users/Rob/Documents/University-Work/220CT_Data_
 Information_Retrieval/Coursework1/Task1/Item12NF.png>]
-Overfull \hbox (20.0466pt too wide) in paragraph at lines 320--330
+Overfull \hbox (20.0466pt too wide) in paragraph at lines 321--331
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
 
+[7] <Task1/03.png, id=38, 352.31625pt x 111.41624pt>
+File: Task1/03.png Graphic file (type png)
+ <use Task1/03.png>
+Package pdftex.def Info: Task1/03.png used on input line 363.
+(pdftex.def)             Requested size: 281.85338pt x 89.1331pt.
+
+<Task1/I3.png, id=39, 248.93pt x 174.6525pt>
+File: Task1/I3.png Graphic file (type png)
+ <use Task1/I3.png>
+Package pdftex.def Info: Task1/I3.png used on input line 368.
+(pdftex.def)             Requested size: 199.14426pt x 139.72218pt.
+
+<Task1/IO3.png, id=40, 314.17375pt x 234.8775pt>
+File: Task1/IO3.png Graphic file (type png)
+ <use Task1/IO3.png>
+Package pdftex.def Info: Task1/IO3.png used on input line 374.
+(pdftex.def)             Requested size: 251.33932pt x 187.90225pt.
+
+<Task1/C3.png, id=41, 556.0775pt x 111.41624pt>
+File: Task1/C3.png Graphic file (type png)
+ <use Task1/C3.png>
+Package pdftex.def Info: Task1/C3.png used on input line 379.
+(pdftex.def)             Requested size: 444.86261pt x 89.1331pt.
+ [8 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/Co
+ursework1/Task1/03.png> <C:/Users/Rob/Documents/University-Work/220CT_Data_Info
+rmation_Retrieval/Coursework1/Task1/I3.png> <C:/Users/Rob/Documents/University-
+Work/220CT_Data_Information_Retrieval/Coursework1/Task1/IO3.png> <C:/Users/Rob/
+Documents/University-Work/220CT_Data_Information_Retrieval/Coursework1/Task1/C3
+.png>]
 
 AED: lastpage setting LastPage
-[7]
+[9]
 (C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
 work1\RRigler_220CT.aux) ) 
 Here is how much of TeX's memory you used:
- 3431 strings out of 493921
- 48079 string characters out of 3147287
- 140758 words of memory out of 3000000
- 6697 multiletter control sequences out of 15000+200000
+ 3451 strings out of 493921
+ 48376 string characters out of 3147287
+ 141758 words of memory out of 3000000
+ 6713 multiletter control sequences out of 15000+200000
  9194 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,11n,43p,472b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,43p,386b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on RRigler_220CT.pdf (7 pages, 151194 bytes).
+Output written on RRigler_220CT.pdf (9 pages, 201847 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -263,7 +263,8 @@
 		\end{center}
 		\subsubsection{Step 2: Entity, Relationship and Key }
 		
-		From my testing, I found that the attribute \emph{Unit Price} is not functionally dependant as it is only dependent on \textit{Equipment}, but not\textit{ Order ID}.\\ I moved \emph{Unit Price} into a new entity called \textit{Item} and then I created an relationship between the \emph{Item} and \emph{ItemOrder} entities by repeating the \emph{Equipment} attribute in the \emph{Item} entity. \emph{Equipment} bceomes the primary key.
+		From my testing, I found that the attribute \emph{Unit Price} is not functionally dependant as it is only dependent on \textit{Equipment}, but not\textit{ Order ID}.\\
+		 I moved \emph{Equipment} and \textit{Unit Price} into a new entity called \textit{Item} and made \textit{Equipment} the primary key. \\ I created a relationship between the \textit{Item} and \textit{ItemOrder} entities by repeating the \textit{Equipment} attribute in \textit{ItemOrder} as a foreign key.
 		
 		\vspace{10px}
 		
@@ -340,9 +341,11 @@
 			
 			{\textbf{Order}} &$($ \underline{Order ID} & & & & & \textbf{Item} & $($ \underline{Equipment} & & & & \textbf{ItemOrder}& $($\underline{*Order ID}  \\
 			& *Suppler ID & & & & & & Unit Price$)$ & & & & & \underline{*Equipment}\\
-			& Total Price $)$ Date & & & & & & & & & & & Qty $)$\\
+			& Date& & & & & & & & & & & Qty $)$\\
+			& Total Price $)$  
 			
 		\end{tabular}
+		
 		
 				\vspace{40px}
 				
@@ -351,9 +354,46 @@
 			& Client Name\\
 			& Client Address $)$\\
 		\end{tabular}		
+		\pagebreak
+		\subsubsection{Entities in Third Normal Form: With Data}
+		\begin{center}
+			
+			\textit{Order} entity
+			
+			\includegraphics[scale = 0.8]{Task1/03.png}
+			
+			\vspace{10px}
+			\textit{Item} entity
+			
+			\includegraphics[scale = 0.8]{Task1/I3.png}
+			
+			\vspace{20px}
+			\textit{ItemOrder} entity
+			
+			
+			\includegraphics[scale = 0.8]{Task1/IO3.png}
+			
+			\vspace{20px}
+			\textit{Customer} entity
+			
+			\includegraphics[scale = 0.8]{Task1/C3.png}
+		\end{center}
+		\pagebreak
+		
+		
+	\end{homeworkSection}
+	\begin{homeworkSection}{Activity 4: ER Diagram}
 		
 		
 	\end{homeworkSection}
 	\end{homeworkProblem}
 
+\begin{homeworkProblem}[Task 2: Database Development]
+	\begin{homeworkSection}{1: Creating The Database Tables }
+		
+		
+	
+	\end{homeworkSection}
+	
+\end{homeworkProblem}
 \end{document}

@@ -1,0 +1,51 @@
+INSERT INTO Purchase_Order VALUES (689,BA07,28/04/2012);
+INSERT INTO Purchase_Order VALUES (789,UA07,24/06/2011);
+INSERT INTO Purchase_Order VALUES (800,AI06,30/07/2013);
+INSERT INTO Purchase_Order VALUES (898,AC05,06/06/2012);
+INSERT INTO Purchase_Order VALUES (900,RM04,03/11/2012);
+INSERT INTO Purchase_Order VALUES (901,IR01,03/11/2014);
+
+INSERT INTO Aircraft VALUES (C800, CU-800 Commuter,8000000000);
+INSERT INTO Aircraft VALUES ('C8000', 'CU-8000 Stratocruiser',229000000);
+INSERT INTO Aircraft VALUES ('C9000', 'CU-9000 Mesocruiser',300000000);
+INSERT INTO Aircraft VALUES ('C24', 'CU-24 Slipstream',210000000);
+INSERT INTO Aircraft VALUES ('C8', 'CU-8X Heavy Lifter',100000000);
+INSERT INTO Aircraft VALUES ('C10', 'CU-10 Exolinear',400000000);
+INSERT INTO Aircraft VALUES ('C900', 'CU-900 Commuter',190000000);
+INSERT INTO Aircraft VALUES ('C80', 'CU-80 Cloud Hopper',86000000);
+INSERT INTO Aircraft VALUES ('C6', 'CU-6X Rapid Lifter',280000000);
+INSERT INTO Aircraft VALUES ('C22', 'CU-22 Executive Jet',110000000);
+INSERT INTO Aircraft VALUES ('C5', 'CU-X5 Spaceplane',6000000000);
+
+INSERT INTO Airline VALUES (BA07,"British Airways PLC, Waterside, PO Box 365, Harmondsworth, UB7 0GB" ,'London', 'England');
+INSERT INTO Airline VALUES (UA09,'United Airlines','77 W. Wacker Drive, Chigaco, IL 60601, United States', 'Chicago', 'United States');
+INSERT INTO Airline VALUES (AI06,'Air-India Building, Nairman Point, Mumbai, 400 021' ,'Mumbai', 'India');
+INSERT INTO Airline VALUES (AC05,'Coventry Univeristy, Priory Street, COventry, CV! 5FB' ,'Coventry', 'England');
+INSERT INTO Airline VALUES (RM04,'100 Victoria Embankment, London, EC4y 0HQ' ,'London', 'England');
+INSERT INTO Airline VALUES (IR01,'1 Valiasr Street, Tehran' ,'Tehran', 'Iran');
+
+INSERT INTO Ordered_Aircraft( 689, C800,14);
+INSERT INTO Ordered_Aircraft( 689, C8000,8);
+INSERT INTO Ordered_Aircraft( 689, C90000,5);
+INSERT INTO Ordered_Aircraft( 689, C24,14);
+INSERT INTO Ordered_Aircraft( 689, C8,7);
+
+
+INSERT INTO Ordered_Aircraft( 789, C10,4);
+INSERT INTO Ordered_Aircraft( 789, C900,30);
+INSERT INTO Ordered_Aircraft( 789, C8000,8);
+
+INSERT INTO Ordered_Aircraft( 800, C80,9);
+INSERT INTO Ordered_Aircraft( 800, C6,11);
+INSERT INTO Ordered_Aircraft( 800, C22,32);
+
+INSERT INTO Ordered_Aircraft( 898, C5,6);
+INSERT INTO Ordered_Aircraft( 898, C24,12);
+INSERT INTO Ordered_Aircraft( 898, C800,25);
+INSERT INTO Ordered_Aircraft( 898, C10,6);
+
+INSERT INTO Ordered_Aircraft( 900, C8,8);
+INSERT INTO Ordered_Aircraft( 900, C6,25);
+INSERT INTO Ordered_Aircraft( 900, C80,8);
+
+INSERT INTO Ordered_Aircraft( 901, C80,10);
