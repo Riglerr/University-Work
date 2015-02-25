@@ -1,0 +1,5 @@
+CREATE TABLE Aircraft
+(	aircraft_code VARCHAR2(5) PRIMARY KEY,
+	aircraft_type VARCHAR2(30) NOT NULL,
+	aircraft_price NUMBER(11,2) NOT NULL,
+);

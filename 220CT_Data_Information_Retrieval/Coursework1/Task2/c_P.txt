@@ -1,0 +1,6 @@
+CREATE TABLE purchase_order
+( purchase_order_no NUMBER(3,0) PRIMARY KEY ,
+	airline_code CHAR(4) NOT NULL,
+	date_of_purchase DATE NOT NULL,
+	CONSTRAINT FK_1 FOREIGN KEY (airline_code) REFERENCES airline(airline_code)
+	);

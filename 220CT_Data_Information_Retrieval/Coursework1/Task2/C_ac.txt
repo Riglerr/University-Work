@@ -1,0 +1,7 @@
+CREATE TABLE Airline
+( 	airline_code CHAR(4) PRIMARY KEY,
+	airline_name VARCHAR2(20) NOT NULL,
+	airline_address VARCHAR2(60) NOT NULL,
+	airline_city VARCHAR2(15) NOT NULL,
+	airline_country VARCHAR2(15) NOT NULL
+);

@@ -24,28 +24,23 @@ INSERT INTO Airline VALUES (AC05,'Coventry Univeristy, Priory Street, COventry, 
 INSERT INTO Airline VALUES (RM04,'100 Victoria Embankment, London, EC4y 0HQ' ,'London', 'England');
 INSERT INTO Airline VALUES (IR01,'1 Valiasr Street, Tehran' ,'Tehran', 'Iran');
 
-INSERT INTO Ordered_Aircraft( 689, C800,14);
-INSERT INTO Ordered_Aircraft( 689, C8000,8);
-INSERT INTO Ordered_Aircraft( 689, C90000,5);
-INSERT INTO Ordered_Aircraft( 689, C24,14);
-INSERT INTO Ordered_Aircraft( 689, C8,7);
+INSERT INTO Ordered_Aircraft VALUES( 689, 'C800',14);
+INSERT INTO Ordered_Aircraft VALUES( 689, 'C8000',8);
+INSERT INTO Ordered_Aircraft VALUES( 689, 'C9000',5);
+INSERT INTO Ordered_Aircraft VALUES( 689, 'C24',14);
+INSERT INTO Ordered_Aircraft VALUES( 689, 'C8',7);
+INSERT INTO Ordered_Aircraft VALUES( 789, 'C10',4);
+INSERT INTO Ordered_Aircraft VALUES( 789, 'C900',30);
+INSERT INTO Ordered_Aircraft VALUES( 789, 'C8000',8);
+INSERT INTO Ordered_Aircraft VALUES( 800, 'C80',9);
+INSERT INTO Ordered_Aircraft VALUES( 800, 'C6',11);
+INSERT INTO Ordered_Aircraft VALUES( 800, 'C22',32);
+INSERT INTO Ordered_Aircraft VALUES( 898, 'C5',6);
+INSERT INTO Ordered_Aircraft VALUES( 898, 'C24',12);
+INSERT INTO Ordered_Aircraft VALUES( 898, 'C800',25);
+INSERT INTO Ordered_Aircraft VALUES( 898, 'C10',6);
+INSERT INTO Ordered_Aircraft VALUES( 900, 'C8',8);
+INSERT INTO Ordered_Aircraft VALUES( 900, 'C6',25);
+INSERT INTO Ordered_Aircraft VALUES( 900, 'C80',8);
+INSERT INTO Ordered_Aircraft VALUES( 901, 'C80',10);
 
-
-INSERT INTO Ordered_Aircraft( 789, C10,4);
-INSERT INTO Ordered_Aircraft( 789, C900,30);
-INSERT INTO Ordered_Aircraft( 789, C8000,8);
-
-INSERT INTO Ordered_Aircraft( 800, C80,9);
-INSERT INTO Ordered_Aircraft( 800, C6,11);
-INSERT INTO Ordered_Aircraft( 800, C22,32);
-
-INSERT INTO Ordered_Aircraft( 898, C5,6);
-INSERT INTO Ordered_Aircraft( 898, C24,12);
-INSERT INTO Ordered_Aircraft( 898, C800,25);
-INSERT INTO Ordered_Aircraft( 898, C10,6);
-
-INSERT INTO Ordered_Aircraft( 900, C8,8);
-INSERT INTO Ordered_Aircraft( 900, C6,25);
-INSERT INTO Ordered_Aircraft( 900, C80,8);
-
-INSERT INTO Ordered_Aircraft( 901, C80,10);

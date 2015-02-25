@@ -15,6 +15,7 @@
 \usepackage{courier} % Required for the courier font
 \usepackage[table]{xcolor}
 \usepackage{multirow}
+\usepackage{tabularx}
 
 % Margins
 \topmargin=-0.45in
@@ -45,7 +46,7 @@
 
 \definecolor{MyDarkGreen}{rgb}{0.0,0.4,0.0} % This is the color used for comments
 \lstloadlanguages{C} % Load Perl syntax for listings, for a list of other languages supported see: ftp://ftp.tex.ac.uk/tex-archive/macros/latex/contrib/listings/listings.pdf
-\lstset{language=C, % Use c in this example
+\lstset{language=SQL, % Use c in this example
         frame=single, % Single frame around code
         basicstyle=\small\ttfamily, % Use small true type font
         keywordstyle=[1]\color{Blue}\bf, % cfunctions bold and blue
@@ -389,9 +390,59 @@
 	\end{homeworkProblem}
 
 \begin{homeworkProblem}[Task 2: Database Development]
+	For this task I will provide the SQL statement I used to complete each question activity, I will then explain each part of the SQL statement, and give screenshots of before and after the statement was executed (if applicable).\\
+	Each SQL statement was writted and tested using ORACLE 11g Express Edition and ORACLE Application Express.
 	\begin{homeworkSection}{1: Creating The Database Tables }
 		
+		To begin I created the two tables which have no dependency on any other table: \textit{Aircraft} and \textit{Airline}\\
 		
+		\subsubsection{Aircraft}
+	\Cscript{Task2/C_a}{CREATE AIRCRAFT}
+	
+	The statement begins with \textit{'CREATE TABLE Aircraft'} which will create a table called \textit{aircraft}. Inside the brackets the three fields, their data types, and any constraints are listed. Below is a table which will explain why I chose these data types and constraints for each field.   
+	
+	\vspace{1.5cm}
+	\begin{tabular}{|l|c|l|p{8cm}|}\hline \textbf{Identifier} & \textbf{Data-Type} &\textbf{Constraint} & \textbf{Explanation} \\ \hline 
+		aircraft\textunderscore code & VARCHAR2(5) & PRIMARY KEY & All aircraft\textunderscore codes start with 'C' and are followed by up to four numerical digits. This field will be used as the Primary Key of the table.\\ 
+		aircraft\textunderscore type & VARCHAR(30) & NOT NULL & Contains a combination of alphanumeric characters of up to 30 characters in length. This field cannot be left empty.\\
+		aircraft\textunderscore price & NUMBER(11,2) & NOT NULL & Stores large numeric values, with a  precision of 11 and a scale of 2. This allows for prices up to 99 Thousand Million and two decimal places. This field cannot be left empty.\\\hline
+		
+	\end{tabular}
+	\pagebreak
+	
+	
+	\subsubsection{Airline}
+	\Cscript{Task2/C_ac}{CREATE AIRLINE}
+	
+	\begin{tabular}{|l|l|l|p{8cm}|}\hline \textbf{Identifier} & \textbf{Data-Type} &\textbf{Constraint} & \textbf{Explanation} \\ \hline 
+	airline\textunderscore code & CHAR(4) & PRIMARY KEY & A combination of 4 alphanumeric characters.    airline\textunderscore code is also the Primary Key\\
+	airline\textunderscore name & VARCHAR2(20) & NOT NULL &  This field allows a variable length of characters, up to a maximum of 20. This field cannot be left empty. \\
+	airline\textunderscore address & VARCHAR2(60) & NOT NULL & This field allows for a combination of alphanumeric characters up to a maximum length of 60. This field cannot be left empty.\\
+	airline\textunderscore city & VARCHAR2(15) & NOT NULL & This field allows a combination of alphanumeric characters up to a maximum length of 15. This field cannot be left empty.\\
+	airline\textunderscore country & VARCHAR2(15) & NOT NULL & This field allows for a combination of alphanumeric characters up to a maximum length of 15. This field cannot be left empty.\\
+		\hline
+	\end{tabular}
+	
+	\pagebreak
+	
+	\subsubsection{Purchase\textunderscore Order}
+	
+
+	\Cscript{Task2/c_P}{CREATE PURCHASE\textunderscore ORDER}
+	
+\begin{tabularx}{\textwidth}{|l|l|p{3cm}|X|}\hline \textbf{Identifier} & \textbf{Data-Type} &\textbf{Constraint} & \textbf{Explanation} \\ \hline 
+	purchase\textunderscore order\textunderscore no & NUMBER(3,0) & PRIMARY KEY & This field allows for numeric input with a precision of 3 and a scale of 0, this allows values in the range of 001 to 999. This field also acts as the Primary Key.\\
+	airline\textunderscore code & CHAR(4) & NOT NULL,\newline FOREIGN KEY & A combination of 4 alphanumeric characters. This field is a foreign key; Referencing the \textit{airline\textunderscore code} field from the \textit{Airline} table.\\
+	date\textunderscore of\textunderscore purchase & DATE & NOT NULL\\
+	\hline
+\end{tabularx}
+	
+	
+	\pagebreak
+	\subsubsection{Ordered\textunderscore Aircraft}
+	
+	\Cscript{Task2/C_Oa}{CREATE ORDERED\textunderscore AIRCRAFT}
+	
 	
 	\end{homeworkSection}
 	

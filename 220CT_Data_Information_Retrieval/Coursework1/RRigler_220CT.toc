@@ -18,3 +18,7 @@
 \contentsline {subsection}{Activity 4: ER Diagram}{9}
 \contentsline {section}{Task 2: Database Development}{9}
 \contentsline {subsection}{1: Creating The Database Tables }{9}
+\contentsline {subsubsection}{Aircraft}{9}
+\contentsline {subsubsection}{Airline}{10}
+\contentsline {subsubsection}{Purchase\textunderscore Order}{11}
+\contentsline {subsubsection}{Ordered\textunderscore Aircraft}{12}
