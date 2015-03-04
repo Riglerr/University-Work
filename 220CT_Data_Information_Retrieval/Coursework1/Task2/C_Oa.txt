@@ -6,7 +6,7 @@ aircraft_quantity NUMBER(3,0) NOT NULL,
 CONSTRAINT PK_ORDERCODE PRIMARY KEY(purchase_order_no, aircraft_code),
 CONSTRAINT FK_PO FOREIGN KEY (purchase_order_no) 
 REFERENCES purchase_order(purchase_order_no);
-CONSTRAINT FK_AC FORIEGN KEY (aircraft_code)
+CONSTRAINT FK_AC FOREIGN KEY (aircraft_code)
  REFERENCES aircraft(aircraft_code)
 );
 

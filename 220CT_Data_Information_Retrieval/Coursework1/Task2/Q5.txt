@@ -1,0 +1,10 @@
+SELECT ordered_aircraft.aircraft_quantity AS Total_aircraft_ordered, 
+aircraft.aircraft_type
+FROM ordered_aircraft
+JOIN aircraft
+ON ordered_aircraft.aircraft_code=aircraft.aircraft_code
+JOIN purchase_order
+ON ordered_aircraft.purchase_order_no=purchase_order.purchase_order_no
+JOIN airline
+ON purchase_order.airline_code=airline.airline_code
+WHERE airline.airline_code ='BA07';

@@ -1,0 +1,23 @@
+INSERT ALL
+INTO Ordered_Aircraft VALUES( 689, 'C800',14)
+INTO Ordered_Aircraft VALUES( 689, 'C8000',8)
+INTO Ordered_Aircraft VALUES( 689, 'C9000',5)
+INTO Ordered_Aircraft VALUES( 689, 'C24',14)
+INTO Ordered_Aircraft VALUES( 689, 'C8',7)
+INTO Ordered_Aircraft VALUES( 789, 'C10',4)
+INTO Ordered_Aircraft VALUES( 789, 'C900',30)
+INTO Ordered_Aircraft VALUES( 789, 'C8000',8)
+INTO Ordered_Aircraft VALUES( 800, 'C80',9)
+INTO Ordered_Aircraft VALUES( 800, 'C6',11)
+INTO Ordered_Aircraft VALUES( 800, 'C22',32)
+INTO Ordered_Aircraft VALUES( 898, 'C5',6)
+INTO Ordered_Aircraft VALUES( 898, 'C24',12)
+INTO Ordered_Aircraft VALUES( 898, 'C800',25)
+INTO Ordered_Aircraft VALUES( 898, 'C10',6)
+INTO Ordered_Aircraft VALUES( 900, 'C8',8)
+INTO Ordered_Aircraft VALUES( 900, 'C6',25)
+INTO Ordered_Aircraft VALUES( 900, 'C80',8)
+INTO Ordered_Aircraft VALUES( 901, 'C80',10)
+
+
+SELECT 1 FROM DUAL;

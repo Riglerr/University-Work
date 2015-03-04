@@ -390,9 +390,9 @@
 	\end{homeworkProblem}
 
 \begin{homeworkProblem}[Task 2: Database Development]
-	For this task I will provide the SQL statement I used to complete each question activity, I will then explain each part of the SQL statement, and give screenshots of before and after the statement was executed (if applicable).\\
-	Each SQL statement was writted and tested using ORACLE 11g Express Edition and ORACLE Application Express.
-	\begin{homeworkSection}{1: Creating The Database Tables }
+	For this task I will provide the SQL statement I used to complete each question activity, I will then explain each part of the SQL statement, and give screen-shots of before and after the statement was executed (if applicable).\\
+	Each SQL statement was written and tested using ORACLE 11g Express Edition and ORACLE Application Express.
+	\begin{homeworkSection}{Question 1 }
 		
 		To begin I created the two tables which have no dependency on any other table: \textit{Aircraft} and \textit{Airline}\\
 		
@@ -443,8 +443,196 @@
 	
 	\Cscript{Task2/C_Oa}{CREATE ORDERED\textunderscore AIRCRAFT}
 	
+	\begin{tabularx}{\textwidth}{|l|l|p{2.7cm}|X|}\hline \textbf{Identifier} & \textbf{Data-Type} &\textbf{Constraint} & \textbf{Explanation} \\ \hline 
+		
+	purchase\textunderscore order\textunderscore no & NUMBER(3,0) & NOT NULL, PRIMARY KEY, FOREIGN KEY & This field allows for numeric input with a precision of 3 and a scale of 0. It is a foreign key referencing; $purchase\textunderscore order\textunderscore no$ from $purchase\textunderscore order$\\
+	
+	aircraft\textunderscore code & VARCHAR2(5) & NOT NULL, PRIMARY KEY, FOREIGN KEY& This field allows for alphanumeric input up to a maximum length of 5. It is part of a composite key and is also a foreign key referencing $aircraft\textunderscore code$ from $aircraft$.  \\
+	aircraft\textunderscore quantity. & NUMBER (3,0) & NOT NULL & This field allows for 3 digit numbers. This field cannot be left blank.\\
+	
+		\hline
+	\end{tabularx}
 	
 	\end{homeworkSection}
+	\pagebreak
+	\begin{homeworkSection}{Question 2}
+		
+
+
+		\subsubsection{Aircraft}
+		
+		\Cscript{Task2/I_aircraft}{INSERT INTO \textit{AIRCRAFT}}
+		
+		The SQL statement uses the following pattern:\\ \textit{INSERT ALL...INTO (\textit{table identifier}) VALUES (\textit{data})} .\\ \\This allows me to input multiple records into the table simultaneously. '\textit{INTO Aircraft}' specifies that I am going to insert the following values into the \textit{Aircraft} table. \\The text in brackets following the word \textit{VALUES} is the data which is input into that record.\\\\
+		\textit{'SELECT 1 FROM DUAL'} is a requirement of INSERT ALL, so that it can function correctly.
+		\vspace{1cm}
+		
+		 \includegraphics[scale = 0.55]{Task2/I_aircraft.png}
+		
+		
+		\pagebreak
+		\subsubsection{Airline}
+	 
+		\Cscript{Task2/I_airline}{INSERT INTO \textit{AIRLINE}}
+		
+		\vspace{1cm}
+		
+		\includegraphics[scale = 0.5]{Task2/I_airline.png}
+		
+		\pagebreak
+		\subsubsection{Purchase\textunderscore Order}
+		
+		\Cscript{Task2/I_purchase_order}{INSERT INTO \textit{PURCHASE\textunderscore ORDER}}
+		
+		\vspace{1cm}
+		
+		\includegraphics[scale = 0.55]{Task2/I_purchaseorder.png}
+		
+		
+		\pagebreak
+		
+		\subsubsection{Ordered\textunderscore Aircraft}
+			
+		\Cscript{Task2/I_ordered_aircraft}{INSERT INTO \textit{ORDERED\textunderscore AIRCRAFT}}
+		
+		
+		
+		\includegraphics[scale = 0.5]{Task2/I_orderedaircraft.png}
+		
+		\includegraphics[scale = 0.55]{Task2/q21.png}
+		\pagebreak
+	\end{homeworkSection}
+	
+	\begin{homeworkSection}{Question 3}
+		
+		This question requires me to find the; Average, Minimum and Maximum price for all aircraft bought after '01/01/2012'.
+		
+		
+		\Cscript{Task2/Q3}{AVG() MIN() MAX()}
+		
+		Firstly, to work out the price for all the aircraft bought, I multiply the quantity of aircraft ordered\\ (\textit{aircraft\textunderscore quantity}) by the price of that particular aircraft (\textit{aircraft\textunderscore price}). To find the average, minimum and maximum of these prices then I need to use this calculation in conjunction with the \textcolor{blue}{\textit{AVG()}}, \textcolor{blue}{\textit{MIN()}} and \textcolor{blue}{\textit{MAX()}} SQL functions respectively. These functions will perform this calculation on every record in the specified tables and return the correct value. Once I selected the values, I used the \textcolor{blue}{\textit{AS}} keyword to label the output columns. \\ This can be seen in line 1 - 3 in the code above.
+		\\
+		In total, this SQL statement uses three tables	\textit{ordered\textunderscore aircraft} and \textit{aircraft} for the calculations, and \textit{purchase\textunderscore order} for the conditional statement.\\
+		To be able to use the data from multiple tables, I need to use \textcolor{blue}{\textit{JOINS}}. \textcolor{blue}{\textit{JOINS}} allow me to combine common records from two or more tables by using the syntax structure;\\\\ \textcolor{blue}{\textit{JOIN}} \textit{table name} \textcolor{blue}{\textit{ON}} \textit{table1.attribute = table2.attribute}\\\\
+		For this problem I used two joins;
+		\begin{enumerate}
+			\item  \textcolor{blue}{JOIN} aircraft
+			\textcolor{blue}{ON} ordered\textunderscore aircraft.aircraft\textunderscore code = aircraft.aircraft\textunderscore code
+			\item \textcolor{blue}{JOIN} purchase\textunderscore order
+			\textcolor{blue}{ON} ordered\textunderscore aircraft.purchase\textunderscore order\textunderscore no = purchase\textunderscore order.purchase\textunderscore order\textunderscore no
+		\end{enumerate}
+		
+		
+		
+		Join number One is used to select the correct relation attributes from both required tables.\\
+		Join number Two is used to ensure that the \textcolor{blue}{WHERE} condition relates to the selected attributes.
+		
+		This allowed me to select all the values I needed and also make sure that the value used in each calculation were from the same record. 
+		
+	
+		Below is a screenshot of the statements' output.\vspace{1cm}
+		
+		\includegraphics[scale = 0.8]{Task2/Q3.png} 
+		
+		
+		\pagebreak
+		
+		\begin{homeworkSection}{Question 4}
+			This question required me to: "Display the purchase order number, date, airline name, address, airline country for airlines where the total cost of an order is less than 10,000 million pounds.  Your results should be in descending alphabetical order based on the airline code".\\
+			
+			\Cscript{Task2/Q4}{Question 4}
+			
+			
+			Lines 1 - 8 above I am using a \textcolor{blue}{SELECT} ... \textcolor{blue}{FROM} statement to select the required atributes from the tables. However not all of these attributes are from the same table, so I used multiple \textcolor{blue}{JOIN} statements (lines 9 - 14) to combine the common attributes. On line 15 I used a \textcolor{blue}{WHERE} keyword to specify the required condition (Total cost > 10,000 Million pounds). Finally on Line 16, I sorted the results in descending order on \textit{airine\textunderscore code} by using \textcolor{blue}{ORDER BY} \textcolor{blue}...{DESC}.
+			\\
+			Below is a screenshot of the statements' output.
+			
+			\vspace{1cm}
+			
+			\includegraphics[scale = 0.4]{Task2/Q4.png} 
+			\pagebreak
+			
+		\end{homeworkSection}
+		
+		\begin{homeworkSection}{Question 5}
+			This question required me to: "Display how many aircraft were ordered by British Airways in total and by each different airplane type."\\
+			
+			\Cscript{Task2/Q5}{Question5}
+			
+			Lines 1 - 3 use \textcolor{blue}{SELECT} ... \textcolor{blue}{FROM} to select the two rows needed for this task.\\
+			Lines 4 - 9 contains the joins required to combine the related data in the tables.\\
+			Lines 10 uses \textcolor{blue}{WHERE} to define a condition. In this particular case it only selects data where airline\textunderscore code is equal to $BA07$ , which is the airline code for \textit{"British airways PLC"}.\\
+			Below is a screenshot of the statements' output.
+			\vspace{1cm}
+			
+			\includegraphics{Task2/Q5}
+			\pagebreak
+		\end{homeworkSection}
+		
+		\begin{homeworkSection}{Question 6}
+			
+			This question required me to: "Produce a list of all the orders from all the airlines. The list should show the airline code, followed by the order number, followed by the code of the aircraft ordered, followed by the quantity of aircraft ordered and then the total cost of that order. The list should be arranged by airline code in descending order."
+			
+			\Cscript{Task2/Q6}{Question 6}
+			
+			Lines 1 - 7 use \textcolor{blue}{SELECT} ... \textcolor{blue}{FROM} to select the five rows needed for this task and specify their location.\\
+			Lines 8 - 13 join the tables so to combined the related data to achieve contiguous output.\\
+			Line 14 \textcolor{blue}{ORDER BY} \textcolor{blue}...{DESC} to sort the data in descending order via the \textit{airline\textunderscore code} column.\\
+			Below is a screenshot of the statements' output.
+			\vspace{1cm}
+			
+			\includegraphics[scale =0.5]{Task2/Q6}
+			\pagebreak
+		\end{homeworkSection}
+		
+		
+	\end{homeworkSection}
+	
+	\begin{homeworkSection}{Question 7}
+		This question required me to : ". Display the order details, airline details and the aircraft details where more than 10 aircraft of a specific type were ordered."\\
+		
+		\Cscript{Task2/Q7}{Question 7}
+		
+		Lines 1 - 10 select the required rows from the data tables.\\
+		Lines 11 - 16 Joins the tables on the common data elements.
+		\\Line 17 is a condition statement, where the \textit{aircraft\textunderscore quantity} is greater than ten.\\
+		Below is a screenshot of the statements' output.
+		\vspace{1cm}
+		
+		\includegraphics[width=\columnwidth, height = 4cm]{Task2/Q7}
+		\pagebreak
+	\end{homeworkSection}
+	
+	\begin{homeworkSection}{Question 8}
+		
+		This question required me to: "We have discovered an error in our spreadsheet. The C800 aircraft should have been 100 million not 80 million please update the database based on this change."
+		
+		\Cscript{Task2/Q8}{Question 8}
+		
+		Below is a screen shot of the updated record.
+		\vspace{1cm}
+		
+		\includegraphics[scale = 0.7]{Task2/Q8}
+		
+	\end{homeworkSection}
+	
+	\begin{homeworkSection}{Question 9}
+		
+		
+			This question required me to: ". Air Coventry LTD has changed its name to Coventry University Airways please update the information."
+			
+			\Cscript{Task2/Q9}{Question 9}
+			
+			Below is a screen shot of the updated record.
+			\vspace{1cm}
+			
+			\includegraphics[scale = 0.5]{Task2/Q9}
+			
+		\end{homeworkSection}
+		
+	
+		
+	
 	
 \end{homeworkProblem}
 \end{document}

@@ -1,0 +1,16 @@
+SELECT 
+purchase_order.purchase_order_no,
+purchase_order.date_of_purchase,
+airline.airline_name,
+airline.airline_address,
+airline.airline_country,
+ordered_aircraft.aircraft_quantity * aircraft.aircraft_price  AS total_cost
+FROM airline
+JOIN purchase_order
+ON airline.airline_code=purchase_order.airline_code
+JOIN ordered_aircraft
+ON purchase_order.purchase_order_no=ordered_aircraft.purchase_order_no
+JOIN aircraft
+ON ordered_aircraft.aircraft_code=aircraft.aircraft_code
+WHERE ordered_aircraft.aircraft_quantity * aircraft.aircraft_price < 10000000000
+ORDER BY airline.airline_code DESC;

@@ -1,0 +1,3 @@
+UPDATE aircraft
+SET aircraft_price=100000000
+WHERE aircraft_code='C800'

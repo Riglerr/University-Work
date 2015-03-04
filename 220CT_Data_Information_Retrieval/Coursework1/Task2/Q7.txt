@@ -1,0 +1,17 @@
+SELECT purchase_order.*,
+ordered_aircraft.aircraft_quantity,
+airline.airline_name,
+airline.airline_address,
+airline.airline_city,
+airline.airline_country,
+ordered_aircraft.aircraft_code,
+aircraft.aircraft_type,
+aircraft.aircraft_price
+FROM purchase_order
+JOIN airline
+ON airline.airline_code=purchase_order.airline_code
+JOIN ordered_aircraft
+ON purchase_order.purchase_order_no=ordered_aircraft.purchase_order_no
+JOIN aircraft
+ON ordered_aircraft.aircraft_code=aircraft.aircraft_code
+WHERE ordered_aircraft.aircraft_quantity > 10;

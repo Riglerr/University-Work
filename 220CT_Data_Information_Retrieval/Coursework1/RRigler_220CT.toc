@@ -17,8 +17,20 @@
 \contentsline {subsubsection}{Entities in Third Normal Form: With Data}{8}
 \contentsline {subsection}{Activity 4: ER Diagram}{9}
 \contentsline {section}{Task 2: Database Development}{9}
-\contentsline {subsection}{1: Creating The Database Tables }{9}
+\contentsline {subsection}{Question 1 }{9}
 \contentsline {subsubsection}{Aircraft}{9}
 \contentsline {subsubsection}{Airline}{10}
 \contentsline {subsubsection}{Purchase\textunderscore Order}{11}
 \contentsline {subsubsection}{Ordered\textunderscore Aircraft}{12}
+\contentsline {subsection}{Question 2}{13}
+\contentsline {subsubsection}{Aircraft}{13}
+\contentsline {subsubsection}{Airline}{14}
+\contentsline {subsubsection}{Purchase\textunderscore Order}{15}
+\contentsline {subsubsection}{Ordered\textunderscore Aircraft}{16}
+\contentsline {subsection}{Question 3}{18}
+\contentsline {subsection}{Question 4}{19}
+\contentsline {subsection}{Question 5}{20}
+\contentsline {subsection}{Question 6}{21}
+\contentsline {subsection}{Question 7}{22}
+\contentsline {subsection}{Question 8}{23}
+\contentsline {subsection}{Question 9}{23}

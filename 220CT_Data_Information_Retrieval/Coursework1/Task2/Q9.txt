@@ -1,0 +1,3 @@
+UPDATE airline
+SET airline_name='Coventry University Airways'
+WHERE airline_name='Air Coventry LTD'

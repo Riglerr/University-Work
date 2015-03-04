@@ -1,0 +1,14 @@
+SELECT
+airline.airline_code,
+ordered_aircraft.purchase_order_no,
+aircraft.aircraft_code,
+ordered_aircraft.aircraft_quantity,
+(ordered_aircraft.aircraft_quantity * aircraft.aircraft_price) AS total_price
+FROM airline
+JOIN purchase_order
+ON purchase_order.airline_code=airline.airline_code
+JOIN ordered_aircraft 
+ON purchase_order.purchase_order_no=ordered_aircraft.purchase_order_no
+JOIN aircraft
+ON ordered_aircraft.aircraft_code=aircraft.aircraft_code
+ORDER BY airline.airline_code DESC;

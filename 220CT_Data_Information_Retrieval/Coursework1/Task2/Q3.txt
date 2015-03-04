@@ -1,0 +1,8 @@
+SELECT  AVG(ordered_aircraft.aircraft_quantity * aircraft_price) AS Average_Price,
+MIN(ordered_aircraft.aircraft_quantity * aircraft_price) AS Minimum_Price,
+MAX(ordered_aircraft.aircraft_quantity * aircraft_price) AS Maxium_Price
+FROM ordered_aircraft JOIN aircraft
+ON ordered_aircraft.aircraft_code = aircraft.aircraft_code
+JOIN purchase_order
+ON ordered_aircraft.purchase_order_no = purchase_order.purchase_order_no
+WHERE purchase_order.date_of_purchase > '01/01/2012';

@@ -1,0 +1,13 @@
+INSERT ALL
+INTO Aircraft VALUES ('C800' , 'CU-800 Commuter'      ,8000000000)
+INTO Aircraft VALUES ('C8000', 'CU-8000 Stratocruiser',229000000)
+INTO Aircraft VALUES ('C9000', 'CU-9000 Mesocruiser'  ,300000000)
+INTO Aircraft VALUES ('C24'  , 'CU-24 Slipstream'     ,210000000)
+INTO Aircraft VALUES ('C8'   , 'CU-8X Heavy Lifter'   ,100000000)
+INTO Aircraft VALUES ('C10'  , 'CU-10 Exolinear'      ,400000000)
+INTO Aircraft VALUES ('C900' , 'CU-900 Commuter'      ,190000000)
+INTO Aircraft VALUES ('C80'  , 'CU-80 Cloud Hopper'   ,86000000)
+INTO Aircraft VALUES ('C6'   , 'CU-6X Rapid Lifter'   ,280000000)
+INTO Aircraft VALUES ('C22'  , 'CU-22 Executive Jet'  ,110000000)
+INTO Aircraft VALUES ('C5'   , 'CU-X5 Spaceplane'     ,6000000000)
+SELECT 1 FROM DUAL;

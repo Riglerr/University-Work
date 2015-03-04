@@ -1,0 +1,21 @@
+INSERT ALL
+
+INTO Airline VALUES ('BA07','British Airways PLC',
+'Waterside, PO Box 365, Harmondsworth, UB7 0GB' ,'London', 'England')
+
+INTO Airline VALUES ('UA09','United Airlines',
+'77 W. Wacker Drive, Chigaco, IL 60601, United States', 'Chicago', 'United States')
+
+INTO Airline VALUES ('AI06','Air India' ,
+'Air-India Building, Nairman Point, Mumbai, 400 021' ,'Mumbai', 'India')
+
+INTO Airline VALUES ('AC05','Air Coventry LTD' ,
+'Coventry Univeristy, Priory Street, COventry, CV1 5FB' ,'Coventry', 'England')
+
+INTO Airline VALUES ('RM04','Royal Mail Group',
+'100 Victoria Embankment, London, EC4y 0HQ' ,'London', 'England')
+
+INTO Airline VALUES ('IR01','Iran Air',
+'1 Valiasr Street, Tehran' ,'Tehran', 'Iran')
+
+SELECT 1 FROM DUAL;
