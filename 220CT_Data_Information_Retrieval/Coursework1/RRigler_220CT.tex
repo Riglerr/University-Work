@@ -653,7 +653,9 @@
 		 Recommendation systems work via the use of Data Mining. Data Mining is  a process where data is gathered and analysed to find specific patterns. These patterns can provide meaningful and insightful data which can then be relayed to the consumer.\\
 		 
 		 The data gathered for a recommendation system comes in many varieties and is often tailored to the recommendation systems' main purpose. For Example, a system may collect data on a users' Hobbies, Interests, Opinions, Habits, Recent search history, Recent Purchase History and many more areas.
+		 \\
 		 
+		 \Large{MOAR OF THIS, EXPANDED EXAMPLES E-COMMERCE, BOOK RECOMMENDATIONS, ETC}
 	\end{homeworkSection}
 	
 	\begin{homeworkSection}{Data Gathering and Preparation}
@@ -686,7 +688,81 @@
 			Did the customer arrive here from a different website, if so, that website could infer interest in specific items.
 		\end{description}
 		
-		All of these types of data are in 
+		All of these possible information sources can be categorized into three main categories:
+		\begin{description}
+			\item[Demographic Data]\hfill \\ This is data about the customer, which can be used to identify them. e.g Age, Gender,Social class and Location.
+			\item[Item Data]\hfill \\ This is data that can identify specific items or groups of related items. This may include keywords, tags, Genres and types.
+			\item[User-Item Data] \hfill \\ This is explicit data, which is provided by the customer in the form of ratings and reviews. Ratings and reviews act as a linear scale on which a recommender system can use to recommend other items.
+			
+			
+		\end{description}
+		All of these types of data are in a web-format, meaning that all of the data here is collected via the consumers actions on the web page. The types of data that can be gather to include other external sources and formats. For example the recommendation system could be expanded to scrape information from the customers various social media profiles to gather more information.
+		
+	\end{homeworkSection}
+	\pagebreak
+	\begin{homeworkSection}{Benefits and limitations of a Recommendation system}
+	
+			Good recommendation systems drastically improve e-commerce sales, but there are also some downfalls. In this section I will explore both the benefits and limitations in detail. \hfill \\
+			
+			\subsection{Limitations}
+			
+			\begin{description}
+				\item \textbf{Complexity}\hfill \\
+				Making a system that produces relevant recommendations requires a lot of work. Primarily because there are so many variables that go into producing the most basic of recommendations. \hfill \\ It takes incredibly complex algorithms and a large amount of processing power to produce any recommendations at all. If the recommendation algorithm isn't at complex as it needs to be, or it doesn't use the right comparisons then it will only produce recommendations that are either very obvious or not of any interest at all. \hfill \\
+				
+				\item[Amount of Data]
+				
+				For recommendation systems to operate at their most effective, they need a large amount of accurate data. Not only do they need customer data, but also item data . Before a recommendation system is implemented a large amount of user data needs to be collected. This can prove difficult because sometimes that user data just isn't available. The more data a company can collect about their customers and about their own recommendation system results, the more accurate it will be. 
+				
+				\item[Data Accuracy]
+				
+					Data, by its nature is a rapidly expanding resource. Whilst the collection of data is a relatively simple process, deciding whether or not the data is relevant is far more complex. Hopefully, depending on the way the data is gathered, all of it will be relevant, but this is not always the case and valuable time and resources are used collecting and analysing this useless data.\\
+					Not only may some of the data be irrelevant, some of it may be contradictory. For example if a customer changes some of his/her preferences or changes demographic, also shopping trends are always in flux i.e what was popular last week might not be the case a month from now. This inaccurate data will make the recommendation system less effective.
+				
+			\end{description}
+			
+			
+			
+			\subsection{Benefits}
+			\begin{description}
+				\item[Sales]\hfill \\
+					An accurate recommendation system has the potential to increase sales and profits. This is done by giving the customer recommendations that they are interested in but did not plan to purchase, this increases average order value. \\ Once a customer has received personalized recommendations, overall customer retention (customer loyalty) increases.
+					
+				\item[Trends and Market data] \hfill \\
+				The recommendation system doesn't just need a lot of data, it can also produce valuable data about shopping habits and market trends.
+				This data can help drive the direction of the business to improve future sales and sales forcasting.
+				\pagebreak
+				\item[Real-Time Data]\hfill \\
+				
+				Similar to the section above, having data coming into the system in real time has many advantages. The data being collected is coming into the system in real time, this means that very little 'Guess-Work' needs to be done with predictions. The influx of new data means that recommendations can be updated almost instantaneously as soon as that data is available. Using current data minimises the potential for inaccurate or irrelevant predictions.
+				
+				\item[Automation]\hfill \\
+				The recommendation system holds data about every  customer, it is continuously analysing their actions. Because of this, the users are effectively organizing their own content of the web page and deciding what they see in the future. The customer may not be away of this at all times, but this is very beneficial for the company. With the only participants being the system and the customers, a vast amount of the organisation and customer maintenance on the business side is reduced .
+			\end{description}
+	\end{homeworkSection}\pagebreak
+	\begin{homeworkSection}{Analysis}
+		In this section I will explore how the types of data gathered above can be analysed to produce meaningful recommendations via \textit{ Association analysis}.\\
+		
+		Association analysis defines a broad spectrum of analytical techniques that focus on using complex algorithms to analyse large data sets to produce statistical rules that can explain the patterns within the data.\\
+		
+		\subsection{Collaborative filtering}
+		
+		Collaborative filtering is done by collecting specific data about the items that a customer has bought, and then comparing this data to that of other users. The recommendations produced are items that are liked by a user with similar purchase/rating data.\\
+		
+		The data needed for this approach is the explicit \textit{User-Item} data, which consist of ratings and reviews. Each time a customer purchases or positively rates a product, it is added to their 'profile' vice versa for negatively rated items. The customer 'profiles' are what are compared to each other and the similarities and differences of the 'profiles' are used to determine different products.
+		
+		For example if \textit{User A} positively rates \textit{product 1} and \textit{product 2}.\\
+		And if \textit{User B} also postivively rates \textit{Product 1} and \textit{2} and also positively rates \textit{Product 3}, then the system will determine that \textit{User A} would also like \textit{Product 3} and recommend it to them.\\
+		
+		This is a Model-Based approach, where customers are grouped (clustered) by similar rating and preferences. From these groups, a large dataset is made which the system analyses to produce a probabilistic model which can be used to determine an expected rating for products.
+		
+		The benefits to this approach are that no item data is needed to produce results and it also has a high probability to recommend 'outside the box' products which the customer had not previous knowledge of.\\
+		The Model-based approach has the potential to be very fast and 'resource friendly'.\\
+		
+		There are however, some disadvantages, such as how the size of the data gathered affects the recommendations. Often customers do not provide ratings or review for purchased items and new customers do not have any at all, which limits the systems effectiveness at identifying customers with similar 'profiles'. When this scenario occurs, the approach loses it speed and resource advantage.
+		
+		\subsection{The Demographic approach}
+		
 		
 	\end{homeworkSection}
 	
@@ -701,6 +777,13 @@
 		\begin{enumerate}
 			\item \url{http://www.webopedia.com/TERM/R/recommender_systems.} 
 			\item \url{http://fortune.com/2012/07/30/amazons-recommendation-secret/}
+			\item \url{http://www.cs.umd.edu/~samir/498/Amazon-Recommendations.pdf}
+			\item \url{http://stackoverflow.com/questions/2323768/how-does-the-amazon-recommendation-feature-work}
+			\item \url{https://www.few.vu.nl/nl/Images/werkstuk-hiralall_tcm38-202691.pdf}
+			\item \url{http://webcache.googleusercontent.com/search?q=cache:X2_XVw9qTIcJ:readwrite.com/2009/01/28/5_problems_of_recommender_systems+&cd=1&hl=en&ct=clnk&gl=uk}
+			\item \url{https://www.few.vu.nl/nl/Images/werkstuk-hiralall_tcm38-202691.pdf}
+			\item \url{http://www.uie.com/articles/recommendation_systems/}
+			\item \url{http://infolab.stanford.edu/~ullman/mmds/ch9.pdf}
 		\end{enumerate}
 		
 	\end{homeworkSection}
