@@ -42,9 +42,10 @@
 \contentsline {subsection}{Benefits and limitations of a Recommendation system}{28}{section*.43}
 \contentsline {subsection}{Limitations}{28}{section*.44}
 \contentsline {subsection}{Benefits}{28}{section*.45}
-\contentsline {subsection}{Analysis}{30}{section*.46}
+\contentsline {subsection}{Analysis techniques}{30}{section*.46}
 \contentsline {subsection}{Collaborative filtering}{30}{section*.47}
 \contentsline {subsection}{The Demographic approach}{30}{section*.48}
-\contentsline {section}{Bibliography}{31}{section*.49}
-\contentsline {subsection}{References for Task 3: A Poster of Ethics}{31}{section*.50}
-\contentsline {subsection}{References for Task 4: A Recommendation system}{31}{section*.51}
+\contentsline {subsection}{Business Requirements}{31}{section*.49}
+\contentsline {section}{Bibliography}{32}{section*.50}
+\contentsline {subsection}{References for Task 3: A Poster of Ethics}{32}{section*.51}
+\contentsline {subsection}{References for Task 4: A Recommendation system}{32}{section*.52}

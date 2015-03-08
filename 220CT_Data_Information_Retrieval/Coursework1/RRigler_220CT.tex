@@ -740,7 +740,7 @@
 				The recommendation system holds data about every  customer, it is continuously analysing their actions. Because of this, the users are effectively organizing their own content of the web page and deciding what they see in the future. The customer may not be away of this at all times, but this is very beneficial for the company. With the only participants being the system and the customers, a vast amount of the organisation and customer maintenance on the business side is reduced .
 			\end{description}
 	\end{homeworkSection}\pagebreak
-	\begin{homeworkSection}{Analysis}
+	\begin{homeworkSection}{Analysis techniques}
 		In this section I will explore how the types of data gathered above can be analysed to produce meaningful recommendations via \textit{ Association analysis}.\\
 		
 		Association analysis defines a broad spectrum of analytical techniques that focus on using complex algorithms to analyse large data sets to produce statistical rules that can explain the patterns within the data.\\
@@ -749,7 +749,7 @@
 		
 		Collaborative filtering is done by collecting specific data about the items that a customer has bought, and then comparing this data to that of other users. The recommendations produced are items that are liked by a user with similar purchase/rating data.\\
 		
-		The data needed for this approach is the explicit \textit{User-Item} data, which consist of ratings and reviews. Each time a customer purchases or positively rates a product, it is added to their 'profile' vice versa for negatively rated items. The customer 'profiles' are what are compared to each other and the similarities and differences of the 'profiles' are used to determine different products.
+		The data needed for this approach is the explicit \textit{User-Item} data, which consists of ratings and reviews. Each time a customer purchases or positively rates a product, it is added to their 'profile' vice versa for negatively rated items. The customer 'profiles' are what are compared to each other and the similarities and differences of the 'profiles' are used to determine different products.
 		
 		For example if \textit{User A} positively rates \textit{product 1} and \textit{product 2}.\\
 		And if \textit{User B} also postivively rates \textit{Product 1} and \textit{2} and also positively rates \textit{Product 3}, then the system will determine that \textit{User A} would also like \textit{Product 3} and recommend it to them.\\
@@ -765,7 +765,24 @@
 		
 		
 	\end{homeworkSection}
+	\pagebreak
+	\begin{homeworkSection}{Business Requirements}
 	
+	In this section I will define the business requirements of the recommendation system. Firstly I will look into the requirements of the system itself, and then into how the business will benefit from them.\\
+	
+	\begin{description}
+		
+		\item[Transparency]\hfill \\
+			The system must be 'transparent' i.e it doesn't impede or get in the way of the custome making purchases. It must gather information without having to explicitly ask for it, so it runs parallel to the shopping process.
+		\item [Speed]\hfill \\
+			For the system to be effective after deployment, the modelling time needs to be fast without losing any accuracy.
+		\item[Flexibility & Scalability]\hfill \\
+			The recommender needs to be able to accommodate users from all data ranges, i.e customers with no data, some data and lots of data. This is vital so that the can provide results for all users,
+		\item[Forward Compatible]\hfill \\
+		As the customer base and the data gathered grows, the system needs to be able to 
+		
+	\end{description}
+	\end{homeworkSection}
 \end{homeworkProblem}
 \pagebreak
 \begin{homeworkProblem}[Bibliography]

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  6 MAR 2015 16:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  7 MAR 2015 17:22
 entering extended mode
 **RRigler_220CT.tex
 
@@ -378,13 +378,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--213
 
  []
 
-[4] <Task1/Order1NF.png, id=283, 907.39pt x 104.39pt>
+[4] <Task1/Order1NF.png, id=288, 907.39pt x 104.39pt>
 File: Task1/Order1NF.png Graphic file (type png)
  <use Task1/Order1NF.png>
 Package pdftex.def Info: Task1/Order1NF.png used on input line 228.
 (pdftex.def)             Requested size: 469.75482pt x 85.36299pt.
 
-<Task1/Item11NF.png, id=285, 472.76625pt x 367.3725pt>
+<Task1/Item11NF.png, id=290, 472.76625pt x 367.3725pt>
 File: Task1/Item11NF.png Graphic file (type png)
 
 <use Task1/Item11NF.png>
@@ -398,13 +398,13 @@ File: Task1/Order1NF.png Graphic file (type png)
 Package pdftex.def Info: Task1/Order1NF.png used on input line 291.
 (pdftex.def)             Requested size: 469.75482pt x 85.36299pt.
 
-<Task1/Item02.png, id=300, 249.93375pt x 167.62625pt>
+<Task1/Item02.png, id=305, 249.93375pt x 167.62625pt>
 File: Task1/Item02.png Graphic file (type png)
  <use Task1/Item02.png>
 Package pdftex.def Info: Task1/Item02.png used on input line 296.
 (pdftex.def)             Requested size: 249.93314pt x 167.62582pt.
 
-<Task1/Item12NF.png, id=301, 472.76625pt x 367.3725pt>
+<Task1/Item12NF.png, id=306, 472.76625pt x 367.3725pt>
 File: Task1/Item12NF.png Graphic file (type png)
 
 <use Task1/Item12NF.png>
@@ -422,25 +422,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-[8] <Task1/03.png, id=317, 352.31625pt x 111.41624pt>
+[8] <Task1/03.png, id=322, 352.31625pt x 111.41624pt>
 File: Task1/03.png Graphic file (type png)
  <use Task1/03.png>
 Package pdftex.def Info: Task1/03.png used on input line 365.
 (pdftex.def)             Requested size: 281.85338pt x 89.1331pt.
 
-<Task1/I3.png, id=318, 248.93pt x 174.6525pt>
+<Task1/I3.png, id=323, 248.93pt x 174.6525pt>
 File: Task1/I3.png Graphic file (type png)
  <use Task1/I3.png>
 Package pdftex.def Info: Task1/I3.png used on input line 370.
 (pdftex.def)             Requested size: 199.14426pt x 139.72218pt.
 
-<Task1/IO3.png, id=319, 314.17375pt x 234.8775pt>
+<Task1/IO3.png, id=324, 314.17375pt x 234.8775pt>
 File: Task1/IO3.png Graphic file (type png)
  <use Task1/IO3.png>
 Package pdftex.def Info: Task1/IO3.png used on input line 376.
 (pdftex.def)             Requested size: 251.33932pt x 187.90225pt.
 
-<Task1/C3.png, id=320, 556.0775pt x 111.41624pt>
+<Task1/C3.png, id=325, 556.0775pt x 111.41624pt>
 File: Task1/C3.png Graphic file (type png)
  <use Task1/C3.png>
 Package pdftex.def Info: Task1/C3.png used on input line 381.
@@ -1240,7 +1240,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 467--470
 
  []
 
-<Task2/I_aircraft.png, id=388, 571.13374pt x 452.69125pt>
+<Task2/I_aircraft.png, id=393, 571.13374pt x 452.69125pt>
 File: Task2/I_aircraft.png Graphic file (type png)
 
 <use Task2/I_aircraft.png>
@@ -1959,7 +1959,7 @@ Package xcolor Warning: Incompatible color definition on input line 21.
 
 Package xcolor Warning: Incompatible color definition on input line 21.
 
-) <Task2/I_airline.png, id=409, 1075.01625pt x 280.04625pt>
+) <Task2/I_airline.png, id=414, 1075.01625pt x 280.04625pt>
 File: Task2/I_airline.png Graphic file (type png)
 
 <use Task2/I_airline.png>
@@ -2286,7 +2286,7 @@ Package xcolor Warning: Incompatible color definition on input line 10.
 
 Package xcolor Warning: Incompatible color definition on input line 10.
 
-) <Task2/I_purchaseorder.png, id=438, 614.295pt x 279.0425pt>
+) <Task2/I_purchaseorder.png, id=443, 614.295pt x 279.0425pt>
 File: Task2/I_purchaseorder.png Graphic file (type png)
 
 <use Task2/I_purchaseorder.png>
@@ -2662,14 +2662,14 @@ Package xcolor Warning: Incompatible color definition on input line 23.
 
 Package xcolor Warning: Incompatible color definition on input line 23.
 
-) <Task2/I_orderedaircraft.png, id=456, 630.355pt x 599.23875pt>
+) <Task2/I_orderedaircraft.png, id=461, 630.355pt x 599.23875pt>
 File: Task2/I_orderedaircraft.png Graphic file (type png)
 
 <use Task2/I_orderedaircraft.png>
 Package pdftex.def Info: Task2/I_orderedaircraft.png used on input line 501.
 (pdftex.def)             Requested size: 315.17673pt x 299.61864pt.
 
-<Task2/q21.png, id=457, 553.06625pt x 198.7425pt>
+<Task2/q21.png, id=462, 553.06625pt x 198.7425pt>
 File: Task2/q21.png Graphic file (type png)
  <use Task2/q21.png>
 Package pdftex.def Info: Task2/q21.png used on input line 503.
@@ -2761,7 +2761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 514--519
 
  []
 
-<Task2/Q3.png, id=494, 454.69875pt x 74.2775pt>
+<Task2/Q3.png, id=499, 454.69875pt x 74.2775pt>
 File: Task2/Q3.png Graphic file (type png)
  <use Task2/Q3.png>
 Package pdftex.def Info: Task2/Q3.png used on input line 536.
@@ -2862,7 +2862,7 @@ Package xcolor Warning: Incompatible color definition on input line 16.
 
 Package xcolor Warning: Incompatible color definition on input line 16.
 
-) <Task2/Q4.png, id=513, 1131.22626pt x 549.05125pt>
+) <Task2/Q4.png, id=518, 1131.22626pt x 549.05125pt>
 File: Task2/Q4.png Graphic file (type png)
  <use Task2/Q4.png>
 Package pdftex.def Info: Task2/Q4.png used on input line 553.
@@ -2946,7 +2946,7 @@ Package xcolor Warning: Incompatible color definition on input line 10.
 
 Package xcolor Warning: Incompatible color definition on input line 10.
 
-) <Task2/Q5.png, id=537, 434.62375pt x 189.70876pt>
+) <Task2/Q5.png, id=542, 434.62375pt x 189.70876pt>
 File: Task2/Q5.png Graphic file (type png)
  <use Task2/Q5.png>
 Package pdftex.def Info: Task2/Q5.png used on input line 569.
@@ -3033,7 +3033,7 @@ Package xcolor Warning: Incompatible color definition on input line 14.
 
 Package xcolor Warning: Incompatible color definition on input line 14.
 
-) <Task2/Q6.png, id=555, 741.77126pt x 578.16pt>
+) <Task2/Q6.png, id=560, 741.77126pt x 578.16pt>
 File: Task2/Q6.png Graphic file (type png)
  <use Task2/Q6.png>
 Package pdftex.def Info: Task2/Q6.png used on input line 585.
@@ -3125,7 +3125,7 @@ Package xcolor Warning: Incompatible color definition on input line 17.
 
 Package xcolor Warning: Incompatible color definition on input line 17.
 
-) <Task2/Q7.png, id=577, 1854.93pt x 265.99374pt>
+) <Task2/Q7.png, id=582, 1854.93pt x 265.99374pt>
 File: Task2/Q7.png Graphic file (type png)
  <use Task2/Q7.png>
 Package pdftex.def Info: Task2/Q7.png used on input line 603.
@@ -3166,7 +3166,7 @@ Package xcolor Warning: Incompatible color definition on input line 3.
 
 Package xcolor Warning: Incompatible color definition on input line 3.
 
-) <Task2/Q8.png, id=602, 503.8825pt x 69.25874pt>
+) <Task2/Q8.png, id=607, 503.8825pt x 69.25874pt>
 File: Task2/Q8.png Graphic file (type png)
  <use Task2/Q8.png>
 Package pdftex.def Info: Task2/Q8.png used on input line 616.
@@ -3234,7 +3234,7 @@ Package xcolor Warning: Incompatible color definition on input line 3.
 
 Package xcolor Warning: Incompatible color definition on input line 3.
 
-) <Task2/Q9.png, id=603, 1014.79124pt x 35.13126pt>
+) <Task2/Q9.png, id=608, 1014.79124pt x 35.13126pt>
 File: Task2/Q9.png Graphic file (type png)
  <use Task2/Q9.png>
 Package pdftex.def Info: Task2/Q9.png used on input line 630.
@@ -3317,36 +3317,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 759--761
  []
 
 [30]
-Overfull \hbox (98.24504pt too wide) in paragraph at lines 781--782
+Underfull \hbox (badness 10000) in paragraph at lines 771--772
+
+ []
+
+[31]
+Overfull \hbox (98.24504pt too wide) in paragraph at lines 793--794
 [][]$\OT1/pcr/m/n/10 http : / / stackoverflow . com / questions / 2323768 / how
 -[]does-[]the-[]amazon-[]recommendation-[]feature-[]work$[] 
  []
 
 
-Overfull \hbox (11.24504pt too wide) in paragraph at lines 783--784
+Overfull \hbox (11.24504pt too wide) in paragraph at lines 795--796
 [][]$\OT1/pcr/m/n/10 http : / / webcache . googleusercontent . com / search ? q
  = cache : X2 _ XVw9qTIcJ : readwrite .$
  []
 
 
 AED: lastpage setting LastPage
-[31]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 791.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 791.
+[32]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 803.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 803.
 
 (C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
 work1\RRigler_220CT.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 791.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 791.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 803.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 803.
 Package rerunfilecheck Info: File `RRigler_220CT.out' has not changed.
-(rerunfilecheck)             Checksum: 4F626ED4B99F5FFEBA2FFDDF9C3F1636;3528.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 791.
+(rerunfilecheck)             Checksum: D1742E064BE15C7A58BA67D3A0D2A082;3610.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 803.
  ) 
 Here is how much of TeX's memory you used:
- 7989 strings out of 493921
- 118945 string characters out of 3147287
+ 7992 strings out of 493921
+ 118976 string characters out of 3147287
  242965 words of memory out of 3000000
- 10859 multiletter control sequences out of 15000+200000
+ 10860 multiletter control sequences out of 15000+200000
  10532 words of font info for 37 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  41i,12n,43p,797b,1337s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3360,9 +3365,9 @@ m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on RRigler_220CT.pdf (31 pages, 683171 bytes).
+Output written on RRigler_220CT.pdf (32 pages, 685443 bytes).
 PDF statistics:
- 769 PDF objects out of 1000 (max. 8388607)
- 283 named destinations out of 1000 (max. 500000)
- 501 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 779 PDF objects out of 1000 (max. 8388607)
+ 285 named destinations out of 1000 (max. 500000)
+ 509 words of extra memory for PDF output out of 10000 (max. 10000000)
 
