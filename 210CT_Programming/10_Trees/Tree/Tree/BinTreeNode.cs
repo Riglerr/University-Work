@@ -185,7 +185,6 @@ namespace Tree
         void Tree_Insert(BinTreeNode t, BinTreeNode z)
         {
             
-
             BinTreeNode y = null;
             BinTreeNode x = t;
 
@@ -196,7 +195,6 @@ namespace Tree
                     x = x.left;
                 else
                     x = x.right;
-
             }
 
             z.parent = y;
@@ -208,10 +206,6 @@ namespace Tree
 
         }
     
-    
     }
-
-    
-
-
+		
 }

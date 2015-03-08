@@ -46,6 +46,8 @@
 \contentsline {subsection}{Collaborative filtering}{30}{section*.47}
 \contentsline {subsection}{The Demographic approach}{30}{section*.48}
 \contentsline {subsection}{Business Requirements}{31}{section*.49}
-\contentsline {section}{Bibliography}{32}{section*.50}
-\contentsline {subsection}{References for Task 3: A Poster of Ethics}{32}{section*.51}
-\contentsline {subsection}{References for Task 4: A Recommendation system}{32}{section*.52}
+\contentsline {subsection}{Successful Recommendation plan}{31}{section*.50}
+\contentsline {subsection}{Unsuccessful Recommendation plan}{31}{section*.51}
+\contentsline {section}{Bibliography}{32}{section*.52}
+\contentsline {subsection}{References for Task 3: A Poster of Ethics}{32}{section*.53}
+\contentsline {subsection}{References for Task 4: A Recommendation system}{32}{section*.54}

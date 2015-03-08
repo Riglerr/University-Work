@@ -1,0 +1,30 @@
+Tailor each recommendation to the customer
+    -Previous purchases
+    -previous searches
+    -Other relevant information used to identify the interests of the customer.
+
+CLIENT SIDE
+  - Type of data generated & Collected
+  - Expected benefits and limitations
+  - Process used to analyze data
+
+BUSINESS SIDE
+  - Business requirements for system should be a priority when deciding which
+    data to collect. + Explain how requirements helped my decision making.
+  - generate a plan for what happens in the cases that a customer clicks on the
+    recommendations after a certain time.
+  - Generate a plan for what happens in the cases that a customer doesn't click
+    the recommendations after a certain time and propose a solution to this problem.
+
+
+
+================================
+=============PLAN===============
+================================
+
+1) Describe what a recommendation system is.
+2) Describe the recommendation system for Amazon ( Its purpose).
+3) Detail the type of data to be generated and collected to create the system
+    ( + Research from case study)
+4) List & Explanation of all benefits and limitations.
+5) List & Explanation of multiple approaches to data analysis.

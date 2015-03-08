@@ -550,7 +550,7 @@
 			
 			\vspace{1cm}
 			
-			\includegraphics[scale = 0.4]{Task2/Q4.png} 
+			\includegraphics[scale = 0.4]{Task2/q4.png} 
 			\pagebreak
 			
 		\end{homeworkSection}
@@ -566,7 +566,7 @@
 			Below is a screenshot of the statements' output.
 			\vspace{1cm}
 			
-			\includegraphics{Task2/Q5}
+			\includegraphics{Task2/q5}
 			\pagebreak
 		\end{homeworkSection}
 		
@@ -582,7 +582,7 @@
 			Below is a screenshot of the statements' output.
 			\vspace{1cm}
 			
-			\includegraphics[scale =0.5]{Task2/Q6}
+			\includegraphics[scale =0.5]{Task2/q6}
 			\pagebreak
 		\end{homeworkSection}
 		
@@ -600,7 +600,7 @@
 		Below is a screenshot of the statements' output.
 		\vspace{1cm}
 		
-		\includegraphics[width=\columnwidth, height = 4cm]{Task2/Q7}
+		\includegraphics[width=\columnwidth, height = 4cm]{Task2/q7}
 		\pagebreak
 	\end{homeworkSection}
 	
@@ -627,7 +627,7 @@
 			Below is a screen shot of the updated record.
 			\vspace{1cm}
 			
-			\includegraphics[scale = 0.5]{Task2/Q9}
+			\includegraphics[scale = 0.5]{Task2/q9}
 			
 		\end{homeworkSection}
 	
@@ -655,7 +655,7 @@
 		 The data gathered for a recommendation system comes in many varieties and is often tailored to the recommendation systems' main purpose. For Example, a system may collect data on a users' Hobbies, Interests, Opinions, Habits, Recent search history, Recent Purchase History and many more areas.
 		 \\
 		 
-		 \Large{MOAR OF THIS, EXPANDED EXAMPLES E-COMMERCE, BOOK RECOMMENDATIONS, ETC}
+	
 	\end{homeworkSection}
 	
 	\begin{homeworkSection}{Data Gathering and Preparation}
@@ -676,7 +676,7 @@
 			\item [Demographic information]\hfill \\
 			Such as Location, Age, Profession, Type of education etc... will offer different recommendations depending on which demographic criteria the customer meets.
 			\item [Number of views]\hfill \\
-			How many times was thaty particular item, or similar items viewed before purchase.
+			How many times was that particular item, or similar items viewed before purchase.
 			\pagebreak
 			\item [Time spent before purchase]\hfill \\
 			How long it takes for a customer to purchase an item
@@ -730,7 +730,7 @@
 					
 				\item[Trends and Market data] \hfill \\
 				The recommendation system doesn't just need a lot of data, it can also produce valuable data about shopping habits and market trends.
-				This data can help drive the direction of the business to improve future sales and sales forcasting.
+				This data can help drive the direction of the business to improve future sales and sales forecasting.
 				\pagebreak
 				\item[Real-Time Data]\hfill \\
 				
@@ -752,7 +752,7 @@
 		The data needed for this approach is the explicit \textit{User-Item} data, which consists of ratings and reviews. Each time a customer purchases or positively rates a product, it is added to their 'profile' vice versa for negatively rated items. The customer 'profiles' are what are compared to each other and the similarities and differences of the 'profiles' are used to determine different products.
 		
 		For example if \textit{User A} positively rates \textit{product 1} and \textit{product 2}.\\
-		And if \textit{User B} also postivively rates \textit{Product 1} and \textit{2} and also positively rates \textit{Product 3}, then the system will determine that \textit{User A} would also like \textit{Product 3} and recommend it to them.\\
+		And if \textit{User B} also positively rates \textit{Product 1} and \textit{2} and also positively rates \textit{Product 3}, then the system will determine that \textit{User A} would also like \textit{Product 3} and recommend it to them.\\
 		
 		This is a Model-Based approach, where customers are grouped (clustered) by similar rating and preferences. From these groups, a large dataset is made which the system analyses to produce a probabilistic model which can be used to determine an expected rating for products.
 		
@@ -770,18 +770,43 @@
 	
 	In this section I will define the business requirements of the recommendation system. Firstly I will look into the requirements of the system itself, and then into how the business will benefit from them.\\
 	
+	The business can aim to achieve four things;
+	
+	\begin{enumerate}
+	\item Profit Increase
+	\item Higher Website Traffic
+	\item Increase in business notoriety
+	\item Increase In customer retention/loyalty
+\end{enumerate}	
+
+Using these requirements;\\
 	\begin{description}
 		
 		\item[Transparency]\hfill \\
-			The system must be 'transparent' i.e it doesn't impede or get in the way of the custome making purchases. It must gather information without having to explicitly ask for it, so it runs parallel to the shopping process.
+			The system must be 'transparent' i.e it doesn't impede or get in the way of the customer making purchases. It must gather information without having to explicitly ask for it, so it runs parallel to the shopping process.
 		\item [Speed]\hfill \\
 			For the system to be effective after deployment, the modelling time needs to be fast without losing any accuracy.
-		\item[Flexibility & Scalability]\hfill \\
-			The recommender needs to be able to accommodate users from all data ranges, i.e customers with no data, some data and lots of data. This is vital so that the can provide results for all users,
+		\item[Flexibility \& Scalability]\hfill \\
+			The recommender needs to be able to accommodate users from all data ranges, i.e customers with no data, some data and lots of data. This is vital so that the can provide results for all users.
 		\item[Forward Compatible]\hfill \\
-		As the customer base and the data gathered grows, the system needs to be able to 
+		As the customer base and the data gathered grows, the system needs to be able to change in order to accommodate new data trends.
 		
 	\end{description}
+
+		
+	
+	All of the requirements above create basic overall model for the recommendation system and provide a guideline for selecting the data 			needed.
+	The three categories (Demographic, Item and User-Item) stated in the above data section, fulfil those requirements.\\ For the system to be transparent and not get in the customers way, the data collected must be about the customers actions. This is data such as: purchase history, Product-viewing history,
+	
+	
+	\end{homeworkSection}
+	
+	\begin{homeworkSection}{Successful Recommendation plan}
+	
+	
+	\end{homeworkSection}
+	
+	\begin{homeworkSection}{Unsuccessful Recommendation plan}
 	\end{homeworkSection}
 \end{homeworkProblem}
 \pagebreak
@@ -797,7 +822,8 @@
 			\item \url{http://www.cs.umd.edu/~samir/498/Amazon-Recommendations.pdf}
 			\item \url{http://stackoverflow.com/questions/2323768/how-does-the-amazon-recommendation-feature-work}
 			\item \url{https://www.few.vu.nl/nl/Images/werkstuk-hiralall_tcm38-202691.pdf}
-			\item \url{http://webcache.googleusercontent.com/search?q=cache:X2_XVw9qTIcJ:readwrite.com/2009/01/28/5_problems_of_recommender_systems+&cd=1&hl=en&ct=clnk&gl=uk}
+			\item \url{http://webcache.googleusercontent.com/search?q=cache:X2_X
+			Vw9qTIcJ:readwrite.com/2009/01/28/5_problems_of_recommender_systems+&cd=1&hl=en&ct=clnk&gl=uk}
 			\item \url{https://www.few.vu.nl/nl/Images/werkstuk-hiralall_tcm38-202691.pdf}
 			\item \url{http://www.uie.com/articles/recommendation_systems/}
 			\item \url{http://infolab.stanford.edu/~ullman/mmds/ch9.pdf}
