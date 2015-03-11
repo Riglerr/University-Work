@@ -796,17 +796,38 @@ Using these requirements;\\
 		
 	
 	All of the requirements above create basic overall model for the recommendation system and provide a guideline for selecting the data 			needed.
-	The three categories (Demographic, Item and User-Item) stated in the above data section, fulfil those requirements.\\ For the system to be transparent and not get in the customers way, the data collected must be about the customers actions. This is data such as: purchase history, Product-viewing history,
+	The three categories (Demographic, Item and User-Item) stated in the above data section, fulfil those requirements.\\ For the system to be transparent and not get in the customers way, the data collected must be from the customers' actions. This is data such as: purchase history and Product-viewing history.\\
+	For the system to meet the speed requirement, to the customer it should appear that the recommendations are happening instantaneously. This depends on the analysis model being used and the size of the data-set being analysed. By using the segmentation and clustering method stated in the analysis section above, the size of the data-set to be analysed is decreased drastically. For this reason the user and user-item data is being collected.\\
+	Flexibility and Scalability are the two most difficult requirements to address , because a solution that is flexible is not necessarily scalable. Looking at our data and the analysis model, the biggest barrier to having an effective recommendation system is lack of data also known as the \textit{'Cold Start'} problem. We can modify the data-set that our collaborative filtering approach uses to compare item data as well as user-item data. This would allow much simpler recommendations at a much earlier time.
 	
 	
 	\end{homeworkSection}
 	
+	\pagebreak
 	\begin{homeworkSection}{Successful Recommendation plan}
 	
+	In this scenario I am going to assume that the system already holds a certain amount of data on the customer and the products. \\ When a user clicks on a product, they are inferring interest in that item or items of the same nature. The system will gather the information from the users actions and add them to the users 'profile'. Examples of the data gathered are:\hfill \\
+	\begin{itemize}
+		\setlength\itemsep{1mm}
+	\item Previous purchase of this item or similar items,\hfill \\ 
+	\item Number of times this product and similar products have been viewed,\hfill \\
+	\item The amount of time spent on this particular page, \hfill \\
+	\item If the user has clicked on similar items.
+	\end{itemize} 
+	When added to the users' profile the statistics above are given \textit{weightings} which define how important the data is. For example, If the customer has previously purchased this item, that piece of data more influential on recommending other products than how long the customer has been viewing the page.\\
+	Next the system will compare the user to other users with similar profiles, or compare the product with other similar products if there is a lack of user data. The provided recommendations should be an accurate representation of the users' interests
 	
 	\end{homeworkSection}
 	
 	\begin{homeworkSection}{Unsuccessful Recommendation plan}
+		
+		This scenario represents when the system provides a recommendation to a user, but the user does not click on it within the allotted time frame. This scenario is more ambiguous than the last as not click on a recommendation can mean several different things. It could mean that the user is not interested in the item at all, or they are not interested in that product at the particular time, or it could mean that the user simply did not see the recommendation.\\
+		
+		Based on the principle that different statistics have different weightings within the user profile. When the user does not click on a recommended item, the statistics relating to that item then lose value and  When the recommendations are re-evaluated, they have less influence over the system.
+		
+		
+		
+		
 	\end{homeworkSection}
 \end{homeworkProblem}
 \pagebreak

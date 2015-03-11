@@ -1,14 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.23)  8 MAR 2015 18:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.23)  9 MAR 2015 17:16
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **RRigler_220CT.tex
-(./RRigler_220CT.tex
+
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\RRigler_220CT.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 4 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,7 +32,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip43
 \f@ncyO@elh=\skip44
 \f@ncyO@erh=\skip45
@@ -34,56 +43,56 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/extramarks.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\extramarks.sty"
 \@temptokenb=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count88
 \lst@gtempboxa=\box26
 \lst@token=\toks16
@@ -97,32 +106,32 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \lst@lineno=\count93
 \lst@maxwidth=\dimen108
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 \c@lstnumber=\count94
 \lst@skipnumbers=\count95
 \lst@framebox=\box27
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
 Package: listings 2013/08/26 1.5b (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\courier.sty"
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen109
 \extrarowheight=\dimen110
@@ -145,10 +154,10 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen111
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@col@width=\dimen112
 \TX@old@table=\dimen113
@@ -158,16 +167,16 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@cols=\count97
 \TX@ftn=\toks19
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -198,7 +207,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -206,25 +215,25 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen117
 \Hy@linkcounter=\count98
 \Hy@pagecounter=\count99
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count100
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -236,7 +245,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count101
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -261,32 +270,31 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count106
 \c@bookmark@seq@number=\count107
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip55
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 \c@homeworkProblemCounter=\count108
 
-(./RRigler_220CT.aux)
-\openout1 = `RRigler_220CT.aux'.
-
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\RRigler_220CT.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
 LaTeX Font Info:    ... okay on input line 159.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
@@ -309,7 +317,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 159.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen121
@@ -322,29 +330,14 @@ Package lastpage Info: Please have a look at the pageslts package at
 \MPnumerator=\count113
 \makeMPintoPDFobject=\count114
 \everyMPtoPDFconversion=\toks21
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 \c@lstlisting=\count115
 \AtBeginShipoutBox=\box29
 Package hyperref Info: Link coloring OFF on input line 159.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count116
@@ -353,10 +346,11 @@ LaTeX Info: Redefining \ref on input line 159.
 LaTeX Info: Redefining \pageref on input line 159.
 LaTeX Info: Redefining \nameref on input line 159.
 
-(./RRigler_220CT.out) (./RRigler_220CT.out)
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\RRigler_220CT.out)
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\RRigler_220CT.out)
 \@outlinefile=\write3
-\openout3 = `RRigler_220CT.out'.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 162.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -365,15 +359,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 162.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./RRigler_220CT.toc
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\RRigler_220CT.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
  [2])
 \tf@toc=\write4
-\openout4 = `RRigler_220CT.toc'.
-
  [3]
 Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
@@ -384,38 +378,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--213
 
  []
 
-[4] <Task1/Order1NF.png, id=300, 907.39pt x 104.39pt>
+[4] <Task1/Order1NF.png, id=298, 907.39pt x 104.39pt>
 File: Task1/Order1NF.png Graphic file (type png)
  <use Task1/Order1NF.png>
 Package pdftex.def Info: Task1/Order1NF.png used on input line 228.
 (pdftex.def)             Requested size: 469.75482pt x 85.36299pt.
 
-<Task1/Item11NF.png, id=302, 472.76625pt x 367.3725pt>
+<Task1/Item11NF.png, id=300, 472.76625pt x 367.3725pt>
 File: Task1/Item11NF.png Graphic file (type png)
 
 <use Task1/Item11NF.png>
 Package pdftex.def Info: Task1/Item11NF.png used on input line 233.
 (pdftex.def)             Requested size: 378.2135pt x 293.89838pt.
- [5 <./Task1/Order1NF.png> <./Task1/Item11NF.png>]
-[6]
+ [5 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/Co
+ursework1/Task1/Order1NF.png> <C:/Users/Rob/Documents/University-Work/220CT_Dat
+a_Information_Retrieval/Coursework1/Task1/Item11NF.png>] [6]
 File: Task1/Order1NF.png Graphic file (type png)
  <use Task1/Order1NF.png>
 Package pdftex.def Info: Task1/Order1NF.png used on input line 291.
 (pdftex.def)             Requested size: 469.75482pt x 85.36299pt.
 
-<Task1/Item02.png, id=318, 249.93375pt x 167.62625pt>
+<Task1/Item02.png, id=315, 249.93375pt x 167.62625pt>
 File: Task1/Item02.png Graphic file (type png)
  <use Task1/Item02.png>
 Package pdftex.def Info: Task1/Item02.png used on input line 296.
 (pdftex.def)             Requested size: 249.93314pt x 167.62582pt.
 
-<Task1/Item12NF.png, id=319, 472.76625pt x 367.3725pt>
+<Task1/Item12NF.png, id=316, 472.76625pt x 367.3725pt>
 File: Task1/Item12NF.png Graphic file (type png)
 
 <use Task1/Item12NF.png>
 Package pdftex.def Info: Task1/Item12NF.png used on input line 302.
 (pdftex.def)             Requested size: 330.93411pt x 257.15898pt.
- [7 <./Task1/Item02.png> <./Task1/Item12NF.png>]
+ [7 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/Co
+ursework1/Task1/Item02.png> <C:/Users/Rob/Documents/University-Work/220CT_Data_
+Information_Retrieval/Coursework1/Task1/Item12NF.png>]
 Overfull \hbox (20.0466pt too wide) in paragraph at lines 323--333
 [][]
  []
@@ -425,39 +422,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-[8] <Task1/03.png, id=335, 352.31625pt x 111.41624pt>
+[8] <Task1/03.png, id=332, 352.31625pt x 111.41624pt>
 File: Task1/03.png Graphic file (type png)
  <use Task1/03.png>
 Package pdftex.def Info: Task1/03.png used on input line 365.
 (pdftex.def)             Requested size: 281.85338pt x 89.1331pt.
 
-<Task1/I3.png, id=336, 248.93pt x 174.6525pt>
+<Task1/I3.png, id=333, 248.93pt x 174.6525pt>
 File: Task1/I3.png Graphic file (type png)
  <use Task1/I3.png>
 Package pdftex.def Info: Task1/I3.png used on input line 370.
 (pdftex.def)             Requested size: 199.14426pt x 139.72218pt.
 
-<Task1/IO3.png, id=337, 314.17375pt x 234.8775pt>
+<Task1/IO3.png, id=334, 314.17375pt x 234.8775pt>
 File: Task1/IO3.png Graphic file (type png)
  <use Task1/IO3.png>
 Package pdftex.def Info: Task1/IO3.png used on input line 376.
 (pdftex.def)             Requested size: 251.33932pt x 187.90225pt.
 
-<Task1/C3.png, id=338, 556.0775pt x 111.41624pt>
+<Task1/C3.png, id=335, 556.0775pt x 111.41624pt>
 File: Task1/C3.png Graphic file (type png)
  <use Task1/C3.png>
 Package pdftex.def Info: Task1/C3.png used on input line 381.
 (pdftex.def)             Requested size: 444.86261pt x 89.1331pt.
- [9 <./Task1/03.png> <./Task1/I3.png> <./Task1/IO3.png> <./Task1/C3.png>]
+ [9 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/Co
+ursework1/Task1/03.png> <C:/Users/Rob/Documents/University-Work/220CT_Data_Info
+rmation_Retrieval/Coursework1/Task1/I3.png> <C:/Users/Rob/Documents/University-
+Work/220CT_Data_Information_Retrieval/Coursework1/Task1/IO3.png> <C:/Users/Rob/
+Documents/University-Work/220CT_Data_Information_Retrieval/Coursework1/Task1/C3
+.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 398--399
 
  []
 
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 401.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (./Task2/C_a.txt
+)
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/C_a.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -511,7 +515,9 @@ Overfull \hbox (9.46742pt too wide) in paragraph at lines 406--413
 [][]
  []
 
-[10] (./Task2/C_ac.txt
+[10]
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/C_ac.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -589,7 +595,9 @@ Overfull \hbox (19.30074pt too wide) in paragraph at lines 418--426
 [][] 
  []
 
-[11] (./Task2/c_P.txt
+[11]
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/c_P.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -650,7 +658,9 @@ Package xcolor Warning: Incompatible color definition on input line 5.
 
 Package xcolor Warning: Incompatible color definition on input line 6.
 
-) [12] (./Task2/C_Oa.txt
+) [12]
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/C_Oa.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -770,7 +780,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 455--455
 
 LaTeX Warning: Command \textunderscore invalid in math mode on input line 455.
 
-[13] (./Task2/I_aircraft.txt
+[13]
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/I_aircraft.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -1228,13 +1240,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 467--470
 
  []
 
-<Task2/I_aircraft.png, id=406, 571.13374pt x 452.69125pt>
+<Task2/I_aircraft.png, id=403, 571.13374pt x 452.69125pt>
 File: Task2/I_aircraft.png Graphic file (type png)
 
 <use Task2/I_aircraft.png>
 Package pdftex.def Info: Task2/I_aircraft.png used on input line 471.
 (pdftex.def)             Requested size: 314.12453pt x 248.98096pt.
- [14 <./Task2/I_aircraft.png>] (./Task2/I_airline.txt
+ [14 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/C
+oursework1/Task2/I_aircraft.png>]
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/I_airline.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -1944,7 +1959,7 @@ Package xcolor Warning: Incompatible color definition on input line 21.
 
 Package xcolor Warning: Incompatible color definition on input line 21.
 
-) <Task2/I_airline.png, id=427, 1075.01625pt x 280.04625pt>
+) <Task2/I_airline.png, id=424, 1075.01625pt x 280.04625pt>
 File: Task2/I_airline.png Graphic file (type png)
 
 <use Task2/I_airline.png>
@@ -1955,7 +1970,10 @@ Overfull \hbox (67.75183pt too wide) in paragraph at lines 481--482
 [][] 
  []
 
-[15 <./Task2/I_airline.png>] (./Task2/I_purchase_order.txt
+[15 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/Co
+ursework1/Task2/I_airline.png>]
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/I_purchase_order.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -2268,14 +2286,16 @@ Package xcolor Warning: Incompatible color definition on input line 10.
 
 Package xcolor Warning: Incompatible color definition on input line 10.
 
-) <Task2/I_purchaseorder.png, id=457, 614.295pt x 279.0425pt>
+) <Task2/I_purchaseorder.png, id=453, 614.295pt x 279.0425pt>
 File: Task2/I_purchaseorder.png Graphic file (type png)
 
 <use Task2/I_purchaseorder.png>
 Package pdftex.def Info: Task2/I_purchaseorder.png used on input line 490.
 (pdftex.def)             Requested size: 337.86328pt x 153.47385pt.
- [16 <./Task2/I_purchaseorder.png>]
-(./Task2/I_ordered_aircraft.txt
+ [16 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/C
+oursework1/Task2/I_purchaseorder.png>]
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/I_ordered_aircraft.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -2642,19 +2662,23 @@ Package xcolor Warning: Incompatible color definition on input line 23.
 
 Package xcolor Warning: Incompatible color definition on input line 23.
 
-) <Task2/I_orderedaircraft.png, id=475, 630.355pt x 599.23875pt>
+) <Task2/I_orderedaircraft.png, id=471, 630.355pt x 599.23875pt>
 File: Task2/I_orderedaircraft.png Graphic file (type png)
 
 <use Task2/I_orderedaircraft.png>
 Package pdftex.def Info: Task2/I_orderedaircraft.png used on input line 501.
 (pdftex.def)             Requested size: 315.17673pt x 299.61864pt.
 
-<Task2/q21.png, id=476, 553.06625pt x 198.7425pt>
+<Task2/q21.png, id=472, 553.06625pt x 198.7425pt>
 File: Task2/q21.png Graphic file (type png)
  <use Task2/q21.png>
 Package pdftex.def Info: Task2/q21.png used on input line 503.
 (pdftex.def)             Requested size: 304.18738pt x 109.3087pt.
- [17 <./Task2/I_orderedaircraft.png>] [18 <./Task2/q21.png>] (./Task2/Q3.txt
+ [17 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/C
+oursework1/Task2/I_orderedaircraft.png>] [18 <C:/Users/Rob/Documents/University
+-Work/220CT_Data_Information_Retrieval/Coursework1/Task2/q21.png>]
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/Q3.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -2737,17 +2761,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 514--519
 
  []
 
-<Task2/Q3.png, id=513, 454.69875pt x 74.2775pt>
+<Task2/Q3.png, id=509, 454.69875pt x 74.2775pt>
 File: Task2/Q3.png Graphic file (type png)
  <use Task2/Q3.png>
 Package pdftex.def Info: Task2/Q3.png used on input line 536.
 (pdftex.def)             Requested size: 363.75949pt x 59.42207pt.
- [19 <./Task2/Q3.png>]
+ [19 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/C
+oursework1/Task2/Q3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
  []
 
-(./Task2/Q4.txt
+
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/Q4.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -2835,18 +2862,21 @@ Package xcolor Warning: Incompatible color definition on input line 16.
 
 Package xcolor Warning: Incompatible color definition on input line 16.
 
-) <Task2/q4.png, id=532, 1131.22626pt x 549.05125pt>
+) <Task2/q4.png, id=528, 1131.22626pt x 549.05125pt>
 File: Task2/q4.png Graphic file (type png)
  <use Task2/q4.png>
 Package pdftex.def Info: Task2/q4.png used on input line 553.
 (pdftex.def)             Requested size: 452.48248pt x 219.61661pt.
 
-[20 <./Task2/q4.png>]
+[20 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/Co
+ursework1/Task2/q4.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 559--560
 
  []
 
-(./Task2/Q5.txt
+
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/Q5.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -2916,12 +2946,15 @@ Package xcolor Warning: Incompatible color definition on input line 10.
 
 Package xcolor Warning: Incompatible color definition on input line 10.
 
-) <Task2/q5.png, id=557, 434.62375pt x 189.70876pt>
+) <Task2/q5.png, id=552, 434.62375pt x 189.70876pt>
 File: Task2/q5.png Graphic file (type png)
  <use Task2/q5.png>
 Package pdftex.def Info: Task2/q5.png used on input line 569.
 (pdftex.def)             Requested size: 434.62268pt x 189.70828pt.
- [21 <./Task2/q5.png>] (./Task2/Q6.txt
+ [21 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/C
+oursework1/Task2/q5.png>]
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/Q6.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -3000,17 +3033,20 @@ Package xcolor Warning: Incompatible color definition on input line 14.
 
 Package xcolor Warning: Incompatible color definition on input line 14.
 
-) <Task2/q6.png, id=575, 741.77126pt x 578.16pt>
+) <Task2/q6.png, id=570, 741.77126pt x 578.16pt>
 File: Task2/q6.png Graphic file (type png)
  <use Task2/q6.png>
 Package pdftex.def Info: Task2/q6.png used on input line 585.
 (pdftex.def)             Requested size: 370.88472pt x 289.07928pt.
- [22 <./Task2/q6.png>]
+ [22 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/C
+oursework1/Task2/q6.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 593--594
 
  []
 
-(./Task2/Q7.txt
+
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/Q7.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -3089,7 +3125,7 @@ Package xcolor Warning: Incompatible color definition on input line 17.
 
 Package xcolor Warning: Incompatible color definition on input line 17.
 
-) <Task2/q7.png, id=597, 1854.93pt x 265.99374pt>
+) <Task2/q7.png, id=592, 1854.93pt x 265.99374pt>
 File: Task2/q7.png Graphic file (type png)
  <use Task2/q7.png>
 Package pdftex.def Info: Task2/q7.png used on input line 603.
@@ -3099,7 +3135,10 @@ Overfull \hbox (4.42123pt too wide) in paragraph at lines 603--606
 [][]   
  []
 
-[23 <./Task2/q7.png>] (./Task2/Q8.txt
+[23 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/Co
+ursework1/Task2/q7.png>]
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/Q8.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -3127,13 +3166,14 @@ Package xcolor Warning: Incompatible color definition on input line 3.
 
 Package xcolor Warning: Incompatible color definition on input line 3.
 
-) <Task2/Q8.png, id=622, 503.8825pt x 69.25874pt>
+) <Task2/Q8.png, id=617, 503.8825pt x 69.25874pt>
 File: Task2/Q8.png Graphic file (type png)
  <use Task2/Q8.png>
 Package pdftex.def Info: Task2/Q8.png used on input line 616.
 (pdftex.def)             Requested size: 352.71535pt x 48.48077pt.
 
-(./Task2/Q9.txt
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\Task2/Q9.txt
 
 Package xcolor Warning: Incompatible color definition on input line 1.
 
@@ -3194,7 +3234,7 @@ Package xcolor Warning: Incompatible color definition on input line 3.
 
 Package xcolor Warning: Incompatible color definition on input line 3.
 
-) <Task2/q9.png, id=623, 1014.79124pt x 35.13126pt>
+) <Task2/q9.png, id=618, 1014.79124pt x 35.13126pt>
 File: Task2/q9.png Graphic file (type png)
  <use Task2/q9.png>
 Package pdftex.def Info: Task2/q9.png used on input line 630.
@@ -3204,7 +3244,9 @@ Overfull \hbox (37.63939pt too wide) in paragraph at lines 630--631
 [][] 
  []
 
-[24 <./Task2/Q8.png> <./Task2/q9.png>] [25]
+[24 <C:/Users/Rob/Documents/University-Work/220CT_Data_Information_Retrieval/Co
+ursework1/Task2/Q8.png> <C:/Users/Rob/Documents/University-Work/220CT_Data_Info
+rmation_Retrieval/Coursework1/Task2/q9.png>] [25]
 Underfull \hbox (badness 10000) in paragraph at lines 649--650
 
  []
@@ -3285,50 +3327,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 782--783
  []
 
 [31]
-Overfull \hbox (98.24504pt too wide) in paragraph at lines 823--824
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 812.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 812.
+
+Underfull \hbox (badness 10000) in paragraph at lines 812--813
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 813--814
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 824--825
+
+ []
+
+[32]
+Overfull \hbox (98.24504pt too wide) in paragraph at lines 844--845
 [][]$\OT1/pcr/m/n/10 http : / / stackoverflow . com / questions / 2323768 / how
 -[]does-[]the-[]amazon-[]recommendation-[]feature-[]work$[] 
  []
 
 
-Overfull \hbox (11.24504pt too wide) in paragraph at lines 826--827
+Overfull \hbox (11.24504pt too wide) in paragraph at lines 847--848
 [][]$\OT1/pcr/m/n/10 http : / / webcache . googleusercontent . com / search ? q
- = cache : X2 _ XVw9qTIcJ : readwrite .
+ = cache : X2 _ XVw9qTIcJ : readwrite .$
  []
 
 
 AED: lastpage setting LastPage
-[32]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 834.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 834.
- (./RRigler_220CT.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 834.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 834.
+[33]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 855.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 855.
+
+(C:\Users\Rob\Documents\University-Work\220CT_Data_Information_Retrieval\Course
+work1\RRigler_220CT.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 855.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 855.
 Package rerunfilecheck Info: File `RRigler_220CT.out' has not changed.
-(rerunfilecheck)             Checksum: AF5EB4FE3794BD69831743F92D7D58D7;3719.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 834.
+(rerunfilecheck)             Checksum: 8A50FC4F232D0DCC21472D32B1EBD046;3772.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 855.
  ) 
 Here is how much of TeX's memory you used:
- 8115 strings out of 494985
- 117780 string characters out of 6180355
- 242318 words of memory out of 5000000
- 10887 multiletter control sequences out of 15000+600000
- 10532 words of font info for 37 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 41i,12n,43p,797b,1337s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on RRigler_220CT.pdf (32 pages, 471060 bytes).
+ 8023 strings out of 493921
+ 119357 string characters out of 3147287
+ 242965 words of memory out of 3000000
+ 10876 multiletter control sequences out of 15000+200000
+ 10532 words of font info for 37 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 41i,12n,43p,797b,1337s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on RRigler_220CT.pdf (33 pages, 687350 bytes).
 PDF statistics:
  800 PDF objects out of 1000 (max. 8388607)
- 709 compressed objects within 8 object streams
- 291 named destinations out of 1000 (max. 500000)
+ 292 named destinations out of 1000 (max. 500000)
  525 words of extra memory for PDF output out of 10000 (max. 10000000)
 

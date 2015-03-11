@@ -1,0 +1,61 @@
+﻿Problems with database
+
+Data is a valuable commodity.
+Needs to be collected & distributed lawfully to protect the rights and privacy 
+of the data owners.
+
+Different types of potential data:
+
+	Personal data:
+		Data about a living human being who can be identified by that data./
+		
+	Confidential data:
+		Data that is given in confidence = data that this agreed to be kept confidential.
+		
+	Sensitive Data:
+		Race, Ethnic Origin, Political opinion, Religious beliefs, physical/mental health condition etc...
+		
+
+issues to be considered:
+	How the data was obtained. (For personal data)
+		The hospital must require consent from all of it patients to collect
+		& distribute data.
+		If consent is not granted, then the data has been acquired unlawfully.
+		Consent can be given via oral or written communication, but usually is given 
+		via a consent form which details the transaction.
+	
+	Confidentiality
+		If the customer has stated that they do not want their data to be shared with 
+		third parties, Then it is required for the hospital to not share the data.
+		
+	Protection
+		Pateients must be protected by not disclosing their sensitive data.
+	
+	Inform
+		Patients must be informed how the data will be obtained,processed & shared 
+		prior to obtaining consent.
+	
+	
+LEGISLATION
+
+The way the personal data is obtained and used is governed by laws and legislations.
+
+	Data Protection Act 1998
+		Applies to personal data only.
+		
+		used fairly and lawfully
+		used for limited, specifically stated purposes
+		used in a way that is adequate, relevant and not excessive
+		accurate
+		kept for no longer than is absolutely necessary
+		handled according to people’s data protection rights
+		kept safe and secure
+		not transferred outside the UK without adequate protection
+
+	Freedom of information act
+		
+		public authorities are obliged to publish certain information about their activities; 
+		members of the public are entitled to request information from public authorities.
+
+
+
