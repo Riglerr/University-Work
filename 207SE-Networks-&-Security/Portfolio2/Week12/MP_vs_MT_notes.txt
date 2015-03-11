@@ -1,6 +1,7 @@
 MULTIPROGRAMMING
 
-	Takes advantage of I/O requests to maximise CPU usage.
+	Takes advantage of I/O requests to maximise CPU usage. Make sure cpu is never idle.
+	
 	
 	The system starts executing a process, at some point this process will  need to wait 
 	on another task (most commonly I/O). At this point, the CPU switches to another job that 

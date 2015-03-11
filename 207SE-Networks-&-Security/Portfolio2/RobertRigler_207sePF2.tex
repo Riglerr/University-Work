@@ -174,5 +174,24 @@
 %	Problem 1
 %----------------------------------------------------------------------------------------
 \begin{homeworkProblem}[Week 12: Multitasking vs Multiprogramming]
+	
+	In this task I am going to be comparing two different types of process scheduling: Multitasking, and Multiprogramming. I will look into what they are, their differences and their similarities.
+	
+	\subsubsection{Multiprogramming}
+	 
+	\textbf{Definition:} A way of scheduling processes to maximise CPU usage by switching processes that are 'waiting' for I/O, it ensures that the CPU is never idle.\\
+	
+	Much older systems, unlike modern computers were very expensive and slow and often, when a process needed to use a peripheral device It often meant that the CPU was sitting idle for a long period of time. The solution to this is 'batch processing'.
+	
+	Multiprogramming allows a computer to do several tasks at the same time. When a group of processes are marked 'Ready' for execution they are placed in a queue in main memory. The first process from this queue is then loaded into the CPU and is executed. There may come a time when this process is interrupted because It needs I/O to continue. At this point the process changed to a 'waiting' state. The process is then swapped out of the CPU into the I/O queue, and the next process in the 'Ready Queue' is swapped into the CPU. When the I/O request of the first process is completed, it is then placed back into the 'Ready queue'.
+	
+	This cycle continues until there are no jobs to be processed.
+	
+	\subsubsection{Multitasking}
+	
+	\textbf{Definition:} A logical extension of Multiprogramming, it involves rapidly switching between processed in the 'Ready state' to give the impression that they are all running simultaneously.\\
+	
+	In Multiprogramming, processes are executing one at a time, in the order that they are placed into the ready queue. This means that only one process can be actively used at a time.
+	
 \end{homeworkProblem}
 \end{document}
