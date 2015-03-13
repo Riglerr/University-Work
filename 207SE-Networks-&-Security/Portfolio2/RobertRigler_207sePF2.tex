@@ -253,11 +253,24 @@ In the pages below, I will show two scenarios in which I use all of these comman
 \end{homeworkSection}
 \begin{homeworkSection}{Nohup}
 
-\textbf{Definition} : A command which allows a process to continue executing after the parent process has been stopped.
+\textbf{Definition} : A command which allows a process to continue executing after the parent process has been stopped.\\
 
 
-'Nohup' means 'No Hang Up'. Commands that are executed with 'nohup'
-When running a process from a terminal or shell, and the user logs out of the system, any process that was running in thast session will be terminated.
+'Nohup' means 'No Hang Up'. Commands that are executed with 'nohup', ignore hang up signals, so that the user can log out of the terminal and the process will still be running in the background.
+When a process is run in the foreground (no \&), it effectively blocks the use of the shell whilst that process is being executed. When a process is run in the background (with \&), it is placed into the list of background jobs that the shell is managing, but it is still connected to that shell, so if the shell closes, the process is terminated. NOHUP effictively separates the command from the shell, allowing it to close and the process to continue.\\
+
+In this example, I am going to use the 'spotify' process as an example. \\
+
+If I type 'spotify \&', the spotify application is started and is run in the background, allowing to continue using the shell. When I use the 'jobs' command , we can see that the spotify process is running in the background.
+
+\vspace {0.5cm}
+\includegraphics[scale =0.3]{Week14/nohup1.png} \\When I exit the shell, the 'spotify' application also closes.\\ \hfill
+
+\pagebreak
+Now, if I type 'nohup spotify \&' and look at the terminal jobs. It shows 'nohup spotify \& ' , but now if I type exit, the application will stay open regardless of the terminal.
+
+\vspace{0.5cm} \includegraphics[scale =0.3]{Week14/nohup2.png}
+ 
 \end{homeworkSection}
 \end{homeworkProblem}
 
