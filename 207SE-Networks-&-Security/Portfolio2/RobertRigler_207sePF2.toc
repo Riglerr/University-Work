@@ -3,4 +3,4 @@
 \contentsline {subsubsection}{Multitasking}{3}{section*.4}
 \contentsline {section}{Week 14: Process Manipulation \& Nohup}{4}{section*.5}
 \contentsline {subsection}{Process Manipulation}{4}{section*.6}
-\contentsline {subsection}{Nohup}{7}{section*.7}
+\contentsline {subsection}{Nohup}{8}{section*.7}
