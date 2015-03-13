@@ -16,7 +16,7 @@ int main(){
   int id; /* Number by which the semaphore is known within a program */
   
   /* The next thing is an argument to the semctl() function. Semctl() 
-     does various things to the semaphore depending on which arguments
+     does various things to the semaphore depending on which argumens
      are passed. We will use it to make sure that the value of the 
      semaphore is initially 0. */
   
@@ -89,14 +89,14 @@ int main(){
 
 
       //critical section
-      printf("In critical section P1 ... \n");
+      printf("There's a hole in my bucket, dear Liza, dear Liza \n");
       fflush(stdout);
       int stime=2+(rand()/(float)(RAND_MAX))*4;
-      printf("Sleeping for %d secs\n",stime);
-      sleep(stime);
+     // printf("Sleeping for %d secs\n",stime);
+     sleep(stime);
 
 
-      printf("Ending critical section P1 ... \n");
+      printf("There's a hole in my bucket, dear Liza, a hole \n");
       fflush(stdout);
 
       operations[0].sem_op = 1;
@@ -131,17 +131,39 @@ int main(){
       retval = semop(id, operations, 1);
       
       //critical section
-      printf("In critical section P2 ... \n");
+      printf(" Then fix it, dear Henry, dear Henry, dear Henry \n");
       fflush(stdout);
       int stime=2+(rand()/(float)(RAND_MAX))*4;
-      printf("Sleeping for %d secs\n",stime);
+    //  printf("Sleeping for %d secs\n",stime);
       sleep(stime);
 
-      printf("Ending critical section P2 ... \n");
+      printf("  Oh fix it, dear Henry, dear Henry, fix it\n");
       fflush(stdout);
 
       //signal
       operations[0].sem_op = 1;
+      retval = semop(id, operations, 1);
+
+//Process 1
+
+      //wait
+      operations[0].sem_op = -1;
+      retval = semop(id, operations, 1);
+
+
+      //critical section
+      printf("There's a hole in my bucket, dear Liza, dear Liza \n");
+      fflush(stdout);
+      int stime=2+(rand()/(float)(RAND_MAX))*4;
+     // printf("Sleeping for %d secs\n",stime);
+     sleep(stime);
+
+
+      printf("There's a hole in my bucket, dear Liza, a hole \n");
+      fflush(stdout);
+
+      operations[0].sem_op = 1;
+      //signal
       retval = semop(id, operations, 1);
 
     }
