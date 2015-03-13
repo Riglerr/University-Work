@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Script started on Thu 12 Mar 2015 13:48:51 GMT
+=======
+Script started on Thu 12 Mar 2015 13:48:51 GMT
+>>>>>>> 8734bd1404b3b860763f4eea77dc4a0fbb0da292
 ]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Workrob@rob-HP-ProBook-6470b:~/Git/University-Work$ stop
 stop: missing job name
 Try `stop --help' for more information.
@@ -22,5 +26,10 @@ exit
 Script done, file is typescript
 ]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Workrob@rob-HP-ProBook-6470b:~/Git/University-Work$ exit
 exit
+<<<<<<< HEAD
 
 Script done on Thu 12 Mar 2015 13:50:35 GMT
+=======
+
+Script done on Thu 12 Mar 2015 13:50:35 GMT
+>>>>>>> 8734bd1404b3b860763f4eea77dc4a0fbb0da292
