@@ -1,0 +1,26 @@
+Script started on Thu 12 Mar 2015 13:48:51 GMT
+]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Workrob@rob-HP-ProBook-6470b:~/Git/University-Work$ stop
+stop: missing job name
+Try `stop --help' for more information.
+]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Workrob@rob-HP-ProBook-6470b:~/Git/University-Work$ script
+Script started, file is typescript
+]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Workrob@rob-HP-ProBook-6470b:~/Git/University-Work$ endscript
+No command 'endscript' found, did you mean:
+ Command 'enscript' from package 'enscript' (universe)
+endscript: command not found
+]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Workrob@rob-HP-ProBook-6470b:~/Git/University-Work$ obs
+No command 'obs' found, did you mean:
+ Command 'xbs' from package 'xbs' (universe)
+ Command 'bos' from package 'openafs-client' (universe)
+ Command 'ols' from package 'speech-tools' (universe)
+ Command 'ots' from package 'libots0' (universe)
+ Command 'ocs' from package 'cscope' (universe)
+obs: command not found
+]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Workrob@rob-HP-ProBook-6470b:~/Git/University-Work$ jobs
+]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Workrob@rob-HP-ProBook-6470b:~/Git/University-Work$ exit
+exit
+Script done, file is typescript
+]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Workrob@rob-HP-ProBook-6470b:~/Git/University-Work$ exit
+exit
+
+Script done on Thu 12 Mar 2015 13:50:35 GMT

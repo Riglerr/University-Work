@@ -201,6 +201,63 @@
 \end{homeworkProblem}
 \pagebreak
 \begin{homeworkProblem}[Week 14: Process Manipulation \& Nohup]
+\begin{homeworkSection}{Process Manipulation}
+For this task I will look into the different ways to manipulate a process, and show examples of how to use each command.
 
+\vspace{1cm}
+\begin{tabular}{|l|l|}\hline \textbf{Command} & \textbf{Description} \\ \hline
+\textit{command} & Type the name of the process to start it \\ \hline
+\textit{command \&} & Start the process in the background (symbolised by the \& symbol)\\ \hline
+\textit{ps -au} & Shows all the processes currently running on the machine \\ \hline
+\textit{ps -ux} & Shows all the processes currently running owned by the current user \\ \hline
+\textit{jobs} & Shows the processs that are currently suspended. \\ \hline
+\textit{CTRL - C} & Kills the process running in the foreground \\ \hline
+\textit{kill -9 \textit{x}} & Kills the process with the PID \textit{x} \\ \hline
+\textit{kill \%1} & Kills the process with job number \textit{1} \\ \hline
+\textit{CTRL - Z} & Susoends the process curently running in the foreground. \\ \hline
+\textit{kill -cont \%1} & Continues the execution of suspended job \%1 \\ \hline
+\textit{bg \%1} & Pushes job number 1 to to the background \\ \hline
+\textit{fg \%1} & Pushes job number 1 to to the foreground \\ \hline
+
+\end{tabular}
+
+In the pages below, I will show two scenarios in which I use all of these commands. You will find a snippet of terminal code and an explanation of each step that was taken.
+
+\vspace{1cm}
+\pagebreak
+\Cscript{Week14/command}{Scenario 1}
+\textbf{This typescript recording shows how I: }\\
+\begin{enumerate}
+
+\item Starting the process \textit{xclock} in the foreground,\\ 
+\item Suspending \textit{xclock} via CTRL-z,\\ \hfill
+\item Bringing \textit{xclock} back to the foreground using \textit{fg \%1}\\ \hfill
+\item Finally Killing the process with CTRL-C\\ \hfill
+\end{enumerate}
+
+\pagebreak
+\Cscript{Week14/com2}{Scenario 2}
+
+\begin{enumerate}
+\item Starting the \textit{xclock} process in the background,\\
+\item Starting another \textit{xclock} process in the foreground,\\
+\item Suspend the \textit{xclock} foreground process using CTRL-Z,\\
+\item Use the Jobs Keyword to show the two \textit{xclock} processes,\\
+\item Kill the first \textit{xclock} job using kill \%1\\
+\item Continue the second \textit{xclock} process in the foreground using kill -cont \%2\\
+\item Show a list of my running processes using ps -au | grep rob\\
+\item Finally Kill the remaining \textit{xclock} process by using kill -9 21813
+\end{enumerate}
+
+
+\end{homeworkSection}
+\begin{homeworkSection}{Nohup}
+
+\textbf{Definition} : A command which allows a process to continue executing after the parent process has been stopped.
+
+
+When running a process from a terminal or shell, and the user logs out of the system, any process that was running in thast session will be terminated.
+\end{homeworkSection}
 \end{homeworkProblem}
+
 \end{document}
