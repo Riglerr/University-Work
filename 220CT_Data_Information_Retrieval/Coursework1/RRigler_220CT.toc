@@ -16,38 +16,38 @@
 \contentsline {subsubsection}{Entities in Third Normal Form: Diagram}{8}{section*.17}
 \contentsline {subsubsection}{Entities in Third Normal Form: With Data}{9}{section*.18}
 \contentsline {subsection}{Activity 4: ER Diagram}{10}{section*.19}
-\contentsline {section}{Task 2: Database Development}{10}{section*.20}
-\contentsline {subsection}{Question 1 }{10}{section*.21}
-\contentsline {subsubsection}{Aircraft}{10}{section*.22}
-\contentsline {subsubsection}{Airline}{11}{section*.23}
-\contentsline {subsubsection}{Purchase\textunderscore Order}{12}{section*.24}
-\contentsline {subsubsection}{Ordered\textunderscore Aircraft}{13}{section*.25}
-\contentsline {subsection}{Question 2}{14}{section*.26}
-\contentsline {subsubsection}{Aircraft}{14}{section*.27}
-\contentsline {subsubsection}{Airline}{15}{section*.28}
-\contentsline {subsubsection}{Purchase\textunderscore Order}{16}{section*.29}
-\contentsline {subsubsection}{Ordered\textunderscore Aircraft}{17}{section*.30}
-\contentsline {subsection}{Question 3}{19}{section*.31}
-\contentsline {subsection}{Question 4}{20}{section*.32}
-\contentsline {subsection}{Question 5}{21}{section*.33}
-\contentsline {subsection}{Question 6}{22}{section*.34}
-\contentsline {subsection}{Question 7}{23}{section*.35}
-\contentsline {subsection}{Question 8}{24}{section*.36}
-\contentsline {subsection}{Question 9}{24}{section*.37}
-\contentsline {section}{Task 3 : Poster of Ethics}{25}{section*.38}
-\contentsline {section}{Task 4 : Amazon recommendation system}{26}{section*.39}
-\contentsline {subsection}{What is a Recommendation System?}{26}{section*.40}
-\contentsline {subsection}{Data Gathering and Preparation}{26}{section*.41}
-\contentsline {subsubsection}{Data}{26}{section*.42}
-\contentsline {subsection}{Benefits and limitations of a Recommendation system}{28}{section*.43}
-\contentsline {subsection}{Limitations}{28}{section*.44}
-\contentsline {subsection}{Benefits}{28}{section*.45}
-\contentsline {subsection}{Analysis techniques}{30}{section*.46}
-\contentsline {subsection}{Collaborative filtering}{30}{section*.47}
-\contentsline {subsection}{The Demographic approach}{30}{section*.48}
-\contentsline {subsection}{Business Requirements}{31}{section*.49}
-\contentsline {subsection}{Successful Recommendation plan}{32}{section*.50}
-\contentsline {subsection}{Unsuccessful Recommendation plan}{32}{section*.51}
-\contentsline {section}{Bibliography}{33}{section*.52}
-\contentsline {subsection}{References for Task 3: A Poster of Ethics}{33}{section*.53}
-\contentsline {subsection}{References for Task 4: A Recommendation system}{33}{section*.54}
+\contentsline {section}{Task 2: Database Development}{11}{section*.20}
+\contentsline {subsection}{Question 1 }{11}{section*.21}
+\contentsline {subsubsection}{Aircraft}{11}{section*.22}
+\contentsline {subsubsection}{Airline}{12}{section*.23}
+\contentsline {subsubsection}{Purchase\textunderscore Order}{13}{section*.24}
+\contentsline {subsubsection}{Ordered\textunderscore Aircraft}{14}{section*.25}
+\contentsline {subsection}{Question 2}{15}{section*.26}
+\contentsline {subsubsection}{Aircraft}{15}{section*.27}
+\contentsline {subsubsection}{Airline}{16}{section*.28}
+\contentsline {subsubsection}{Purchase\textunderscore Order}{17}{section*.29}
+\contentsline {subsubsection}{Ordered\textunderscore Aircraft}{18}{section*.30}
+\contentsline {subsection}{Question 3}{20}{section*.31}
+\contentsline {subsection}{Question 4}{21}{section*.32}
+\contentsline {subsection}{Question 5}{22}{section*.33}
+\contentsline {subsection}{Question 6}{23}{section*.34}
+\contentsline {subsection}{Question 7}{24}{section*.35}
+\contentsline {subsection}{Question 8}{25}{section*.36}
+\contentsline {subsection}{Question 9}{25}{section*.37}
+\contentsline {section}{Task 3 : Poster of Ethics}{26}{section*.38}
+\contentsline {section}{Task 4 : Amazon recommendation system}{27}{section*.39}
+\contentsline {subsection}{What is a Recommendation System?}{27}{section*.40}
+\contentsline {subsection}{Data Gathering and Preparation}{27}{section*.41}
+\contentsline {subsubsection}{Data}{27}{section*.42}
+\contentsline {subsection}{Benefits and limitations of a Recommendation system}{29}{section*.43}
+\contentsline {subsection}{Limitations}{29}{section*.44}
+\contentsline {subsection}{Benefits}{29}{section*.45}
+\contentsline {subsection}{Analysis techniques}{31}{section*.46}
+\contentsline {subsection}{Collaborative filtering}{31}{section*.47}
+\contentsline {subsection}{The Demographic approach}{31}{section*.48}
+\contentsline {subsection}{Business Requirements}{32}{section*.49}
+\contentsline {subsection}{Successful Recommendation plan}{33}{section*.50}
+\contentsline {subsection}{Unsuccessful Recommendation plan}{33}{section*.51}
+\contentsline {section}{Bibliography}{34}{section*.52}
+\contentsline {subsection}{References for Task 3: A Poster of Ethics}{34}{section*.53}
+\contentsline {subsection}{References for Task 4: A Recommendation system}{34}{section*.54}
