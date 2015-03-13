@@ -1,0 +1,37 @@
+
+rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ xclock &
+[1] 21811
+
+rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ xclock
+^Z
+[2]+  Stopped                 xclock
+
+rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ jobs
+[1]-  Running                 xclock &
+[2]+  Stopped                 xclock
+
+rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ kill %1
+rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ jobs
+[1]-  Terminated              xclock
+[2]+  Stopped                 xclock
+
+rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ kill -cont %2
+rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ jobs
+[2]+  Running                 xclock &
+
+rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ ps au |grep rob
+[01;31m[Krob[m[K      16721  0.0  0.0  27336  4448 pts/5    Ss   14:26   0:00 /bin/bash
+[01;31m[Krob[m[K      21794  0.0  0.0  21892   960 pts/5    S+   15:47   0:00 script -a com2.txt
+[01;31m[Krob[m[K      21795  0.0  0.0  21896   396 pts/5    S+   15:47   0:00 script -a com2.txt
+[01;31m[Krob[m[K      21796  0.0  0.0  27224  4180 pts/15   Ss   15:47   0:00 bash -i
+[01;31m[Krob[m[K      21813  0.0  0.0  70556  4840 pts/15   S    15:47   0:00 xclock
+[01;31m[Krob[m[K      21872  0.0  0.0  22648  1320 pts/15   R+   15:48   0:00 ps au
+
+rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ kill -9 21813
+rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ jobs
+[2]+  Killed                  xclock
+
+rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ exit
+exit
+
+Script done on Thu 12 Mar 2015 15:48:38 GMT
