@@ -1,0 +1,131 @@
+16:09:29.805 I [breakpad.cpp:107                ] Registered Breakpad for product: spotify
+
+16:09:29.824 I [translate.cpp:139               ] Reloading language file
+16:09:29.851 I [translate.cpp:139               ] Reloading language file
+16:09:29.851 I [breakpad.cpp:261                ] Searching for crashdumps: /home/rob/.cache/spotify/*.dmp
+
+16:09:30.103 D [spirc_manager.cpp:152           ] GAIA: SpircManager::SpircManager, ident_=c0dabe00e1a875e72892e2e71f8a881f8c7b921c
+16:09:30.145 I [MainView.cpp:1098               ] Registering bundled framework bridge-desktop with version 0.26.0
+16:09:30.145 I [MainView.cpp:1098               ] Registering bundled framework import with version 0.1.0
+16:09:30.145 I [MainView.cpp:1098               ] Registering bundled framework shared with version 0.2.3
+16:09:30.145 I [MainView.cpp:1095               ] Registering bundled app share with version 3.0.27
+16:09:30.145 I [MainView.cpp:1098               ] Registering bundled framework views with version 1.54.8
+16:09:30.145 I [MainView.cpp:1095               ] Registering bundled app discover with version 1.5.3
+16:09:30.145 I [MainView.cpp:1095               ] Registering bundled app search-single with version 5.0.6
+16:09:30.145 I [MainView.cpp:1098               ] Registering bundled framework resources with version 0.6.1
+16:09:30.145 I [MainView.cpp:1095               ] Registering bundled app genre with version 0.29.0
+16:09:30.145 I [MainView.cpp:1095               ] Registering bundled app collection with version 0.4.91
+16:09:30.145 I [MainView.cpp:1095               ] Registering bundled app artist with version 1.2.2
+16:09:30.145 I [MainView.cpp:1095               ] Registering bundled app article with version 0.29.0
+16:09:30.145 I [MainView.cpp:1098               ] Registering bundled framework logging-utils with version 0.0.11
+16:09:30.145 I [MainView.cpp:1095               ] Registering bundled app finder with version 1.2.9
+16:09:30.145 I [MainView.cpp:1098               ] Registering bundled framework artist-shared with version 0.5.3
+16:09:30.145 I [MainView.cpp:1095               ] Registering bundled app collection-album with version 0.1.81
+16:09:30.145 I [MainView.cpp:1098               ] Registering bundled framework unstable with version 0.13.1
+16:09:30.145 I [MainView.cpp:1095               ] Registering bundled app bundles with version 1.3.0
+16:09:30.145 I [MainView.cpp:1098               ] Registering bundled framework revgen-shared with version 0.0.14
+16:09:30.145 I [MainView.cpp:1095               ] Registering bundled app feed with version 2.0.13
+16:09:30.145 I [MainView.cpp:1095               ] Registering bundled app search with version 4.0.35
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app messages with version 1.5.2
+16:09:30.146 I [MainView.cpp:1098               ] Registering bundled framework social-artist-shared with version 0.1.5
+16:09:30.146 I [MainView.cpp:1098               ] Registering bundled framework util with version 0.2.4
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app collection-artist with version 0.1.46
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app profile with version 2.0.0
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app notification-popup with version 0.3.6
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app html with version 0.1.0
+16:09:30.146 I [MainView.cpp:1098               ] Registering bundled framework recommendations-shared with version 0.7.13
+16:09:30.146 I [MainView.cpp:1098               ] Registering bundled framework recommendations-shared with version 1.0.0
+16:09:30.146 I [MainView.cpp:1098               ] Registering bundled framework test-utils with version 0.2.0
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app follow with version 2.0.0
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app notification-center with version 2.6.2
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app install with version 1.1.0
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app error with version 1.1.0
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app radio with version 3.1.43
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app suggest with version 4.0.0
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app browse with version 6.29.1
+16:09:30.146 I [MainView.cpp:1098               ] Registering bundled framework api with version 1.38.0
+16:09:30.146 I [MainView.cpp:1098               ] Registering bundled framework api with version 0.3.1
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app test-runner with version 0.2.1
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app onboarding-popup with version 1.0.36
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app playlist-header with version 2.1.12
+16:09:30.146 I [MainView.cpp:1095               ] Registering bundled app album with version 2.0.5
+16:09:30.146 I [MainView.cpp:1098               ] Registering bundled framework playlist-framework with version 0.3.2
+16:09:30.303 D [spirc_manager.cpp:473           ] GAIA: SpircManager::setShuffle, enabled=true
+16:09:30.347 I [AppManager.cpp:252              ] Creating instance of the application browse.
+16:09:30.359 I [AppManager.cpp:252              ] Creating instance of the application suggest.
+16:09:30.379 I [AppManager.cpp:252              ] Creating instance of the application notification-center.
+16:09:30.380 I [AppManager.cpp:535              ] Removing instance of application notification-center.
+
+16:09:30.389 I [AppManager.cpp:252              ] Creating instance of the application notification-center.
+16:09:30.400 I [offline_manager.cpp:2264        ] Storage has been cleaned
+16:09:30.567 I [AppManager.cpp:252              ] Creating instance of the application feed.
+16:09:30.571 3 [playlist_be_toplist.cpp:234     ] [spotify:user:riglaz95:top:tracks] Synchronization starting
+16:09:30.752 I [MainView.cpp:6858               ] Load complete (0) url: sp://37f24e030436b4a8a4ab6463d2431a073a078b83.feed/index.html
+16:09:30.876 I [ap_connection_impl.cpp:880      ] Connecting to AP lon3-accesspoint-a20.ap.spotify.com:4070
+16:09:30.912 I [MainView.cpp:6858               ] Load complete (0) url: sp://4ed9eb189d195dcc54eab4a9af08586183377137.browse/index.html
+16:09:31.007 I [ap_connection_impl.cpp:534      ] Connected to AP: 194.132.196.162:4070
+16:09:31.282 3 [playlist_be_toplist.cpp:137     ] [spotify:user:riglaz95:top:tracks] Updated
+16:09:31.291 I [offline_manager.cpp:1195        ] Track b375b8fa4c9949f4b252f04ed6607cb0 downloading. File: 29879fa489e016b604428860e532ed7492782d78. Bitrate: 160000. Compl: 00 1001
+16:09:31.291 I [ap_chunk_downloader.cpp:75      ] Requesting data (0 -> 524288) from AP for file 29879fa489e016b604428860e532ed7492782d78
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+16:09:31.355 I [cdn_chunk_downloader.cpp:72     ] Requesting data (0 -> 524288) from CDN url: http://audio-ak.spotify.com/audio/29879fa489e016b604428860e532ed7492782d78?__token__=exp=1426176871~hmac=2c519b104b256a960ce7b3a7906d363c729d4b00d359a2b7571bcac65218ac79 
+16:09:31.395 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:ebilgenius:playlist:7kZJeKaTPuGWE0YgrdNKFF] Synchronization starting: DIFF (from revision 395,d84194f3b2c08054120ebce227d738e579cbf4f2) 
+16:09:31.395 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:riglaz95:inbox] Synchronization starting: DIFF (from revision 14,bfe1c8e79cf05466ae7526fb106093a889638c61) 
+16:09:31.395 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:riglaz95:collectionrootlist] Synchronization starting: DIFF (from revision 2,68403940a6c2554ce81264bb61d4cbdd54ad9cd1) 
+16:09:31.396 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:riglaz95:publishedrootlist] Synchronization starting: DIFF (from revision 332,4fed04e0b0a6d6edc9aed058433fe0e0de484608) 
+16:09:31.396 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:riglaz95:rootlist] Synchronization starting: DIFF (from revision 331,453375ec9003a2fd3f9b0bdbe9161de33cd2aafa) 
+16:09:31.480 3 [playlist_be_pl4_context.cpp:591 ] [spotify:user:riglaz95:publishedrootlist]  synchronization error: Hermes error code 405 (unknown)
+16:09:31.480 3 [playlist_be_pl4_context.cpp:688 ] [spotify:user:riglaz95:publishedrootlist]   - requesting HEAD from remote.
+16:09:31.481 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:riglaz95:collectionrootlist] Delta-updated to revision 2,68403940a6c2554ce81264bb61d4cbdd54ad9cd1 (no new changes)
+16:09:31.482 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:riglaz95:inbox] Delta-updated to revision 14,bfe1c8e79cf05466ae7526fb106093a889638c61 (no new changes)
+16:09:31.483 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:riglaz95:rootlist] Delta-updated to revision 339,976ee153bf3b125f35d4fb46d3a93160d8b48f26
+16:09:31.483 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:riglaz95:publishedrootlist] Synchronization starting: GET (full reset) (cannot send dump) (from revision 332,4fed04e0b0a6d6edc9aed058433fe0e0de484608) 
+16:09:31.512 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:ebilgenius:playlist:7kZJeKaTPuGWE0YgrdNKFF] Delta-updated to revision 406,d6d59a17cfcf71c4664c55baa09cf20407b544d9
+16:09:31.569 3 [playlist_be_pl4_context.cpp:961 ] [spotify:user:riglaz95:publishedrootlist] Snapshot-updated to revision 339,976ee153bf3b125f35d4fb46d3a93160d8b48f26
+16:09:32.302 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify_uk_:playlist:3fFwkB1IzcZlvYZEuiDzUU] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+16:09:32.305 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify_uk_:playlist:7KDPnaD0rLSB4RCTLP7bny] Synchronization starting: DIFF (from revision 54,ac42cbc74ea87d58238e2e91062248f91d596ae9) 
+16:09:32.307 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify_uk_:playlist:1o2lkeg4vZRfpNL3dgP5zv] Synchronization starting: DIFF (from revision 166,6f2b54b04b88d85991f24deefff0dd9a0f9ac18c) 
+16:09:32.309 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify_uk_:playlist:1iHelgbMaB7G1bjMbABPRe] Synchronization starting: DIFF (from revision 94,ac6b41321027b171e9234f9c0b8cfff5ee36f97c) 
+16:09:32.312 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify_uk_:playlist:6Jx9TYReeElpkvNWg8AzWm] Synchronization starting: DIFF (from revision 65,628eefc72bd1ea8e903ececa8413fefb31349307) 
+16:09:32.414 I [MainView.cpp:6858               ] Load complete (0) url: sp://4ed9eb189d195dcc54eab4a9af08586183377137.browse/index.html
+16:09:32.500 3 [playlist_be_pl4_context.cpp:961 ] [spotify:user:spotify_uk_:playlist:3fFwkB1IzcZlvYZEuiDzUU] Snapshot-updated to revision 442,219c55ae7e8cd0fb7f06ffa86818dcb856d66ab5
+16:09:32.507 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify_uk_:playlist:6Jx9TYReeElpkvNWg8AzWm] Delta-updated to revision 66,48e1b4489f3f45e72e03c79c8a93720715b3b800
+16:09:32.510 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify_uk_:playlist:1o2lkeg4vZRfpNL3dgP5zv] Delta-updated to revision 199,6a6c232af6f67b75cd1688570eda7ab47df75752
+16:09:32.512 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify_uk_:playlist:7KDPnaD0rLSB4RCTLP7bny] Delta-updated to revision 108,0cb5bb27cbf76b104fe4eafc55dc0bcecfa36ae3
+16:09:32.514 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify_uk_:playlist:1iHelgbMaB7G1bjMbABPRe] Delta-updated to revision 135,0c4413d02962d266e7a9212bcfece44a5bf7debb
+16:09:32.523 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify_uk_:playlist:3V1WI57CMyQdmxy3aibCB4] Synchronization starting: DIFF (from revision 78,531fbeadefa71988a972d9fc662bbb0e18575100) 
+16:09:32.533 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:jazmi:playlist:5E9POqzvMqLSBM6XmSWUSZ] Synchronization starting: DIFF (from revision 651,8cbc56d8dcf76a5759ba8de3da98a2e34a6afd1c) 
+16:09:32.534 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify_uk_:playlist:1RLtzuWPriMSPaPjVtDF7s] Synchronization starting: DIFF (from revision 61,3ef58c48f3e4b0115ba9d633483c0d03eaf3ac44) 
+16:09:32.534 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify_uk_:playlist:07LxzhwOz4plvHMaE7ciXr] Synchronization starting: DIFF (from revision 6,15f6bc1611e9c1d9a3fcaeacc8e2f068da84bb8d) 
+16:09:32.534 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify_uk_:playlist:5GdfgdgwylkCZjsx6WDPqX] Synchronization starting: DIFF (from revision 16,5bebdcb17d95b4879b2c3e80a8b591b3b74508f4) 
+16:09:32.626 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+16:09:32.720 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify_uk_:playlist:3V1WI57CMyQdmxy3aibCB4] Delta-updated to revision 124,740954d792712160f6270496f5f09cb455dca951
+16:09:32.729 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:0lbtgFu3JNKX77J5YOpW7n] Synchronization starting: DIFF (from revision 645,bbeff77909646b31e588910e608bb4a3cd29a839) 
+16:09:32.818 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:jazmi:playlist:5E9POqzvMqLSBM6XmSWUSZ] Delta-updated to revision 655,a030071e56e7e950a609c83794535fdd1753fb20
+16:09:32.822 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify_uk_:playlist:1RLtzuWPriMSPaPjVtDF7s] Delta-updated to revision 66,b93c555d54c251d4ccff78062d9674bc682f6dd8
+16:09:32.825 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify_uk_:playlist:07LxzhwOz4plvHMaE7ciXr] Delta-updated to revision 25,2ee8fcce9598b65bdc5cae29ebbf2c52fe704341
+16:09:32.826 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify_uk_:playlist:5GdfgdgwylkCZjsx6WDPqX] Delta-updated to revision 26,4ebfc6da155ee64d688bce51b60afa8644f3a452
+16:09:32.845 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify_uk_:playlist:6CVvJhUjiYjZnuC5xu0lqH] Synchronization starting: DIFF (from revision 45,d37e574092982894a2dd1585550a4de7c38a6163) 
+16:09:32.846 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify_uk_:playlist:3nUU3opyeRtDx6Jiyeo7ty] Synchronization starting: DIFF (from revision 953,db10696201634c919753913b2bd7994d6b00917b) 
+16:09:32.846 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify_uk_:playlist:25fRnZ2JlhLPoBNJlRDN3r] Synchronization starting: DIFF (from revision 47,5de09ae1f3d4a4d46e6de308d88d3293bacd7d8a) 
+16:09:32.905 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify:playlist:0lbtgFu3JNKX77J5YOpW7n] Delta-updated to revision 696,9ecf6e230b2a0bd1e606e50bdbe8a070b6e18793
+16:09:32.930 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:2Qi8yAzfj1KavAhWz1gaem] Synchronization starting: DIFF (from revision 35,fd2da31e918670f0a9d9033a9c9800c5e52f84e6) 
+16:09:33.063 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify_uk_:playlist:25fRnZ2JlhLPoBNJlRDN3r] Delta-updated to revision 48,672c5ab68502671773d6e9f8facbf062b022417a
+16:09:33.064 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify_uk_:playlist:6CVvJhUjiYjZnuC5xu0lqH] Delta-updated to revision 57,636a79165067d3af97be8262ba6ac076a4d20c76
+16:09:33.069 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify_uk_:playlist:3nUU3opyeRtDx6Jiyeo7ty] Delta-updated to revision 1040,4e2b696df5241df44c198a053d8492874ab0a77d
+16:09:33.179 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:spotify:playlist:2Qi8yAzfj1KavAhWz1gaem] Delta-updated to revision 42,db75818cdd890b017df6e946aad8031ba5d33b08
+16:09:33.520 I [MainView.cpp:6858               ] Load complete (0) url: sp://4ed9eb189d195dcc54eab4a9af08586183377137.browse/index.html
+16:09:33.730 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:riglaz95:playlist:43UJ7lrn63VOYkQ4HX5ANP] Synchronization starting: DIFF (from revision 74,2ef15637837254e7f4f6d2969215a60964046f37) 
+16:09:33.906 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:riglaz95:playlist:43UJ7lrn63VOYkQ4HX5ANP] Delta-updated to revision 81,9ac9b823d54edceeb9c69ba3819340a12a4598d0
+16:09:34.326 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:riglaz95:collectiontracklist:617xR2m7KMtt9HLX8Fj6NC] Synchronization starting: DIFF (from revision 83,81efba63fd9de91656e6a87142bb4ac3d4e510d4) 
+16:09:34.544 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:keatshandwriting:playlist:21J20PgNUj49fSp2UOfawo] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+16:09:34.864 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:riglaz95:collectiontracklist:617xR2m7KMtt9HLX8Fj6NC] Delta-updated to revision 83,81efba63fd9de91656e6a87142bb4ac3d4e510d4 (no new changes)
+16:09:34.899 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:sonymusicuk:playlist:6EAlmWG0DDD6G4BKaHfamf] Synchronization starting: GET (from revision 0,726f6f7400000000000000000000000000000000) 
+16:09:35.172 I [cdn_chunk_downloader.cpp:199    ] Request for file 29879fa489e016b604428860e532ed7492782d78 complete (code: 0)
+16:09:35.172 I [cdn_chunk_downloader.cpp:72     ] Requesting data (524288 -> 1048576) from CDN url: http://audio-ak.spotify.com/audio/29879fa489e016b604428860e532ed7492782d78?__token__=exp=1426176871~hmac=2c519b104b256a960ce7b3a7906d363c729d4b00d359a2b7571bcac65218ac79 
+16:09:35.351 3 [playlist_be_pl4_context.cpp:961 ] [spotify:user:keatshandwriting:playlist:21J20PgNUj49fSp2UOfawo] Snapshot-updated to revision 3806,bc502115d17afddf2a4d2b16b5a63c7d0300fda5
+16:09:35.358 I [http_fetch_connection.cpp:362   ] Result 206 Partial Content
+16:09:35.369 3 [playlist_be_pl4_context.cpp:961 ] [spotify:user:sonymusicuk:playlist:6EAlmWG0DDD6G4BKaHfamf] Snapshot-updated to revision 178,3352d9a68319ee145f76e0d6a869d7e1b1e57134
+16:09:35.453 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:sonymusicuk:playlist:6EAlmWG0DDD6G4BKaHfamf] Synchronization starting: DIFF (from revision 178,3352d9a68319ee145f76e0d6a869d7e1b1e57134) 
+16:09:36.844 3 [playlist_be_pl4_context.cpp:869 ] [spotify:user:sonymusicuk:playlist:6EAlmWG0DDD6G4BKaHfamf] Delta-updated to revision 178,3352d9a68319ee145f76e0d6a869d7e1b1e57134 (no new changes)
+16:09:37.128 3 [playlist_be_pl4_context.cpp:404 ] [spotify:user:spotify:playlist:18pDbI9hwBndkj04AmqkuS] Synchronization starting: DIFF (from revision 478,e8e1a1a3ba8a7b2323d756a31e1fa00fbd0fbf89) 
