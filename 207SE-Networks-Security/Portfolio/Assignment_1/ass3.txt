@@ -1,0 +1,127 @@
+ Skip to content
+This repository
+
+    Explore
+    Gist
+    Blog
+    Help
+
+    Rob Rigler Riglerr
+
+    1
+    0
+    0
+
+Riglerr/University-Work
+
+University-Work / 207SE-Networks-&-Security / Portfolio / Assignment_1 / Ass2.txt
+Rob Rigler Riglerr an hour ago
+Added portfolio folder and contents
+
+1 contributor
+124 lines (111 sloc) 8.111 kb
+Script started on Thu 06 Nov 2014 12:59:51 GMT
+]0;rob@: ~rob@:~$ chmod u+rxw ~/
+]0;rob@: ~rob@:~$ wget http://www.centerkey.com/tree/tree.sh
+--2014-11-06 13:00:26-- http://www.centerkey.com/tree/tree.sh
+Resolving www.centerkey.com (www.centerkey.com)... 66.185.31.194
+Connecting to www.centerkey.com (www.centerkey.com)|66.185.31.194|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2110 (2.1K) [text/plain]
+Saving to: ‘tree.sh.1’
+0% [ ] 0 --.-K/s
+100%[======================================>] 2,110 --.-K/s in 0s
+2014-11-06 13:00:27 (114 MB/s) - ‘tree.sh.1’ saved [2110/2110]
+]0;rob@: ~rob@:~$ chmod[K[K[K[K[Kls
+[0m[01;34m207se Networks & Security[0m [01;34mDownloads[0m [01;34mPictures[0m typescipt
+[01;34m210CT Programming[0m [01;34meverpad[0m [01;34mPublic[0m typescript
+[01;34m260 SOftware ENG[0m examples.desktop [01;34mrailsbridge[0m [01;34mVideos[0m
+Ass2.txt [01;34mIdeaProjects[0m [01;34mTemplates[0m [01;34mworkspace[0m
+Broadband payments.ods [01;34mkde[0m test1.txt
+[01;34mDesktop[0m [01;34mMusic[0m [01;32mtree.sh[0m
+[01;34mDocuments[0m nano.save tree.sh.1
+]0;rob@: ~rob@:~$ cmod[K[K[Khmod -x tree.sh.1
+]0;rob@: ~rob@:~$ mkdir 207se
+]0;rob@: ~rob@:~$ cd 207se
+]0;rob@: ~/207serob@:~/207se$ mkdir portfolio
+]0;rob@: ~/207serob@:~/207se$ cd portfolio/
+]0;rob@: ~/207se/portfoliorob@:~/207se/portfolio$ mkdir week1 week2
+]0;rob@: ~/207se/portfoliorob@:~/207se/portfolio$ mv Downloads/207SE/Downloads/207SEhDownloads/207SEoDownloads/207SEmDownloads/207SEeDownloads/207SE/Downloads/207SErDownloads/207SEoDownloads/207SEbDownloads/207SE/Downloads/207SE[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CLab1
+1-ModifiedHarvardArchitecture.docxE[C[K ~/207se/portfolio/week1/week1[K[K[K[K[K
+]0;rob@: ~/207se/portfoliorob@:~/207se/portfolio$ cd[K[Kcd ~/
+]0;rob@: ~rob@:~$ ./tree.sh.2[K1
+bash: ./tree.sh.1: Permission denied
+]0;rob@: ~rob@:~$ ./tree.sh.1s./tree.sh.1u./tree.sh.1d./tree.sh.1o./tree.sh.1 ./tree.sh.1
+[sudo] password for rob:
+sudo: ./tree.sh.1: command not found
+]0;rob@: ~rob@:~$ sudo ./tree.sh.1[5P./tree.sh.1[K[K
+/home/rob
+.
+|-207se
+|---portfolio
+|-----week1
+|-----week2
+|-207se Networks & Security
+|---portfolio
+|-----week1
+|-----week2
+|-210CT Programming
+|---6 - Sorting
+|-----6 - Sorting
+|-------out
+|---------production
+|-----------6 - Sorting
+|-------------com
+|---------------Sorting
+|-------src
+|---------com
+|-----------Sorting
+|---out
+|-----production
+|-------BigOCritVal
+|---------com
+|-----------BigO
+|---src
+|-----com
+|-------BigO
+|-260 SOftware ENG
+|-Desktop
+|-Documents
+|---Aptana Rubles
+|---Aptana Studio 3 Workspace
+|-----HelloWorld
+]0;rob@: ~rob@:~$
+[K]0;rob@: ~rob@:~$ cd 207se/portfolio/week1
+]0;rob@: ~/207se/portfolio/week1rob@:~/207se/portfolio/week1$ cd 207se/portfolio/week1[K2
+bash: cd: 207se/portfolio/week2: No such file or directory
+]0;rob@: ~/207se/portfolio/week1rob@:~/207se/portfolio/week1$ cd 207se/portfolio/week2[K[K[K[K[K
+bash: cd: 207se/portfolio/: No such file or directory
+]0;rob@: ~/207se/portfolio/week1rob@:~/207se/portfolio/week1$ cd 207se/portfolio/[K
+bash: cd: 207se/portfolio: No such file or directory
+]0;rob@: ~/207se/portfolio/week1rob@:~/207se/portfolio/week1$ cd[K[Kcd 207se/portfolio~207se/portfolio/207se/portfolio
+]0;rob@: ~/207se/portfoliorob@:~/207se/portfolio$ ls
+[0m[01;34mweek1[0m [01;34mweek2[0m
+]0;rob@: ~/207se/portfoliorob@:~/207se/portfolio$ cd week2
+]0;rob@: ~/207se/portfolio/week2rob@:~/207se/portfolio/week2$ touch poem.txt
+]0;rob@: ~/207se/portfolio/week2rob@:~/207se/portfolio/week2$ nano poem.txt
+mAll drivers shove small, dry girls.
+[4dCold, rainy lights quietly hustle a old, grimy flower.
+[5dAnger is a old driver.
+[?1l>]0;rob@: ~/207se/portfolio/week2rob@:~/207se/portfolio/week2$ wc poem.txt
+3 20 114 poem.txt
+]0;rob@: ~/207se/portfolio/week2rob@:~/207se/portfolio/week2$ grep and poem.txt
+]0;rob@: ~/207se/portfolio/week2rob@:~/207se/portfolio/week2$ cat poem.txt
+All drivers shove small, dry girls.
+Cold, rainy lights quietly hustle a old, grimy flower.
+Anger is a old driver.
+]0;rob@: ~/207se/portfolio/week2rob@:~/207se/portfolio/week2$ sort -[K-0[Ko[K[K[K[K[K[K[Kman sr[Kp[Kort
+[?1049h[?1h=
+[K[?1l>[?1049l]0;rob@: ~/207se/portfolio/week2rob@:~/207se/portfolio/week2$ sort -o poeam.txt poem2.txt
+sort: cannot read: poem2.txt: No such file or directory
+]0;rob@: ~/207se/portfolio/week2rob@:~/207se/portfolio/week2$ touch poem2.txt
+]0;rob@: ~/207se/portfolio/week2rob@:~/207se/portfolio/week2$ touch poem2.txt[12@sort -o poeam.txt[C[C[C[C[C[C[C[C[C[C[C[1P
+]0;rob@: ~/207se/portfolio/week2rob@:~/207se/portfolio/week2$ nano poem2.txt
+
+[?1l>]0;rob@: ~/207se/portfolio/week2rob@:~/207se/portfolio/week2$ exit
+exit
+Script done on Thu 06 Nov 2014 13:14:27 GMT

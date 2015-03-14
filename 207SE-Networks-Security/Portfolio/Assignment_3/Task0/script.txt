@@ -1,0 +1,23 @@
+#!/bin/bash
+
+
+#User propt to enter file name.
+echo "Enter name of asm file: "
+
+read asm_name  #name stored in variable
+
+echo "Compiling file."
+
+#appends the filename with the .asm extension
+asm_ext="$asm_name"".asm"  
+
+#Using nasm to compile the file
+nasm $asm_ext
+
+echo "Writing file to disk image."
+
+#Writes the file to the image
+dd if=$asm_name bs=512 of=a.img
+
+#starts bochs
+bochs

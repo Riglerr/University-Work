@@ -1,0 +1,39 @@
+for iso trangle
+
+no of lines = n
+TF width of triangle = 2n-1
+
+n = 1 w = 1
+n = 2 w = 3
+3 5
+4 7
+5 9
+6 11
+7 13
+8 15
+9 17
+
+e.g
+n =7 w= 13
+
+_ _ _ _ _ _ * _ _ _ _ _ _  1
+_ _ _ _ _ * * * _ _ _ _ _  2
+_ _ _ _ * * * * * _ _ _ _  3
+_ _ _ * * * * * * * _ _ _  4
+_ _ * * * * * * * * * _ _  5
+_ * * * * * * * * * * * _  6
+* * * * * * * * * * * * *  7
+
+Counters:
+
+outerloop: number of lines in trangle
+innerloop2: print 'space' (width-lineNo)/2 times, also be (width-numOfAsterisks)/2
+
+print (w - lineNo /2) spaces
+
+
+push outerloop to stack = 7
+push innerloop to stack = ?
+ebx =2
+eax x ebx ; 2n
+eax -1 ; 2n-1

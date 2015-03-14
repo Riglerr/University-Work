@@ -1,0 +1,38 @@
+MULTIPROGRAMMING
+
+	Takes advantage of I/O requests to maximise CPU usage.
+	
+	The system starts executing a process, at some point this process will  need to wait 
+	on another task (most commonly I/O). At this point, the CPU switches to another job that 
+	is ready to be executed while the other process is waiting.
+	When the initial process is no longer waiting for I/O, it is then switched back over to the CPU 
+	for execution.
+	Maximises CPU ---> Always processes running.
+MULTITASKING (time-sharing)
+
+	Gives each process a share of the CPU time, giving the impression of several
+	programs running at once.
+	
+	Processes in main memory are switched on and off the CPU quickly.
+	Each process gets a certain amount of time on the CPU, then the next is swapped in.
+	Makes it look like their going all at once.
+	
+	
+	
+	
+			SCHEDULING
+
+Two levels of scheduling:
+
+			Job scheduling - From secondary storage to Main memory.
+			CPU scheduling - From Main Memory to CPU.
+			
+			
+	The Job Queue - Represents all processes on system (secondary storage).
+	The Ready Queue - Process in main memory that are ready to execute (in a 'ready' state)
+						Process is dispatched from ready queue for processing ('running' state).
+						
+	
+
+
+

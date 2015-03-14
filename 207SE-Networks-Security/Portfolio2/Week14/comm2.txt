@@ -1,0 +1,67 @@
+ Skip to content
+This repository
+
+    Explore
+    Gist
+    Blog
+    Help
+
+    Rob Rigler Riglerr
+
+    1 
+
+0
+
+    0
+
+Riglerr/University-Work
+
+University-Work/207SE-Networks-&-Security/Portfolio2/Week14/com2.txt
+Rob Rigler Riglerr 14 hours ago
+12-3-15
+
+1 contributor
+39 lines (29 sloc) 1.256 kb
+rob@rob-HP-ProBook-6470b:$ xclock &
+[1] 21811
+rob@rob-HP-ProBook-6470b:$ xclock
+^Z
+[2]+ Stopped xclock
+rob@rob-HP-ProBook-6470b:$ jobs
+[1]- Running xclock &
+[2]+ Stopped xclock
+rob@rob-HP-ProBook-6470b:$ kill %1
+rob@rob-HP-ProBook-6470b:$ jobs
+[1]- Terminated xclock
+[2]+ Stopped xclock
+rob@rob-HP-ProBook-6470b:$ kill -cont %2
+rob@rob-HP-ProBook-6470b:$ jobs
+[2]+ Running xclock &
+rob@rob-HP-ProBook-6470b:$ ps au |grep rob
+USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND
+rob 16721 0.0 0.0 27336 4448 pts/5 Ss 14:26 0:00 /bin/bash
+rob 21794 0.0 0.0 21892 960 pts/5 S+ 15:47 0:00 script -a com2.txt
+rob 21795 0.0 0.0 21896 396 pts/5 S+ 15:47 0:00 script -a com2.txt
+rob 21796 0.0 0.0 27224 4180 pts/15 Ss 15:47 0:00 bash -i
+rob 21813 0.0 0.0 70556 4840 pts/15 S 15:47 0:00 xclock
+rob 21872 0.0 0.0 22648 1320 pts/15 R+ 15:48 0:00 ps au
+rob@rob-HP-ProBook-6470b:$ kill -9 21813
+rob@rob-HP-ProBook-6470b:$ jobs
+[2]+ Killed xclock
+rob@rob-HP-ProBook-6470b:$ exit
+exit
+Script done on Thu 12 Mar 2015 15:48:38 GMT
+
+    Status
+    API
+    Training
+    Shop
+    Blog
+    About
+
+    © 2015 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Contact
+
