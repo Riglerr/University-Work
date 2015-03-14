@@ -31,6 +31,9 @@ int pop(){
 
 }
 
+
+
+
 int main()
 {
   int listenSocket, connectSocket, i;
@@ -75,6 +78,15 @@ int main()
   // then this thread of execution continues on.
   listen(listenSocket, 5);
 
+
+
+
+
+
+
+
+
+
   while (1) {
     cout << "Waiting for TCP connection on port " << listenPort << " ...\n";
 
@@ -112,6 +124,22 @@ int main()
     // First set line to all zeroes, so we'll know where the end of
     // the string is.
     memset(line, 0x0, LINE_ARRAY_SIZE);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     while (recv(connectSocket, line, MAX_MSG, 0) > 0) {
 
       // RPN evaluation loop.
@@ -132,7 +160,6 @@ int main()
                 // else go to next char in input string.
             else
                 continue;
-
         }
         // if operator
         else if(line[i] == '+' || line[i] == '-'
@@ -161,13 +188,9 @@ int main()
         case '/':
             push(b/a);
             break;
-
         }
-
     }
-
   }
-
 // Only value left in stack is the answer.
 sprintf(line,"%d",pop());
 

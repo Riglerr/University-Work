@@ -60,11 +60,9 @@ int main()
     exit(1);
   }
 
-  cout << "\nEnter some lines, and the server will modify them and\n";
-  cout << "send them back.  When you are done, enter a line with\n";
-  cout << "just a dot, and nothing else.\n";
-  cout << "If a line is more than " << MAX_LINE << " characters, then\n";
-  cout << "only the first " << MAX_LINE << " characters will be used.\n\n";
+  cout << "\nEnter an RPN Expression:\n";
+
+
 
   // Prompt the user for input, then read in the input, up to MAX_LINE
   // charactars, and then dispose of the rest of the line, including
@@ -96,7 +94,7 @@ int main()
       exit(1);
     }
 
-    cout << "Modified: " << buf << "\n";
+    cout << "Answer: " << buf << "\n";
 
     // Prompt the user for input, then read in the input, up to MAX_LINE
     // charactars, and then dispose of the rest of the line, including

@@ -4,3 +4,5 @@
 \contentsline {section}{Week 14: Process Manipulation \& Nohup}{4}{section*.5}
 \contentsline {subsection}{Process Manipulation}{4}{section*.6}
 \contentsline {subsection}{Nohup}{8}{section*.7}
+\contentsline {section}{Week 17: Pipes and Sockets}{10}{section*.8}
+\contentsline {subsection}{RPN Calculator}{10}{section*.9}

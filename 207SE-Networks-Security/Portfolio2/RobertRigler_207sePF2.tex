@@ -47,7 +47,7 @@
 
 \definecolor{MyDarkGreen}{rgb}{0.0,0.4,0.0} % This is the color used for comments
 \lstloadlanguages{C} % Load Perl syntax for listings, for a list of other languages supported see: ftp://ftp.tex.ac.uk/tex-archive/macros/latex/contrib/listings/listings.pdf
-\lstset{language=SQL, % Use c in this example
+\lstset{language=C, % Use c in this example
         frame=single, % Single frame around code
         basicstyle=\small\ttfamily, % Use small true type font
         keywordstyle=[1]\color{Blue}\bf, % cfunctions bold and blue
@@ -268,5 +268,43 @@ Now, if I type 'nohup spotify \&' and look at the terminal jobs. It shows 'nohup
 \vspace{0.5cm} \includegraphics[scale =0.3]{Week14/nohup2.png}
 \end{homeworkSection}
 \end{homeworkProblem}
+\pagebreak
+
+\begin{homeworkProblem}[Week 17: Pipes and Sockets]
+\begin{homeworkSection}{RPN Calculator}
+
+This tasked asked me to modify the 'tcp-server' code to evaluate an expression in Reverse Polish Notation (RPN) and return the value to the client. Below I have included the modified code of 'tcp-server', and a screen-shot of the program working. The program is able to evaluate complex expressions such as:\\ \\ ' \textit{100 3 5 6 + * -} ' \\
+
+which in prefix notation is : \\  
+
+ '\textit{100 - 3 * (5+6) } ' \\ 
+
+both of these expressions evaluate to 67.
+
+\Cscript{Week17/code}{'tcp-server.cc' code}
+
+Firstly to be able to evaluate an RPN expression, I needed to implement stack functionality. Lines 16 to 32 show me creating a stack. \\ I created an integer array to hold the values, and an integer to 'point' to the front on the stack. I then created the two funtions which would allow me to push and pop values to and from the stack respectively.\\
+
+On lines 143 to 195 Is where I evaluated the RPN Expression.
+
+Below is a screen-shot of the out on 'tcp-client'. It shows three separate expressions being evaluated : 
+\begin{enumerate}
+\item 100 3 5 6 + * - \hspace{1.2cm} (100 - 3 * (5+6))\\
+\item 1000 345 - \hspace{2cm}  (1000 - 345)\\
+\item 280 2 / 4 * \hspace{1.9cm} (4 * (280/2))
+\end{enumerate}
+
+\vspace{1cm}
+\includegraphics[scale=0.6]{Week17/rpn.png}
+
+
+
+\end{homeworkSection}
+\end{homeworkProblem}
+
+
+
+
+
 
 \end{document}
