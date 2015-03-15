@@ -1,0 +1,58 @@
+#include <fcntl.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <stdio.h>
+//Define header files
+
+#define BUF_SIZE 500   		//Define Buffer size as 500.
+#define OUTPUT_MODE 0700	//Define file permission.
+
+int main(int argc, char *argv[])
+{
+  int in_fd, in0_fd; // Create integers to hold file handles.
+  int rd_size = 1; 	// Create integer to hold the amount of bytes in the buffer.
+  char buf[BUF_SIZE]; //Declare 1st buffer.
+  char buf0[BUF_SIZE]; //Declare 2nd buffer.
+
+  if (argc != 3)
+	exit(1);
+
+
+
+  in_fd = open(argv[1], O_RDONLY); //Open 1st file.
+  if (in_fd < 0)
+	exit(2);
+
+  in0_fd = open(argv[2], O_RDONLY); //Open 2nd file.
+  if (in0_fd < 0)
+	exit(3);
+
+  while (rd_size > 0) {
+    
+    int i;
+	rd_size = read(in_fd, buf, BUF_SIZE); // Read From 1st file into 1st buffer
+
+	if (rd_size <0)
+  	exit(4);
+	rd_size = read(in0_fd, buf0, rd_size); //Read from 2nd file into 2nd buffer
+
+    for (i =0; i < BUF_SIZE; i++){//Loop through the contents of each buffer.
+
+    if (buf[i] == buf0[i])// If buffer contents are equal, go to next buffer element.
+   	 continue;
+    else {//If buffer contets are not the same, 
+    		//close the files and display a message 	
+            //and exit the program.
+    
+    close(in_fd); 							//Close input file.
+      close(in0_fd); 						//Close output file
+    printf("Files are not the same. \n");    
+    exit(5);
+   	 
+   		 } //end else
+   	 } //end for    
+      } //end while
+
+printf("Files are the same \n");// Display this message if the files are the same
+
+}//end main

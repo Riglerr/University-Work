@@ -1,0 +1,67 @@
+while(1){
+
+    dup2(1,2);
+
+      se207_wait(id);
+      printf("\t Then fix it, dear Henry, dear Henry, dear Henry,\n");
+      rsleep();
+      printf(" \t Oh fix it, dear Henry, dear Henry, fix it. \n");
+      se207_signal(id);
+
+    se207_wait(id);
+    printf("\t With a straw, dear Henry, dear Henry, dear Henry,\n");
+    rsleep();
+    printf("\t With a straw, dear Henry, dear Henry, with a straw.\n");
+
+    se207_signal(id);
+
+    se207_wait(id);
+    printf("\t Cut it, dear Henry, dear Henry, dear Henry,\n");
+    rsleep();
+    printf("\t Then cut it, dear Henry, dear Henry, cut it.\n");
+
+    se207_signal(id);
+
+    se207_wait(id);
+    printf("\t With an axe, dear Henry, dear Henry, dear Henry,\n");
+    rsleep();
+    printf("\t With an axe, dear Henry, dear Henry, with an axe.\n");
+
+    se207_signal(id);
+
+    se207_wait(id);
+    printf("\t  Sharpen it, dear Henry, dear Henry, dear Henry,\n");
+    rsleep();
+    printf("\t  Oh sharpen it, dear Henry, dear Henry, hone it.\n");
+
+    se207_signal(id);
+
+    se207_wait(id);
+    printf("\t On a stone, dear Henry, dear Henry, dear Henry,\n");
+    rsleep();
+    printf("\t On a stone, dear Henry, dear Henry, a stone.\n");
+
+    se207_signal(id);
+
+    se207_wait(id);
+    printf("\t Then wet it, dear Henry, dear Henry, dear Henry,\n");
+    rsleep();
+    printf("\t Then wet it, dear Henry, dear Henry, wet it.\n");
+
+    se207_signal(id);
+
+    se207_wait(id);
+    printf("\t Try water, dear Henry, dear Henry, dear Henry,\n");
+    rsleep();
+    printf("\t Try water, dear Henry, dear Henry,use water.\n");
+
+    se207_signal(id);
+
+    se207_wait(id);
+    printf("\t  In a bucket, dear Henry, dear Henry, dear Henry,\n");
+    rsleep();
+    printf("\t In a bucket, dear Henry, dear Henry, a bucket.\n");
+
+    se207_signal(id);
+    }
+

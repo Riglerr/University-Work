@@ -1,0 +1,686 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.23)  15 DEC 2014 21:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**RobertRigler_207sePF1.tex
+(./RobertRigler_207sePF1.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 4 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/extramarks.sty
+\@temptokenb=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count88
+\lst@gtempboxa=\box26
+\lst@token=\toks16
+\lst@length=\count89
+\lst@currlwidth=\dimen105
+\lst@column=\count90
+\lst@pos=\count91
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count92
+\lst@lineno=\count93
+\lst@maxwidth=\dimen108
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
+\lst@framebox=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+)
+\c@homeworkProblemCounter=\count96
+
+(./RobertRigler_207sePF1.aux)
+\openout1 = `RobertRigler_207sePF1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 155.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count97
+\scratchdimen=\dimen109
+\scratchbox=\box28
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen110
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count103
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 157.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 157.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 157.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./RobertRigler_207sePF1.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+ [2])
+\tf@toc=\write3
+\openout3 = `RobertRigler_207sePF1.toc'.
+
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+<Assignment_1/l1.png, id=17, 723.70375pt x 154.5775pt>
+File: Assignment_1/l1.png Graphic file (type png)
+
+<use Assignment_1/l1.png>
+Package pdftex.def Info: Assignment_1/l1.png used on input line 181.
+(pdftex.def)             Requested size: 422.77661pt x 90.30127pt.
+
+<Assignment_1/l2.png, id=18, 1306.8825pt x 487.8225pt>
+File: Assignment_1/l2.png Graphic file (type png)
+
+<use Assignment_1/l2.png>
+Package pdftex.def Info: Assignment_1/l2.png used on input line 190.
+(pdftex.def)             Requested size: 422.77661pt x 157.81096pt.
+
+<Assignment_1/l3.png, id=19, 442.65375pt x 199.74625pt>
+File: Assignment_1/l3.png Graphic file (type png)
+
+<use Assignment_1/l3.png>
+Package pdftex.def Info: Assignment_1/l3.png used on input line 208.
+(pdftex.def)             Requested size: 422.77661pt x 190.78804pt.
+ [4 <./Assignment_1/l1.png (PNG copy)> <./Assignment_1/l2.png (PNG copy)>] <Ass
+ignment_1/l4.png, id=23, 403.5075pt x 103.38625pt>
+File: Assignment_1/l4.png Graphic file (type png)
+
+<use Assignment_1/l4.png>
+Package pdftex.def Info: Assignment_1/l4.png used on input line 217.
+(pdftex.def)             Requested size: 422.77661pt x 108.3237pt.
+ <Assignment_1/l5.png, id=24, 529.98pt x 89.33376pt>
+File: Assignment_1/l5.png Graphic file (type png)
+
+<use Assignment_1/l5.png>
+Package pdftex.def Info: Assignment_1/l5.png used on input line 238.
+(pdftex.def)             Requested size: 422.77661pt x 71.26398pt.
+ [5 <./Assignment_1/l3.png (PNG copy)> <./Assignment_1/l4.png (PNG copy)> <./As
+signment_1/l5.png (PNG copy)>]
+<Assignment_1/l6.png, id=28, 623.32875pt x 123.46124pt>
+File: Assignment_1/l6.png Graphic file (type png)
+
+<use Assignment_1/l6.png>
+Package pdftex.def Info: Assignment_1/l6.png used on input line 247.
+(pdftex.def)             Requested size: 422.77661pt x 83.73964pt.
+
+<Assignment_1/l7.png, id=29, 541.02126pt x 162.6075pt>
+File: Assignment_1/l7.png Graphic file (type png)
+
+<use Assignment_1/l7.png>
+Package pdftex.def Info: Assignment_1/l7.png used on input line 257.
+(pdftex.def)             Requested size: 422.77661pt x 127.07153pt.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 263.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 263.
+
+<Assignment_1/l8.png, id=30, 452.69125pt x 159.59625pt>
+File: Assignment_1/l8.png Graphic file (type png)
+
+<use Assignment_1/l8.png>
+Package pdftex.def Info: Assignment_1/l8.png used on input line 266.
+(pdftex.def)             Requested size: 422.77661pt x 149.04881pt.
+
+<Assignment_1/l9.png, id=31, 435.6275pt x 171.64125pt>
+File: Assignment_1/l9.png Graphic file (type png)
+
+<use Assignment_1/l9.png>
+Package pdftex.def Info: Assignment_1/l9.png used on input line 275.
+(pdftex.def)             Requested size: 422.77661pt x 166.57822pt.
+ [6 <./Assignment_1/l6.png (PNG copy)> <./Assignment_1/l7.png (PNG copy)> <./As
+signment_1/l8.png (PNG copy)>] [7 <./Assignment_1/l9.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 298.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+(./Assignment_2/t1/rat.txt [8
+
+])
+<Assignment_2/t1/Evi1.png, id=46, 681.54625pt x 192.72pt>
+File: Assignment_2/t1/Evi1.png Graphic file (type png)
+
+<use Assignment_2/t1/Evi1.png>
+Package pdftex.def Info: Assignment_2/t1/Evi1.png used on input line 306.
+(pdftex.def)             Requested size: 414.31927pt x 117.15614pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+[9 <./Assignment_2/t1/Evi1.png (PNG copy)>] (./Assignment_2/t2/iso.txt [10
+
+]
+[11]) <Assignment_2/t2/Evi1.png, id=59, 669.50125pt x 211.79124pt>
+File: Assignment_2/t2/Evi1.png Graphic file (type png)
+
+<use Assignment_2/t2/Evi1.png>
+Package pdftex.def Info: Assignment_2/t2/Evi1.png used on input line 330.
+(pdftex.def)             Requested size: 414.31927pt x 131.07007pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+[12 <./Assignment_2/t2/Evi1.png (PNG copy)>] (./Assignment_3/Task0/script.txt)
+[13
+
+] <Assignment_3/Task0/e1.png, id=67, 1054.94125pt x 392.46625pt>
+File: Assignment_3/Task0/e1.png Graphic file (type png)
+
+<use Assignment_3/Task0/e1.png>
+Package pdftex.def Info: Assignment_3/Task0/e1.png used on input line 356.
+(pdftex.def)             Requested size: 422.77661pt x 157.28313pt.
+
+<Assignment_3/Task0/e2.png, id=68, 726.715pt x 479.7925pt>
+File: Assignment_3/Task0/e2.png Graphic file (type png)
+
+<use Assignment_3/Task0/e2.png>
+Package pdftex.def Info: Assignment_3/Task0/e2.png used on input line 357.
+(pdftex.def)             Requested size: 422.78128pt x 250.94308pt.
+ [14
+
+ <./Assignment_3/Task0/e1.png (PNG copy)> <./Assignment_3/Task0/e2.png (PNG cop
+y)>]
+(./Assignment_3/Task1/pragmalinux-img/name.txt)
+<Assignment_3/Task1/pragmalinux-img/bEvi1.png, id=72, 722.7pt x 483.8075pt>
+File: Assignment_3/Task1/pragmalinux-img/bEvi1.png Graphic file (type png)
+
+<use Assignment_3/Task1/pragmalinux-img/bEvi1.png>
+Package pdftex.def Info: Assignment_3/Task1/pragmalinux-img/bEvi1.png used on i
+nput line 375.
+(pdftex.def)             Requested size: 414.31927pt x 277.36772pt.
+ [15
+
+] [16 <./Assignment_3/Task1/pragmalinux-img/bEvi1.png (PNG copy)>]
+<Assignment_4/1Cat.png, id=79, 379.4175pt x 418.56375pt>
+File: Assignment_4/1Cat.png Graphic file (type png)
+
+<use Assignment_4/1Cat.png>
+Package pdftex.def Info: Assignment_4/1Cat.png used on input line 396.
+(pdftex.def)             Requested size: 345.2684pt x 380.89998pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
+
+ []
+
+<Assignment_4/2Table.png, id=81, 351.56343pt x 374.14781pt>
+File: Assignment_4/2Table.png Graphic file (type png)
+
+<use Assignment_4/2Table.png>
+Package pdftex.def Info: Assignment_4/2Table.png used on input line 404.
+(pdftex.def)             Requested size: 345.2684pt x 367.44447pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
+
+ []
+
+[17
+
+ <./Assignment_4/1Cat.png>]
+<Assignment_4/3CPU.png, id=86, 334.24875pt x 161.10187pt>
+File: Assignment_4/3CPU.png Graphic file (type png)
+
+<use Assignment_4/3CPU.png>
+Package pdftex.def Info: Assignment_4/3CPU.png used on input line 412.
+(pdftex.def)             Requested size: 345.2684pt x 166.42595pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
+
+ []
+
+[18 <./Assignment_4/2Table.png>]
+<Assignment_4/4Paramaters.png, id=91, 457.71pt x 103.88812pt>
+File: Assignment_4/4Paramaters.png Graphic file (type png)
+
+<use Assignment_4/4Paramaters.png>
+Package pdftex.def Info: Assignment_4/4Paramaters.png used on input line 420.
+(pdftex.def)             Requested size: 345.2684pt x 78.36926pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
+
+ []
+
+<Assignment_4/5Disk.png, id=92, 444.15938pt x 184.43906pt>
+File: Assignment_4/5Disk.png Graphic file (type png)
+
+<use Assignment_4/5Disk.png>
+Package pdftex.def Info: Assignment_4/5Disk.png used on input line 429.
+(pdftex.def)             Requested size: 345.2684pt x 143.37218pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+
+ []
+
+[19 <./Assignment_4/3CPU.png> <./Assignment_4/4Paramaters.png> <./Assignment_4/
+5Disk.png>] (./Assignment_4/BashScript.txt) [20
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
+
+ []
+
+<Assignment_4/s1.png, id=105, 984.67876pt x 289.08pt>
+File: Assignment_4/s1.png Graphic file (type png)
+
+<use Assignment_4/s1.png>
+Package pdftex.def Info: Assignment_4/s1.png used on input line 441.
+(pdftex.def)             Requested size: 422.77661pt x 124.1167pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
+
+ []
+
+<Assignment_4/s2.png, id=106, 921.4425pt x 770.88pt>
+File: Assignment_4/s2.png Graphic file (type png)
+ <use Assignment_4/s2.png>
+Package pdftex.def Info: Assignment_4/s2.png used on input line 445.
+(pdftex.def)             Requested size: 422.77661pt x 353.69162pt.
+
+[21
+
+ <./Assignment_4/s1.png (PNG copy)> <./Assignment_4/s2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+
+ []
+
+<Assignment_4/s3.png, id=110, 983.675pt x 304.13625pt>
+File: Assignment_4/s3.png Graphic file (type png)
+
+<use Assignment_4/s3.png>
+Package pdftex.def Info: Assignment_4/s3.png used on input line 450.
+(pdftex.def)             Requested size: 422.77661pt x 130.7157pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+
+ []
+
+<Assignment_4/s4.png, id=111, 989.6975pt x 194.7275pt>
+File: Assignment_4/s4.png Graphic file (type png)
+
+<use Assignment_4/s4.png>
+Package pdftex.def Info: Assignment_4/s4.png used on input line 454.
+(pdftex.def)             Requested size: 422.77661pt x 83.18149pt.
+ [22 <./Assignment_4/s3.png (PNG copy)> <./Assignment_4/s4.png (PNG copy)>] (./
+Assignment_5/item1.txt
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+))
+<Assignment_5/2Compiled.png, id=115, 545.78906pt x 99.37125pt>
+File: Assignment_5/2Compiled.png Graphic file (type png)
+
+<use Assignment_5/2Compiled.png>
+Package pdftex.def Info: Assignment_5/2Compiled.png used on input line 478.
+(pdftex.def)             Requested size: 345.2684pt x 62.86198pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
+
+ []
+
+[23
+
+] [24 <./Assignment_5/2Compiled.png (PNG copy)>] (./Assignment_5/item3.txt
+[25
+
+]) <Assignment_5/3Evidence.png, id=127, 561.59813pt x 94.10156pt>
+File: Assignment_5/3Evidence.png Graphic file (type png)
+
+<use Assignment_5/3Evidence.png>
+Package pdftex.def Info: Assignment_5/3Evidence.png used on input line 490.
+(pdftex.def)             Requested size: 414.31642pt x 100.38326pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 500.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 500.
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
+
+ []
+
+[26 <./Assignment_5/3Evidence.png (PNG copy)>] (./Assignment_5/item5.txt
+Overfull \hbox (14.24971pt too wide) in paragraph at lines 41--42
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][] 
+ []
+
+[27
+
+]) <Assignment_5/5Comp1.png, id=134, 545.03625pt x 65.49469pt>
+File: Assignment_5/5Comp1.png Graphic file (type png)
+
+<use Assignment_5/5Comp1.png>
+Package pdftex.def Info: Assignment_5/5Comp1.png used on input line 510.
+(pdftex.def)             Requested size: 414.31503pt x 70.26448pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
+
+ []
+
+<Assignment_5/5Comp2.png, id=135, 614.295pt x 67.75313pt>
+File: Assignment_5/5Comp2.png Graphic file (type png)
+
+<use Assignment_5/5Comp2.png>
+Package pdftex.def Info: Assignment_5/5Comp2.png used on input line 516.
+(pdftex.def)             Requested size: 414.3219pt x 70.26514pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
+
+ []
+
+[28 <./Assignment_5/5Comp1.png (PNG copy)> <./Assignment_5/5Comp2.png (PNG copy
+)>]
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
+
+ []
+
+<Assignment_6/cEvi1.png, id=139, 1024.82875pt x 587.19376pt>
+File: Assignment_6/cEvi1.png Graphic file (type png)
+
+<use Assignment_6/cEvi1.png>
+Package pdftex.def Info: Assignment_6/cEvi1.png used on input line 530.
+(pdftex.def)             Requested size: 422.77661pt x 242.23833pt.
+ [29
+
+ <./Assignment_6/cEvi1.png (PNG copy)>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 535.
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--536
+
+ []
+
+<Assignment_6/cEvi2.png, id=143, 719.68875pt x 551.05875pt>
+File: Assignment_6/cEvi2.png Graphic file (type png)
+
+<use Assignment_6/cEvi2.png>
+Package pdftex.def Info: Assignment_6/cEvi2.png used on input line 538.
+(pdftex.def)             Requested size: 422.77661pt x 323.72603pt.
+ [30 <./Assignment_6/cEvi2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 544--546
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
+
+ []
+
+<Assignment_6/cEvi3.png, id=147, 578.16pt x 132.495pt>
+File: Assignment_6/cEvi3.png Graphic file (type png)
+
+<use Assignment_6/cEvi3.png>
+Package pdftex.def Info: Assignment_6/cEvi3.png used on input line 550.
+(pdftex.def)             Requested size: 422.77661pt x 96.8863pt.
+ [31 <./Assignment_6/cEvi3.png (PNG copy)>]
+(./Assignment_6/cache_example.txt) [32
+
+] (./Assignment_6/cache_readerh.txt)
+[33
+
+] (./Assignment_6/cache_reader.txt [34
+
+]
+Overfull \hbox (3.4496pt too wide) in paragraph at lines 61--62
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [35] <Assignment_7/kEvi1.png, id=164, 746.79pt x 770.88pt>
+File: Assignment_7/kEvi1.png Graphic file (type png)
+
+<use Assignment_7/kEvi1.png>
+Package pdftex.def Info: Assignment_7/kEvi1.png used on input line 591.
+(pdftex.def)             Requested size: 460.36134pt x 401.4951pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--592
+
+ []
+
+[36
+
+
+ <./Assignment_7/kEvi1.png (PNG copy)>]
+<Assignment_7/kEvi2.png, id=168, 644.4075pt x 768.8725pt>
+File: Assignment_7/kEvi2.png Graphic file (type png)
+
+<use Assignment_7/kEvi2.png>
+Package pdftex.def Info: Assignment_7/kEvi2.png used on input line 594.
+(pdftex.def)             Requested size: 460.37422pt x 527.00299pt.
+ [37
+
+ <./Assignment_7/kEvi2.png (PNG copy)>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 602.
+
+[38
+
+] (./Assignment_7/Cache/cache_reader.txt [39] [40])
+(./Assignment_7/Cache/cache_readerh.txt)
+<Assignment_7/Cache/cEvi1.png, id=182, 1371.1225pt x 770.88pt>
+File: Assignment_7/Cache/cEvi1.png Graphic file (type png)
+
+<use Assignment_7/Cache/cEvi1.png>
+Package pdftex.def Info: Assignment_7/Cache/cEvi1.png used on input line 649.
+(pdftex.def)             Requested size: 460.35788pt x 258.82571pt.
+ [41] 
+AED: lastpage setting LastPage
+[42 <./Assignment_7/Cache/cEvi1.png>] (./RobertRigler_207sePF1.aux) ) 
+Here is how much of TeX's memory you used:
+ 4231 strings out of 494985
+ 60828 string characters out of 6180355
+ 163359 words of memory out of 5000000
+ 7316 multiletter control sequences out of 15000+600000
+ 10754 words of font info for 37 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 38i,12n,43p,497b,1772s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/shar
+e/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/cou
+rier/ucrro8a.pfb>
+Output written on RobertRigler_207sePF1.pdf (42 pages, 1486241 bytes).
+PDF statistics:
+ 241 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+

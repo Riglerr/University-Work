@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1426434564 source:/home/rob/Git/University-Work/207SE-Networks-Security/Portfolio2/Week15/critical_example2.c
+	<sys/ipc.h>
+	<sys/sem.h>
+	<stdio.h>
+	<stdlib.h>
+	"se207_sems.h"
+
+1426431350 /home/rob/Git/University-Work/207SE-Networks-Security/Portfolio2/Week15/se207_sems.h
+	<sys/ipc.h>
+	<sys/sem.h>
+	<stdio.h>
+	<stdlib.h>
+

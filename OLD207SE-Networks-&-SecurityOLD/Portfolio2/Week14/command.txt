@@ -1,0 +1,13 @@
+Script started on Thu 12 Mar 2015 14:58:19 GMT
+rob@rob-HP-ProBook-6470b:$ xclock
+^Z
+[1]+  Stopped                 xclock
+rob@rob-HP-ProBook-6470b:$ jobs
+[1]+  Stopped                 xclock
+rob@rob-HP-ProBook-6470b:$ fg %1
+xclock
+^C
+rob@rob-HP-ProBook-6470b:$ exit
+exit
+
+Script done on Thu 12 Mar 2015 14:59:23 GMT

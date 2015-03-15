@@ -1,0 +1,11 @@
+1. Demonstrate linux command-line process manipulation.
+	Start, Suspend, Background, foreground, Kill
+	
+	Use typescript to show evidence.
+	
+	Demonstrate multiple ways to do it for 5/5/5
+	
+2. Investigate nohup command Write a paragraph on its use.
+
+3. Give an example use of the nohup command.
+	Describe purpose and commands to type.

@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+Script started on Thu 12 Mar 2015 14:58:19 GMT
+=======
+Script started on Thu 12 Mar 2015 14:58:19 GMT
+>>>>>>> 8734bd1404b3b860763f4eea77dc4a0fbb0da292
+]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ xclock
+^Z
+[1]+  Stopped                 xclock
+]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ jobs
+[1]+  Stopped                 xclock
+]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ fg %1
+xclock
+^C
+]0;rob@rob-HP-ProBook-6470b: ~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14rob@rob-HP-ProBook-6470b:~/Git/University-Work/207SE-Networks-&-Security/Portfolio2/Week14$ exit
+exit
+<<<<<<< HEAD
+
+Script done on Thu 12 Mar 2015 14:59:23 GMT
+=======
+
+Script done on Thu 12 Mar 2015 14:59:23 GMT
+>>>>>>> 8734bd1404b3b860763f4eea77dc4a0fbb0da292

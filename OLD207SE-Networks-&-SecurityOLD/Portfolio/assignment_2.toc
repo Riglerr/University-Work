@@ -1,0 +1,45 @@
+\contentsline {section}{Item 1 - Linux Command Line}{4}
+\contentsline {subsection}{1. Make home directory read/write/executable only for myself}{4}
+\contentsline {subsection}{2. Download the script from http://www.centerkey.com/tree/tree.sh and make it executable}{4}
+\contentsline {subsection}{3. Making Directories}{4}
+\contentsline {subsection}{4. Display who is logged on and sort them in alphabetical order}{5}
+\contentsline {subsection}{5. Talk, Write and Wall}{5}
+\contentsline {subsection}{6. Stop bugging me}{5}
+\contentsline {subsection}{7. Find the number of words and lines in poem.txt}{5}
+\contentsline {subsection}{8. Grep the lines containing 'and' and the number of lines}{6}
+\contentsline {subsection}{9. Use cat to display the contents of the file}{6}
+\contentsline {subsection}{10. Sort the contents of poem.txt and redirect the output to poem2.txt}{6}
+\contentsline {subsection}{11. Sort the contents of poem.txt, reverse it, and then redirect the output to poem2.txt}{6}
+\contentsline {section}{Item 2 - Assembly Code}{8}
+\contentsline {subsection}{1. Right-Angled triangle}{8}
+\contentsline {subsection}{2. Isosceles Triangle}{10}
+\contentsline {section}{Item 3 - Bootloader}{13}
+\contentsline {subsection}{1. Boot pragma-linux using bochs}{13}
+\contentsline {subsection}{1. Make a Bootloader that displays my name}{13}
+\contentsline {subsection}{2. Make a Bootloader that displays a triangle of dots}{14}
+\contentsline {section}{Item 4 - Inside Proc}{15}
+\contentsline {subsection}{1. List the CPU Information using the Cat Command}{15}
+\contentsline {subsection}{2. Show a table of the interrupts on the system}{16}
+\contentsline {subsection}{3. Show number of CPUs, the producer of the CPUs and the CPU Model.}{17}
+\contentsline {subsection}{4. How the parameters that are passed to the kernel when starting up linux.}{17}
+\contentsline {subsection}{5. Show the name of the output devices and the number of megabytes read per second during the second sampled interval.}{17}
+\contentsline {subsection}{6. Menu based shell script.}{18}
+\contentsline {section}{Item 5 - Buffer tutorial}{21}
+\contentsline {subsection}{1. Commented version of the provided code}{21}
+\contentsline {subsection}{2. Evidence of compiled code}{22}
+\contentsline {subsection}{3. Code adaptation to show how many characters were read in total and how many times the buffer was filled}{23}
+\contentsline {subsection}{3a Evidence}{24}
+\contentsline {subsection}{4. Altering the buffer size}{24}
+\contentsline {subsection}{5. Adapt the code so that it is possible to compare if two files are the same.}{25}
+\contentsline {subsection}{5a. Evidence of comparison between review.txt and argo.txt}{26}
+\contentsline {subsection}{5b. Evidence of comaprison between argo.txt and reviewobserver.txt}{26}
+\contentsline {section}{Item 6 - Cache tutorial}{27}
+\contentsline {subsection}{1. Complete the cr\textunderscore read\textunderscore byte function}{27}
+\contentsline {subsection}{2. Prove the file is being buffered}{28}
+\contentsline {subsection}{3. Provide some statistics}{29}
+\contentsline {section}{Item 7 - Kernel}{34}
+\contentsline {subsection}{1. Description of the commands for loading and unloading Linux kernel modules.}{34}
+\contentsline {subsection}{2. List of the loaded modules}{34}
+\contentsline {subsection}{3. Description of four loaded modules}{36}
+\contentsline {section}{Item 8 - Kernel part II}{37}
+\contentsline {subsection}{Changing the code}{37}

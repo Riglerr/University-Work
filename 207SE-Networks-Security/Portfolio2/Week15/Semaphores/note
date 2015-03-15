@@ -1,0 +1,55 @@
+
+se207_wait(id1);
+    printf("But the straw is too long, dear Liza, dear Liza,\n");
+    rsleep();
+    printf("The straw is too long, dear Liza, too long.\n");
+
+    se207_signal(id1);
+
+    se207_wait(id1);
+    printf("With what shall I cut it, dear Liza, dear Liza?\n");
+    rsleep();
+    printf("With what shall I cut it, dear Liza, with what?\n");
+
+    se207_signal(id1);
+
+    se207_wait(id);
+    printf("The axe is too dull, dear Liza, dear Liza,\n");
+    rsleep();
+    printf("The axe is too dull, dear Liza, too dull.\n");
+
+    se207_signal(id);
+
+    se207_wait(id);
+    printf("On what shall I sharpen it, dear Liza, dear Liza?\n");
+    rsleep();
+    printf("On what shall I sharpen it, dear Liza, with what?\n");
+
+    se207_signal(id);
+
+    se207_wait(id);
+    printf("But the stone is too dry, dear Liza, dear Liza,\n");
+    rsleep();
+    printf("The stone is too dry, dear Liza, too dry.\n");
+
+    se207_signal(id);
+
+    se207_wait(id);
+    printf("With what shall I wet it, dear Liza, dear Liza?\n");
+    rsleep();
+    printf("With what shall I wet it, dear Liza, with what?\n");
+
+    se207_signal(id);
+
+     se207_wait(id);
+    printf("In what shall I fetch it, dear Liza, dear Liza?\n");
+    rsleep();
+    printf("In what shall I fetch it, dear Liza, dear Liza?\n");
+
+    se207_signal(id);
+
+    se207_wait(id);
+      printf("There's a hole in my bucket, dear Liza, dear Liza,\n");
+      rsleep();
+      printf("There's a hole in my bucket, dear Liza, a hole.\n");
+    se207_signal(id);
