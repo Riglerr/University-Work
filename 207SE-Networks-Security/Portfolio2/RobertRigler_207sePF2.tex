@@ -280,7 +280,24 @@ Below is the working modified code of critcal\_section2.c code, which shows outp
 
 This task wanted me to redirect Lizas' part of the song to stderr.
 
-\Cscript{Week15/redir}{redirecting stout to stderr}
+\Cscript{Week15/redir}{Redirecting stout to stderr}
+\end{homeworkProblem}
+\pagebreak
+
+\begin{homeworkProblem}[Week 16: Producer/Consumer problem]
+
+\begin{homeworkSection}{Task1}
+
+Below Is the commented code, a brief explanation of the changes, and a screen-shot of the working program.
+
+\Cscript{Week16/code}{Modified code}
+
+Firstly, I decided to track the data in the buffer by allocating the first element in the shared memory for a count variable. I used '\#define COUNT\_POS 0' and data[COUNT\_POS] to identify the count variable. \\ I then modified the consumer code to produce data up to the buffer length, simultaneously incrementing count. When the buffer is full, the producer signals to the consumer which then consumes the data until the buffer is empty again.\\
+
+\includegraphics[scale=0.8]{Week16/Css.png}
+
+
+\end{homeworkSection}
 \end{homeworkProblem}
 \pagebreak
 \begin{homeworkProblem}[Week 17: Pipes and Sockets]

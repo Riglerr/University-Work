@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1426536269 source:/home/rob/Git/University-Work/207SE-Networks-Security/Portfolio2/Week16/C/P/critical_example2.c
+	<sys/ipc.h>
+	<sys/sem.h>
+	<stdio.h>
+	<stdlib.h>
+	"se207_sems.h"
+
+1426536269 /home/rob/Git/University-Work/207SE-Networks-Security/Portfolio2/Week16/C/P/se207_sems.h
+	<sys/ipc.h>
+	<sys/sem.h>
+	<stdio.h>
+	<stdlib.h>
+
+1426536269 source:/home/rob/Git/University-Work/207SE-Networks-Security/Portfolio2/Week16/C/P/prodcon_example2.c
+	<sys/ipc.h>
+	<sys/sem.h>
+	<sys/shm.h>
+	<stdio.h>
+	<stdlib.h>
+	"se207_sems.h"
+
+1426536269 source:/home/rob/Git/University-Work/207SE-Networks-Security/Portfolio2/Week16/C/P/shmdemo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/ipc.h>
+	<sys/shm.h>
+
+1426536269 source:/home/rob/Git/University-Work/207SE-Networks-Security/Portfolio2/Week16/C/P/signals_example.c
+	<signal.h>
+

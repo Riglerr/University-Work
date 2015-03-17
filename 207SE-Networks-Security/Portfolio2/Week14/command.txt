@@ -1,4 +1,4 @@
-Script started on Thu 12 Mar 2015 14:58:19 GMT
+
 rob@rob-HP-ProBook-6470b:$ xclock
 ^Z
 [1]+  Stopped                 xclock

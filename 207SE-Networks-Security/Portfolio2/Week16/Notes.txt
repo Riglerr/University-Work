@@ -1,0 +1,10 @@
+For task 1: I reserved the first element in DATA[] to hold the count.
+  #define COUNT_POS 0.
+
+Then increase buffer length by 1 to accommodate count position.
+
+Then enclosed the consumer code in an if/else.
+if the buffer not full, consumer can take data,
+if not, then consumer signals to producer.
+
+Did the same with producer.
