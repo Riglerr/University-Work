@@ -1,0 +1,10 @@
+\contentsline {section}{Week 10: BinTreeNode class Implementation }{3}{section*.2}
+\contentsline {section}{Week 14: Balanced Tree Research }{9}{section*.3}
+\contentsline {subsubsection}{Red-Black Trees}{9}{section*.4}
+\contentsline {subsubsection}{B - Trees}{9}{section*.5}
+\contentsline {section}{Week 15:Graphs }{10}{section*.6}
+\contentsline {subsection}{Task 1: Pseudocode}{10}{section*.7}
+\contentsline {section}{Week 16: Graph Search }{11}{section*.8}
+\contentsline {section}{Week 17: Lambda Functions }{12}{section*.9}
+\contentsline {subsection}{Tasks 1 \& 2}{12}{section*.10}
+\contentsline {subsection}{Tasks 3}{15}{section*.11}

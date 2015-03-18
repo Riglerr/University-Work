@@ -1,6 +1,0 @@
-/home/rob/Git/University-Work/210CT_Programming/10_Trees/Tree/Tree/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/rob/Git/University-Work/210CT_Programming/10_Trees/Tree/Tree/bin/Debug/Tree.exe.config
-/home/rob/Git/University-Work/210CT_Programming/10_Trees/Tree/Tree/bin/Debug/Tree.exe.mdb
-/home/rob/Git/University-Work/210CT_Programming/10_Trees/Tree/Tree/bin/Debug/Tree.exe
-/home/rob/Git/University-Work/210CT_Programming/10_Trees/Tree/Tree/obj/Debug/Tree.exe
-/home/rob/Git/University-Work/210CT_Programming/10_Trees/Tree/Tree/obj/Debug/Tree.exe.mdb

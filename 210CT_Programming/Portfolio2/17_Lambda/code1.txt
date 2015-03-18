@@ -1,0 +1,55 @@
+// Wave.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <stdlib.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <cmath>
+
+
+
+void dWave(std::vector<double> v){
+
+	//declaring control Variables for the loop.
+	
+	double j = 0;
+	int y;
+	int z;
+	
+/* If the element is negative; j will be less that 10
+	and the inner loop will iterate 10 times, printing spaces while less than j.
+		
+	If the element is positive, j will be more than 10,
+	the inner loop will iterate j times, printing spaces while less than 10.
+
+*/
+
+	for (int i = 0; i < v.size() ; i++){
+
+		j = 10 + (v[i] * 10 );
+
+		if (j > 10) y = j, z = 10;
+		
+		else y = 10, z = j;
+
+		for (int x = 0; x <= y; x++){
+			if (x < z)
+				std::cout << " ";
+			else
+				std::cout << "#";
+		}
+		std::cout << "\n";
+		
+	}
+		
+	}
+
+
+
+ 
+ 
+ 
+ 
+ 

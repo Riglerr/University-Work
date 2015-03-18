@@ -10,7 +10,7 @@ public class List {
     Node tail;
 
     //---------------------------------------------------------------
-    //-----------List Constructor to nit values to null-------------
+    //-----------List Constructor to nit values to null--------------
     //---------------------------------------------------------------
     public List(){
         head = null;

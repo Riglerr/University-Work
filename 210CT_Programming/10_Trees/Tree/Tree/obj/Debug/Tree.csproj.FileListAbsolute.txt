@@ -1,6 +1,0 @@
-C:\Users\Rob\Documents\University-Work\210CT_Programming\10_Trees\Tree\Tree\bin\Debug\Tree.exe.config
-C:\Users\Rob\Documents\University-Work\210CT_Programming\10_Trees\Tree\Tree\bin\Debug\Tree.exe
-C:\Users\Rob\Documents\University-Work\210CT_Programming\10_Trees\Tree\Tree\bin\Debug\Tree.pdb
-C:\Users\Rob\Documents\University-Work\210CT_Programming\10_Trees\Tree\Tree\obj\Debug\Tree.csprojResolveAssemblyReference.cache
-C:\Users\Rob\Documents\University-Work\210CT_Programming\10_Trees\Tree\Tree\obj\Debug\Tree.exe
-C:\Users\Rob\Documents\University-Work\210CT_Programming\10_Trees\Tree\Tree\obj\Debug\Tree.pdb
