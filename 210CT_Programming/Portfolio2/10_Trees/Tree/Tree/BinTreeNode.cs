@@ -71,7 +71,7 @@ namespace Tree
         }
 
         /**
-         *  Tree_Search searches the given tree for a specifik integer.
+         *  Tree_Search searches the given tree for a specific integer.
          *  
          *  @param BinTreeNode x 
          *  @param integer k

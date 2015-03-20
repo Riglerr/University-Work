@@ -9,7 +9,12 @@ namespace Graph
     class Vertex
     {
         int key;
+<<<<<<< HEAD
 		List<int> Edges;
+=======
+        LinkedList<int> Edges
+        
+>>>>>>> 3a145069db63e6e0cd098210dac06ed87e293c9f
 
       public  Vertex(int v)
 		{

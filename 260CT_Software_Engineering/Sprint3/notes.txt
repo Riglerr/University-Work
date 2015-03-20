@@ -6,7 +6,7 @@ architecture
 
 Database
 Depends on language
-Java: oracle & ogreSql
+Java: oracle &
 c#,c++: Access & MySQL
 
 UI

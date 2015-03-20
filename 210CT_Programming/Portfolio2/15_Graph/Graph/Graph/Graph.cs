@@ -11,6 +11,7 @@ namespace Graph
 		List<Vertex> _list;
 			
 
+<<<<<<< HEAD
 		bool AddV(int u)
 		{
 		
@@ -26,6 +27,12 @@ namespace Graph
 			return true;
 
 		}
+=======
+        List<int> _list;
+           
+        bool addVertex(int u)
+        {
+>>>>>>> 3a145069db63e6e0cd098210dac06ed87e293c9f
 
     }
 
