@@ -1,0 +1,7 @@
+SELECT Emp_id ,
+surname,
+First_name,
+salary
+FROM Employees
+WHERE dep_id = 'COM1'
+ORDER BY salary ASC, surname DESC;

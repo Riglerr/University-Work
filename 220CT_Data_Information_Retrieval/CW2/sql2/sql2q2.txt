@@ -1,0 +1,5 @@
+SELECT 
+Dept_name AS Dept NAME,
+dept_id AS Dept code,
+Manager_id AS Dept Manager
+FROM Deptartments

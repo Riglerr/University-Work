@@ -1,0 +1,5 @@
+SELECT Emp_id AS Staff ID,
+salary AS Annual Salary
+FROM Employees
+WHERE salary > 2300
+ORDER BY salary DESC;

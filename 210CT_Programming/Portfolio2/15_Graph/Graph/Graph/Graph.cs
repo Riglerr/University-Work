@@ -11,8 +11,6 @@ namespace Graph
 
         List<int> _list;
            
-
-
         bool addVertex(int u)
         {
 

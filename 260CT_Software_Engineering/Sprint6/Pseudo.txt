@@ -1,0 +1,46 @@
+START
+	OBTAIN Journey details
+	OBTAIN Journey Date
+	OBTAIN Number_of_Seats_required
+
+	FOR EACH Journey in JOURNEY_LIST
+		IF Journey_Details = Journey
+			Journey_found = true
+		ELSE NEXT
+		END IF
+	END FOR
+
+		IF Journey_Found = false
+			OBTAIN Journey Details AGAIN
+			
+		ELSE (Journey_Found = true)
+			MAKE_BOOKING()
+		END IF
+END			
+	
+MAKE_BOOKING()
+	
+	IF customer is a member
+		Finalize Booking
+		GO_TO_PAYMENT
+	
+	ELSE (customer is not member)
+		IF customer wants to be a member
+			Enter new member details
+		ELSE
+			GO_TO_PAYMENT
+		END IF
+	END IF
+	
+END
+
+PAYMENT()
+
+	GET payment_details
+	VERIFY PAYMENT
+	
+	IF payment not verified
+		STOP
+	END IF
+	
+	ISSUE Reference_number

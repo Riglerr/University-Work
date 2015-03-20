@@ -9,7 +9,8 @@ namespace Graph
     class Vertex
     {
         int key;
-        List<int> Edges;
+        LinkedList<int> Edges
+        
 
 
         Vertex(int v) { key = v; }

@@ -1,0 +1,6 @@
+SELECT
+First_name AS First Name,
+UCASE(surname) AS Surname,
+Emp_id Staff ID
+FROM Employees
+ORDER BY surname DESC;

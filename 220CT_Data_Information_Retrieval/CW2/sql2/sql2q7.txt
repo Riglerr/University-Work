@@ -1,0 +1,7 @@
+SELECT Emp_id,
+surname,
+First_name
+FROM Employees
+WHERE salary > 20000 
+AND salary < 27000 
+AND dep_id = 'Sal1';

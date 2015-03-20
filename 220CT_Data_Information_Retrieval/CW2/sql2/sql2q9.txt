@@ -1,0 +1,12 @@
+INSERT ALL
+
+INTO Employees (SK01, Stephen, WASH, (TO_DATE('26/09/2001 ', ''dd/mm/yyyy  '))
+INTO Employees (SK02, Suky, Kaur, (TO_DATE(' 01/10/1997', ''dd/mm/yyyy  '))
+INTO Employees (Mp03, Mary, Powell, (TO_DATE('01/01/1998 ',  ''dd/mm/yyyy  '))
+INTO Employees (Pw05, Peter, Wood, (TO_DATE('06/07/2004 ', ''dd/mm/yyyy '))
+INTO Employees (Jk06, John, King, (TO_DATE(' 17/03/2009',  ''dd/mm/yyyy  '))
+INTO Employees (Ms08, Mike, Smith, (TO_DATE(' 18/08/2011 ',  ''dd/mm/yyyy  '))
+INTO Employees (MJ19, Mark, Jones, (TO_DATE('14/07/2008',  ''dd/mm/yyyy  '))
+INTO Employees (ps, Paul, Sawyer, (TO_DATE('10/10/2010 ',  'dd/mm/yyyy '))
+
+SELECT 1 FROM DUAL;

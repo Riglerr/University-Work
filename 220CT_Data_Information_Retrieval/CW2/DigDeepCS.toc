@@ -1,0 +1,13 @@
+\contentsline {section}{Data Mining Definitions}{3}{section*.2}
+\contentsline {subsection}{Forecasting}{3}{section*.3}
+\contentsline {subsubsection}{Definition: }{3}{section*.4}
+\contentsline {subsection}{Regression}{3}{section*.5}
+\contentsline {subsubsection}{Definition: }{3}{section*.6}
+\contentsline {subsection}{Time Series}{3}{section*.7}
+\contentsline {subsubsection}{Definition: }{3}{section*.8}
+\contentsline {subsection}{Associtaiton}{3}{section*.9}
+\contentsline {subsubsection}{Definition: }{3}{section*.10}
+\contentsline {subsection}{Sequencing}{3}{section*.11}
+\contentsline {subsubsection}{Definition: }{3}{section*.12}
+\contentsline {section}{Data Mining and Music}{4}{section*.13}
+\contentsline {subsection}{How?}{4}{section*.14}
