@@ -8,28 +8,25 @@ namespace Graph
 {
     class Graph
     {
+		List<Vertex> _list;
+			
 
-        List<int> _list;
-           
+		bool AddV(int u)
+		{
+		
+			Vertex y = new Vertex (u);
+			foreach (Vertex i in _list) {
+				if (i.key == y.key)
+					return false;
+				else
+					continue;
+			}
 
+			_list.Add (y);
+			return true;
 
-        bool addVertex(int u)
-        {
+		}
 
-        if (_list.Contains(u)) return false;
-        else
-            _list.Add(u);
-        return true;
-        
-  
-        }
-
-        bool addEdge(int u, int v)
-        { 
-
-            for(int i = 0 ; i<  )
-
-        }
     }
 
 
