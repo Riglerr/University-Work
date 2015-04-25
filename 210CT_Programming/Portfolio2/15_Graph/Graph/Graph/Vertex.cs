@@ -9,31 +9,35 @@ namespace Graph
     class Vertex
     {
         int key;
-<<<<<<< HEAD
-		List<int> Edges;
-=======
-        LinkedList<int> Edges
+
+		int[10] Edges;
+        int count =0;
+
+        public Vertex(int x) {
+
+            this.key = x;
+            for (int z = 0 ;z <10; z++){
+            
+            Edges[z] = -1;
+            }
         
->>>>>>> 3a145069db63e6e0cd098210dac06ed87e293c9f
+        
+        }
 
-      public  Vertex(int v)
-		{
-			key = v; 
-		}
+        void insertEdge(int v){
+        int count =0;
+            foreach(int i in Edges){
+                count += 1;
+                if (i != -1)
+                    continue;
+                else
+                    Edges[count] = v;
+                    
+            }
 
-		bool addE(int v){
-		
-			foreach (integer i in Edges) {
+            }
+            
+        
+        };
 
-				if (i == v)
-				{
-					return false;
-				}
-
-			}
-			Edges.Add ((v));
-			this.addE (key);
-		ss
-		}
-    }
 }
